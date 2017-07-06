@@ -1,11 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package contains a recent version of the Bayesian Filtering
-  Library (BFL)"
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "LGPL"
 LIC_FILES_CHKSUM = file://package.xml;beginline=19;endline=19;md5=d2740cd2c4139b24d7392872077c634a"
 
 DEPENDS = "catkin cmake cppunit ros"

@@ -1,10 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This library provides a standardized interface for processing data as a sequence"
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD"
 LIC_FILES_CHKSUM = file://package.xml;beginline=11;endline=11;md5=23f8de2430b349800266ded71351769e"
 
 DEPENDS = "catkin pluginlib rosconsole roscpp roslib rostest"

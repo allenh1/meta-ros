@@ -1,10 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "3D interactive marker communication library for RViz and similar tools."
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD"
 LIC_FILES_CHKSUM = file://package.xml;beginline=7;endline=7;md5=24ca93924f03642fbbd06efa2e6d00df"
 
 DEPENDS = "catkin rosconsole roscpp rospy rostest std_msgs tf visualization_msgs"

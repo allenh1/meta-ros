@@ -1,10 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "tools for streaming JPEG-formatted CompressedImage topics over HTTP"
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD"
 LIC_FILES_CHKSUM = file://package.xml;beginline=14;endline=14;md5=7389aef5a605df7910cbc0188bffd7bb"
 
 DEPENDS = "catkin image_transport roscpp sensor_msgs"

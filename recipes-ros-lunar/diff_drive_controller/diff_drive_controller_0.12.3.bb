@@ -1,10 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Controller for a differential drive mobile base."
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD"
 LIC_FILES_CHKSUM = file://package.xml;beginline=8;endline=8;md5=23f8de2430b349800266ded71351769e"
 
 DEPENDS = "catkin controller_interface nav_msgs realtime_tools tf urdf"

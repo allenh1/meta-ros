@@ -1,10 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Provides a cmake config for the default version of Gazebo for the ROS distributi"
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "Apache 2.0"
 LIC_FILES_CHKSUM = file://package.xml;beginline=12;endline=12;md5=cd1a22ceb914b60db1fb991e52fe3fcc"
 
 DEPENDS = "catkin gazebo7 libgazebo7-dev"

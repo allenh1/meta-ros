@@ -1,11 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "A set of plugins for publishing and subscribing to sensor_msgs/Image topics
-    "
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD"
 LIC_FILES_CHKSUM = file://package.xml;beginline=14;endline=14;md5=23f8de2430b349800266ded71351769e"
 
 DEPENDS = "catkin compressed_depth_image_transport compressed_image_transport theora_image_transport"

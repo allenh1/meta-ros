@@ -4,7 +4,6 @@
 DESCRIPTION = "This package starts a Neuronics Katana robot arm in the Gazebo simulation enviro"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "GPL"
 LIC_FILES_CHKSUM = file://package.xml;beginline=10;endline=10;md5=fe6a07ee75db997e0a74d91b3b60fb3a"
 
 DEPENDS = "actionlib catkin controller_manager controller_manager_msgs gazebo_ros joint_trajectory_controller katana_description katana_gazebo_plugins robot_state_publisher roscpp std_msgs urdf xacro"

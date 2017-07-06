@@ -1,10 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package contains generic definitions of geometric shapes and bodies."
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD"
 LIC_FILES_CHKSUM = file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
 
 DEPENDS = "assimp assimp-dev boost catkin eigen eigen_stl_containers libconsole-bridge-dev libqhull octomap pkg-config random_numbers resource_retriever shape_msgs visualization_msgs"

@@ -1,0 +1,16 @@
+# Copyright 2017 Open Source Robotics Foundation
+# Distributed under the terms of the BSD license
+
+DESCRIPTION = "None"
+AUTHOR = "OSRF"
+SECTION = "devel"
+LIC_FILES_CHKSUM = file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
+
+DEPENDS = "catkin cmake_modules eigen_conversions geometry_msgs graph_msgs moveit_core moveit_ros_robot_interaction roscpp roslint rviz_visual_tools std_msgs tf_conversions trajectory_msgs visualization_msgs"
+SRC_URI = "https://github.com/davetcoleman/moveit_visual_tools-release/archive/release/lunar/moveit_visual_tools/3.3.0-0.tar.gz";downloadfilename=${ROS_SP}.tar.gz"
+
+SRC_URI[md5sum] = "846c07f69c5fc206670c0361ff212332"
+SRC_URI[sha256sum] = "92e377ec2867296230cb12276bcace5288a106c5034b59925a9e81933d876104"
+S = "${WORKDIR}/${ROS_SP}"
+
+inherit catkin

@@ -5,7 +5,6 @@ DESCRIPTION = "cpp_common contains C++ code for doing things that are not necess
     r"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD"
 LIC_FILES_CHKSUM = file://package.xml;beginline=13;endline=13;md5=23f8de2430b349800266ded71351769e"
 
 DEPENDS = "boost catkin libconsole-bridge-dev"

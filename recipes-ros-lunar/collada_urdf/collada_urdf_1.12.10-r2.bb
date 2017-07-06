@@ -1,10 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package contains a tool to convert Unified Robot Description Format (URDF) "
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD"
 LIC_FILES_CHKSUM = file://package.xml;beginline=18;endline=18;md5=23f8de2430b349800266ded71351769e"
 
 DEPENDS = "angles assimp assimp-dev catkin cmake_modules collada-dom collada_parser geometric_shapes liburdfdom-dev liburdfdom-headers-dev resource_retriever roscpp tf urdf"

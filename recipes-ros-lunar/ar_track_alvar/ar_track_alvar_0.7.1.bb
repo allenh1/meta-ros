@@ -1,10 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package is a ROS wrapper for Alvar, an open source AR tag tracking library."
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "LGPL-2.1"
 LIC_FILES_CHKSUM = file://package.xml;beginline=10;endline=10;md5=19240c261c4a9baa66e78eddf550902d"
 
 DEPENDS = "ar_track_alvar_msgs catkin cmake_modules cv_bridge dynamic_reconfigure geometry_msgs image_transport message_generation message_runtime pcl_conversions pcl_ros resource_retriever roscpp rospy sensor_msgs std_msgs tf tf2 tinyxml visualization_msgs"

@@ -1,10 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "gazebo_ros_control"
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD"
 LIC_FILES_CHKSUM = file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
 DEPENDS = "angles catkin control_toolbox controller_manager gazebo_dev gazebo_ros hardware_interface joint_limits_interface pluginlib roscpp std_msgs transmission_interface urdf"

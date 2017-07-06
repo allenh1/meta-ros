@@ -1,10 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Runs an optimization to estimate the a robot's kinematic parameters. This packag"
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD"
 LIC_FILES_CHKSUM = file://package.xml;beginline=11;endline=11;md5=23f8de2430b349800266ded71351769e"
 
 DEPENDS = "calibration_msgs catkin python-matplotlib python-scipy python_orocos_kdl rospy rostest sensor_msgs urdfdom_py visualization_msgs"

@@ -1,11 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package contains a C++ parser for the Collada robot
-    description format."
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD"
 LIC_FILES_CHKSUM = file://package.xml;beginline=19;endline=19;md5=23f8de2430b349800266ded71351769e"
 
 DEPENDS = "catkin class_loader collada-dom liburdfdom-headers-dev roscpp urdf urdf_parser_plugin"

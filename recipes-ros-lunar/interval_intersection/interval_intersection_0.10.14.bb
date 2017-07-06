@@ -1,11 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Tools for calculating the intersection of interval messages coming
-    in on sev"
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD"
 LIC_FILES_CHKSUM = file://package.xml;beginline=11;endline=11;md5=23f8de2430b349800266ded71351769e"
 
 DEPENDS = "actionlib actionlib_msgs boost calibration_msgs catkin geometry_msgs rosconsole roscpp roscpp_serialization rostime std_msgs"

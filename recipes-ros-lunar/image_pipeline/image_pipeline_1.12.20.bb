@@ -1,10 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "image_pipeline fills the gap between getting raw images from a camera driver and"
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD"
 LIC_FILES_CHKSUM = file://package.xml;beginline=8;endline=8;md5=23f8de2430b349800266ded71351769e"
 
 DEPENDS = "camera_calibration catkin depth_image_proc image_proc image_publisher image_rotate image_view stereo_image_proc"

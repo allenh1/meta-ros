@@ -1,10 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Various tools for IMU devices"
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD, GPL"
 LIC_FILES_CHKSUM = file://package.xml;beginline=9;endline=9;md5=d5e1066b55633f30c0ddbc6905f6ca49"
 
 DEPENDS = "catkin imu_complementary_filter imu_filter_madgwick rviz_imu_plugin"

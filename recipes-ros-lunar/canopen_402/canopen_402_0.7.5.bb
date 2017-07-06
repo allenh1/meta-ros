@@ -1,10 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This implements the CANopen device profile for drives and motion control. CiA(r)"
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "LGPLv3"
 LIC_FILES_CHKSUM = file://package.xml;beginline=11;endline=11;md5=46dd5907f7af0af456f00c524455d867"
 
 DEPENDS = "canopen_master catkin class_loader"

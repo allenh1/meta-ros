@@ -1,10 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package extends the canopen_chain_node with specialized handling for canope"
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "LGPLv3"
 LIC_FILES_CHKSUM = file://package.xml;beginline=10;endline=10;md5=46dd5907f7af0af456f00c524455d867"
 
 DEPENDS = "canopen_402 canopen_chain_node catkin controller_manager controller_manager_msgs filters hardware_interface joint_limits_interface muparser urdf"

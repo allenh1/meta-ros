@@ -1,11 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "A simple viewer for ROS image topics. Includes a specialized viewer
-  for stereo"
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD"
 LIC_FILES_CHKSUM = file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
 
 DEPENDS = "camera_calibration_parsers catkin cv_bridge dynamic_reconfigure gtk2 image_transport message_filters message_generation nodelet rosconsole roscpp sensor_msgs std_srvs stereo_msgs"

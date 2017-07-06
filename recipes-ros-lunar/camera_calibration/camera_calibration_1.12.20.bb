@@ -1,11 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "camera_calibration allows easy calibration of monocular or stereo
-     cameras u"
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD"
 LIC_FILES_CHKSUM = file://package.xml;beginline=23;endline=23;md5=23f8de2430b349800266ded71351769e"
 
 DEPENDS = "catkin cv_bridge image_geometry message_filters rospy sensor_msgs std_srvs"

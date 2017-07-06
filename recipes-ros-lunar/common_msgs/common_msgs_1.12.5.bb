@@ -5,7 +5,6 @@ DESCRIPTION = "common_msgs contains messages that are widely used by other ROS p
     Th"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD"
 LIC_FILES_CHKSUM = file://package.xml;beginline=14;endline=14;md5=23f8de2430b349800266ded71351769e"
 
 DEPENDS = "actionlib_msgs catkin diagnostic_msgs geometry_msgs nav_msgs sensor_msgs shape_msgs stereo_msgs trajectory_msgs visualization_msgs"

@@ -1,11 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "A ROS camera driver that uses gstreamer to connect to
-    devices such as webcam"
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD"
 LIC_FILES_CHKSUM = file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
 
 DEPENDS = "camera_calibration_parsers camera_info_manager catkin cv_bridge image_transport libgstreamer-plugins-base1.0-dev libgstreamer1.0-dev nodelet roscpp sensor_msgs"

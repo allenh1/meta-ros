@@ -1,10 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Package which implements capabilities, including code to parse capability interf"
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD"
 LIC_FILES_CHKSUM = file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
 
 DEPENDS = "bondpy catkin message_generation message_runtime nodelet python-yaml roslaunch rospy rostest std_msgs std_srvs"

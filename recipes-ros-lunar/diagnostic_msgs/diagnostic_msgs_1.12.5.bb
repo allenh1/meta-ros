@@ -5,7 +5,6 @@ DESCRIPTION = "This package holds the diagnostic messages which provide the
     standardized in"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD"
 LIC_FILES_CHKSUM = file://package.xml;beginline=17;endline=17;md5=23f8de2430b349800266ded71351769e"
 
 DEPENDS = "catkin message_generation message_runtime std_msgs"

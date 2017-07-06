@@ -1,10 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "ROS node base implementation for CANopen chains with support for management serv"
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "LGPLv3"
 LIC_FILES_CHKSUM = file://package.xml;beginline=10;endline=10;md5=46dd5907f7af0af456f00c524455d867"
 
 DEPENDS = "canopen_master catkin diagnostic_updater message_generation message_runtime pluginlib roscpp roslib socketcan_interface std_msgs std_srvs"

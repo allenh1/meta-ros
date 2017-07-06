@@ -1,12 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Conversion functions between:
-      - Eigen and KDL
-      - Eigen and geometry_m"
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD"
 LIC_FILES_CHKSUM = file://package.xml;beginline=15;endline=15;md5=23f8de2430b349800266ded71351769e"
 
 DEPENDS = "catkin cmake_modules eigen geometry_msgs orocos_kdl std_msgs"

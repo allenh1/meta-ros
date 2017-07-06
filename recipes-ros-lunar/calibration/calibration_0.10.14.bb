@@ -1,11 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Provides a toolchain running through the robot calibration process. This
-     in"
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD"
 LIC_FILES_CHKSUM = file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
 DEPENDS = "calibration_estimation calibration_launch calibration_msgs catkin image_cb_detector interval_intersection joint_states_settler laser_cb_detector monocam_settler settlerlib"

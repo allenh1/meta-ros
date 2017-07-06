@@ -5,7 +5,6 @@ DESCRIPTION = "actionlib_msgs defines the common messages to interact with an
      action serve"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD"
 LIC_FILES_CHKSUM = file://package.xml;beginline=12;endline=12;md5=23f8de2430b349800266ded71351769e"
 
 DEPENDS = "catkin message_generation message_runtime std_msgs"

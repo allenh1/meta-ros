@@ -1,10 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Convex Decomposition Tool for Robot Model"
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "MIT"
 LIC_FILES_CHKSUM = file://package.xml;beginline=9;endline=9;md5=c7db68edca7cfc138f25a9f40359c82b"
 
 DEPENDS = "catkin unzip"

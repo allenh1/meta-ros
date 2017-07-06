@@ -1,10 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "UMD camera metapackage"
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = file://package.xml;beginline=14;endline=14;md5=7389aef5a605df7910cbc0188bffd7bb"
 
 DEPENDS = "catkin jpeg_streamer uvc_camera"

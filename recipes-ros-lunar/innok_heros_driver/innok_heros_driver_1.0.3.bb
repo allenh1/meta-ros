@@ -1,10 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Driver for the Innok Heros robot plattform"
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD"
 LIC_FILES_CHKSUM = file://package.xml;beginline=9;endline=9;md5=7389aef5a605df7910cbc0188bffd7bb"
 
 DEPENDS = "catkin geometry_msgs rospy std_msgs tf"

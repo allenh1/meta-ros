@@ -4,7 +4,6 @@
 DESCRIPTION = "Interface for using ROS with the  simulator."
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD,LGPL,Apache 2.0"
 LIC_FILES_CHKSUM = file://package.xml;beginline=9;endline=9;md5=098349176b98f4d2a266f69515cd2552"
 
 DEPENDS = "catkin gazebo_dev gazebo_msgs gazebo_plugins gazebo_ros"

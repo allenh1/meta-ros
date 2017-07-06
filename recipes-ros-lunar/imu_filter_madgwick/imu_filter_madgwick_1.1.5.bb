@@ -1,10 +1,9 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Filter which fuses angular velocities, accelerations, and (optionally) magnetic "
+DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "GPL"
 LIC_FILES_CHKSUM = file://package.xml;beginline=7;endline=7;md5=fe6a07ee75db997e0a74d91b3b60fb3a"
 
 DEPENDS = "catkin dynamic_reconfigure geometry_msgs message_filters nodelet pluginlib roscpp sensor_msgs tf2 tf2_geometry_msgs tf2_ros"

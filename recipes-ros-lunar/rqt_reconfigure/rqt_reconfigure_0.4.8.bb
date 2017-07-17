@@ -5,10 +5,11 @@ DESCRIPTION = "This rqt plugin succeeds former dynamic_reconfigure's GUI
 		(reconfigure_gui), a"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LIC_FILES_CHKSUM = file://package.xml;beginline=17;endline=17;md5=84c495f29572cac328d96461b2320089"
+LICENSE = "BSD"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=1;endline=1;md5=bc45ad5ee87cc8f3c1fc6b773648fe64"
 
 DEPENDS = "catkin dynamic_reconfigure python_qt_binding rospy rqt_console rqt_gui rqt_gui_py rqt_py_common"
-SRC_URI = "https://github.com/ros-gbp/rqt_reconfigure-release/archive/release/lunar/rqt_reconfigure/0.4.8-0.tar.gz";downloadfilename=${ROS_SP}.tar.gz"
+SRC_URI = "https://github.com/ros-gbp/rqt_reconfigure-release/archive/release/lunar/rqt_reconfigure/0.4.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "65b58690b8b902cab5d30f5cb745929f"
 SRC_URI[sha256sum] = "bd24427d7da185c22fc4b23b779027e5e798bb3a0c195f2ac38fed89bb2f5eb2"

@@ -1,13 +1,15 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "None"
+DESCRIPTION = "This package depends on a recent version of the Kinematics and Dynamics
+    Libr"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LIC_FILES_CHKSUM = file://package.xml;beginline=11;endline=11;md5=d2740cd2c4139b24d7392872077c634a"
+LICENSE = "LGPL"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=1;endline=1;md5=4472f41967fd5c8bb5ab9def7cbbe830"
 
 DEPENDS = "catkin orocos_kdl python_orocos_kdl"
-SRC_URI = "https://github.com/smits/orocos-kdl-release/archive/release/lunar/orocos_kinematics_dynamics/1.3.1-0.tar.gz";downloadfilename=${ROS_SP}.tar.gz"
+SRC_URI = "https://github.com/smits/orocos-kdl-release/archive/release/lunar/orocos_kinematics_dynamics/1.3.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "010022a040b7dd12e004f49b1fe8031d"
 SRC_URI[sha256sum] = "f81a1a179b95e0fedccb5a554b1dd9ee818126c0b31f8a98ec4199562c9c85c3"

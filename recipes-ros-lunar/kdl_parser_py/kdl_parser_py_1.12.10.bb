@@ -5,10 +5,11 @@ DESCRIPTION = "The Kinematics and Dynamics Library (KDL) defines a tree structur
    to represe"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LIC_FILES_CHKSUM = file://package.xml;beginline=16;endline=16;md5=23f8de2430b349800266ded71351769e"
+LICENSE = "BSD"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=1;endline=1;md5=a87421f24bc31d7767aab4768c019dcf"
 
 DEPENDS = "catkin orocos_kdl python-catkin-pkg python_orocos_kdl rostest urdf urdfdom_py"
-SRC_URI = "https://github.com/ros-gbp/kdl_parser-release/archive/release/lunar/kdl_parser_py/1.12.10-0.tar.gz";downloadfilename=${ROS_SP}.tar.gz"
+SRC_URI = "https://github.com/ros-gbp/kdl_parser-release/archive/release/lunar/kdl_parser_py/1.12.10-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "27b76dce240fcc608ab5e978b1f3bcc6"
 SRC_URI[sha256sum] = "4ded36fc779e90a96dadbc28800ba9bf0c858945fcd6fb33d717682c342ed25d"

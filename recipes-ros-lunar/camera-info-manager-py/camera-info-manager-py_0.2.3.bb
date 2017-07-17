@@ -1,16 +1,19 @@
-DESCRIPTION = "Python interface for camera calibration information."
+# Copyright 2017 Open Source Robotics Foundation
+# Distributed under the terms of the BSD license
+
+DESCRIPTION = "Python interface for camera calibration information.
+
+    This ROS package provi"
+AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=d566ef916e9dedc494f5f793a6690ba5"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "rospy sensor-msgs"
+DEPENDS = "catkin python-rospkg python-yaml rospy rostest sensor_msgs"
+SRC_URI = "https://github.com/ros-gbp/camera_info_manager_py-release/archive/release/lunar/camera_info_manager_py/0.2.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
-SRC_URI = "https://github.com/ros-perception/${ROS_SPN}/archive/${ROS_SP}.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
-SRC_URI[md5sum] = "eb12065f8e6b9d06a489f89f19dcc41e"
-SRC_URI[sha256sum] = "d1ae6229c9a55e8d6fa89b5d051b86605fca0b02ff2e344c76c44d7642eb88c6"
-
-S = "${WORKDIR}/${ROS_SPN}-${ROS_SP}"
+SRC_URI[md5sum] = "de0314920b1744755b4f661bc65e6590"
+SRC_URI[sha256sum] = "e5cda8655dbf530dcec51e373f7079771ae09ab287411d4e59af60eb5dbcc13d"
+S = "${WORKDIR}/${ROS_SP}"
 
 inherit catkin
-
-RDEPENDS_${PN} = "sensor-msgs"

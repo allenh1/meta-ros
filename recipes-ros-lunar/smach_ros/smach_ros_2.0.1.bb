@@ -5,10 +5,11 @@ DESCRIPTION = "The smach_ros package contains extensions for the SMACH library t
     integrate"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LIC_FILES_CHKSUM = file://package.xml;beginline=17;endline=17;md5=23f8de2430b349800266ded71351769e"
+LICENSE = "BSD"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=17;endline=17;md5=23f8de2430b349800266ded71351769e"
 
 DEPENDS = "actionlib actionlib_msgs catkin rospy rostest rostopic smach smach_msgs std_msgs std_srvs"
-SRC_URI = "https://github.com/ros-gbp/executive_smach-release/archive/release/lunar/smach_ros/2.0.1-0.tar.gz";downloadfilename=${ROS_SP}.tar.gz"
+SRC_URI = "https://github.com/ros-gbp/executive_smach-release/archive/release/lunar/smach_ros/2.0.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "562c1fbc6fa5863c08df79ed0e63014d"
 SRC_URI[sha256sum] = "7725cb005e7f08520fd64bbe78d441192bb1b7980ae85a7fa54dcd42f594f038"

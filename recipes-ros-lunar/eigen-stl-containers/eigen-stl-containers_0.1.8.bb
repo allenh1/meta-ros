@@ -1,14 +1,18 @@
-DESCRIPTION = "This package provides a set of typedef's that allow using Eigen datatypes in STL containers."
+# Copyright 2017 Open Source Robotics Foundation
+# Distributed under the terms of the BSD license
+
+DESCRIPTION = "This package provides a set of typedef's that allow
+  using Eigen datatypes in S"
+AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "libeigen"
+DEPENDS = "catkin cmake_modules eigen"
+SRC_URI = "https://github.com/ros-gbp/eigen_stl_containers-release/archive/release/lunar/eigen_stl_containers/0.1.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
-SRC_URI = "https://github.com/ros/${ROS_SPN}/archive/${PV}.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
-SRC_URI[md5sum] = "1c259f56ba08d35e31c8c9126a894e2f"
-SRC_URI[sha256sum] = "cf1bcd3253aff0eb032f6d74b9b3c322c99f75ee66bd7034daee8bb2d2a422fc"
-
+SRC_URI[md5sum] = "a023d62aac3633581f87c6ef6b3897d6"
+SRC_URI[sha256sum] = "872b50caa628406f06a55006a7f3f646cd5910b9ea1c613c877aab8b868a926b"
 S = "${WORKDIR}/${ROS_SP}"
 
 inherit catkin

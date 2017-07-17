@@ -1,14 +1,17 @@
-DESCRIPTION = "This package provides messages and serializations / conversion for the OctoMap library."
+# Copyright 2017 Open Source Robotics Foundation
+# Distributed under the terms of the BSD license
+
+DESCRIPTION = "This package provides messages and serializations / conversion for the ."
+AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=5ee5b8b046ae48ad94a2037ca953a67b"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=24ca93924f03642fbbd06efa2e6d00df"
 
-DEPENDS = "message-generation geometry-msgs std-msgs"
+DEPENDS = "catkin geometry_msgs message_generation message_runtime std_msgs"
+SRC_URI = "https://github.com/ros-gbp/octomap_msgs-release/archive/release/lunar/octomap_msgs/0.3.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
-SRC_URI = "https://github.com/OctoMap/${ROS_SPN}/archive/${PV}.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
-SRC_URI[md5sum] = "78ec34552f6161d543975fe40f1b717c"
-SRC_URI[sha256sum] = "ead6be1199e0d5cf44765e3172e156394602817aad21ca59c22d7a4f678639e4"
-
+SRC_URI[md5sum] = "2b9fe7cd123ea7ff2440f536f0e69558"
+SRC_URI[sha256sum] = "7b38d036f7b47aa407a8ac06dc5eb9ee6c2895ed442c7ced5b9cf76edbc1359d"
 S = "${WORKDIR}/${ROS_SP}"
 
 inherit catkin

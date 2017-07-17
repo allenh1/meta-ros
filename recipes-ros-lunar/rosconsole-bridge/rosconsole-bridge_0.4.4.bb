@@ -1,14 +1,17 @@
-DESCRIPTION = "Pipes console_bridge output to rosconsole/rosout when console_bridge is used in a ROS-dependent package"
+# Copyright 2017 Open Source Robotics Foundation
+# Distributed under the terms of the BSD license
+
+DESCRIPTION = "rosconsole_bridge is a package used in conjunction with console_bridge and rosco"
+AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "rosconsole console-bridge"
+DEPENDS = "catkin libconsole-bridge-dev rosconsole"
+SRC_URI = "https://github.com/ros-gbp/rosconsole_bridge-release/archive/release/lunar/rosconsole_bridge/0.4.4-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
-SRC_URI = "https://github.com/ros/${ROS_SPN}/archive/${PV}.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
-SRC_URI[md5sum] = "eb8835cc4ca737ef7371f2149b17101a"
-SRC_URI[sha256sum] = "6133c7fc466b4440973d459bde5fb3e1ef4352d4644060965b7fa289530921fc"
-
+SRC_URI[md5sum] = "390f1c5b30b6f7d6d0593200dfb45630"
+SRC_URI[sha256sum] = "9aa0c353261d0c18be61ec6e3212165d3b010c1f5109e5f2f9c841680b4ac96b"
 S = "${WORKDIR}/${ROS_SP}"
 
 inherit catkin

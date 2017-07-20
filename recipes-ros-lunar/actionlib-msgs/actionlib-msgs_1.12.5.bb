@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "actionlib_msgs defines the common messages to interact with an
-     action serve"
+DESCRIPTION = "actionlib_msgs defines the common messages to interact with an      action serve"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

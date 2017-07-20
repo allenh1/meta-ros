@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Wraps the ViSP moving edge tracker provided by the ViSP visual
-    servoing libr"
+DESCRIPTION = "Wraps the ViSP moving edge tracker provided by the ViSP visual     servoing libr"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package provides an implementation of the Dynamic Window Approach to
-      "
+DESCRIPTION = "This package provides an implementation of the Dynamic Window Approach to       "
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

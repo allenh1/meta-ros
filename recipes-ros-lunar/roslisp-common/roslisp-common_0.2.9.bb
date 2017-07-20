@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Common libraries to control ROS based robots. This stack contains
-    an impleme"
+DESCRIPTION = "Common libraries to control ROS based robots. This stack contains     an impleme"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

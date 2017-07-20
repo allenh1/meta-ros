@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Extracts checkerboard corners from a dense laser snapshot.
-     This package is "
+DESCRIPTION = "Extracts checkerboard corners from a dense laser snapshot.      This package is "
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

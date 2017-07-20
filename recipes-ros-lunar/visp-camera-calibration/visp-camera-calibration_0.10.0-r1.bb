@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "visp_camera_calibration allows easy calibration of
-     cameras using a customiz"
+DESCRIPTION = "visp_camera_calibration allows easy calibration of      cameras using a customiz"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "GPLv2"

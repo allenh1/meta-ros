@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "cv_camera uses OpenCV capture object to capture camera image.
-  This supports ca"
+DESCRIPTION = "cv_camera uses OpenCV capture object to capture camera image.   This supports ca"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

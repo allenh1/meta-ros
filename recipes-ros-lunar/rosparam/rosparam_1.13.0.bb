@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "rosparam contains the rosparam command-line tool for getting and
-    setting ROS"
+DESCRIPTION = "rosparam contains the rosparam command-line tool for getting and     setting ROS"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

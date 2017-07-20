@@ -1,10 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "roscpp_traits contains the message traits code as described in
-    .
-
-    This p"
+DESCRIPTION = "roscpp_traits contains the message traits code as described in     .      This p"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

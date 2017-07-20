@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Provide a node that extracts checkerboard corners from ROS images.
-    This pack"
+DESCRIPTION = "Provide a node that extracts checkerboard corners from ROS images.     This pack"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

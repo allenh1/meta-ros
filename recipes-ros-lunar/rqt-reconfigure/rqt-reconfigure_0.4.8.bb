@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This rqt plugin succeeds former dynamic_reconfigure's GUI
-		(reconfigure_gui), a"
+DESCRIPTION = "This rqt plugin succeeds former dynamic_reconfigure's GUI 		(reconfigure_gui), a"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

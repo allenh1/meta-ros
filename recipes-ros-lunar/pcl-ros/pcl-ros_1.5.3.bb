@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "PCL (Point Cloud Library) ROS interface stack. PCL-ROS is the preferred
-  bridge"
+DESCRIPTION = "PCL (Point Cloud Library) ROS interface stack. PCL-ROS is the preferred   bridge"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

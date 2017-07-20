@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Defines the messages that are used to communicate with the
-    p2os_driver packa"
+DESCRIPTION = "Defines the messages that are used to communicate with the     p2os_driver packa"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

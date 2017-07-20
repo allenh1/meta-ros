@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package provides ROS interfaces to the Neuronics Katana 450 arm.
-    It wra"
+DESCRIPTION = "This package provides ROS interfaces to the Neuronics Katana 450 arm.     It wra"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "GPL"

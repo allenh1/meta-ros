@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package attempts to show the features of ROS python API step-by-step,
-    i"
+DESCRIPTION = "This package attempts to show the features of ROS python API step-by-step,     i"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

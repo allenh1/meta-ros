@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "rosservice contains the rosservice command-line tool for listing
-    and queryin"
+DESCRIPTION = "rosservice contains the rosservice command-line tool for listing     and queryin"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

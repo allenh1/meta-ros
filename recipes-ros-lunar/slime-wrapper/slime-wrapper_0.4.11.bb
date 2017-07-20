@@ -4,7 +4,7 @@
 DESCRIPTION = "ROS wrapper for slime"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "Public domain"
+LICENSE = "Public-domain"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=ceff40a4e51c0530057aab711f27c327"
 
 DEPENDS = "catkin emacs"

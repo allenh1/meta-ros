@@ -4,7 +4,7 @@
 DESCRIPTION = "Extra nodes and plugins for ."
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "GPLv3LGPLv3BSD"
+LICENSE = "GPLv3"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=c4ba05a85e41aed3f3861ec78997656b"
 
 DEPENDS = "catkin cmake_modules geometry_msgs mavros mavros_msgs roscpp sensor_msgs std_msgs tf urdf visualization_msgs"

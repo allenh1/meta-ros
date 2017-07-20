@@ -1,9 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Mesh Conversion Utility
-
-Used to generate '.iv' files from '.stl' files.  This p"
+DESCRIPTION = "Mesh Conversion Utility  Used to generate '.iv' files from '.stl' files.  This p"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "GPL"

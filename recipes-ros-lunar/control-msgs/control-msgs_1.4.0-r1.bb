@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "control_msgs contains base messages and actions useful for
-    controlling robot"
+DESCRIPTION = "control_msgs contains base messages and actions useful for     controlling robot"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

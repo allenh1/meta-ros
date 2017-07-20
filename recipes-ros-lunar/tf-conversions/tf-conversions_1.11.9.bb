@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package contains a set of conversion functions to convert
-common tf datatyp"
+DESCRIPTION = "This package contains a set of conversion functions to convert common tf datatyp"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

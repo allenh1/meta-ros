@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Assorted filters designed to operate on 2D planar laser scanners,
-    which use "
+DESCRIPTION = "Assorted filters designed to operate on 2D planar laser scanners,     which use "
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

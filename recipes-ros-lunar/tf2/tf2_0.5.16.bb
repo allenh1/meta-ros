@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "tf2 is the second generation of the transform library, which lets
-    the user k"
+DESCRIPTION = "tf2 is the second generation of the transform library, which lets     the user k"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

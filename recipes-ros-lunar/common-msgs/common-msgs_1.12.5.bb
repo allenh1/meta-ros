@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "common_msgs contains messages that are widely used by other ROS packages.
-    Th"
+DESCRIPTION = "common_msgs contains messages that are widely used by other ROS packages.     Th"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

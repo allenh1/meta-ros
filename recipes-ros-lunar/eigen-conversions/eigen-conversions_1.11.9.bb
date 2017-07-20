@@ -1,9 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Conversion functions between:
-      - Eigen and KDL
-      - Eigen and geometry_m"
+DESCRIPTION = "Conversion functions between:       - Eigen and KDL       - Eigen and geometry_m"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package provides added functionaliy on top of rospy, including a
-  single-t"
+DESCRIPTION = "This package provides added functionaliy on top of rospy, including a   single-t"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

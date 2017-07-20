@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package contains the description (mechanical, kinematic, visual,
-  etc.) of"
+DESCRIPTION = "This package contains the description (mechanical, kinematic, visual,   etc.) of"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

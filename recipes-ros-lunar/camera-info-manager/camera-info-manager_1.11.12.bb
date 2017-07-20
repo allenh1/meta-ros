@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package provides a C++ interface for camera calibration
-     information.  "
+DESCRIPTION = "This package provides a C++ interface for camera calibration      information.  "
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "rqt_graph provides a GUI plugin for visualizing the ROS
-      computation graph."
+DESCRIPTION = "rqt_graph provides a GUI plugin for visualizing the ROS       computation graph."
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

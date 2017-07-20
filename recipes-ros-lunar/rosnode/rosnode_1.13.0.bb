@@ -1,9 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "rosnode is a command-line tool for displaying debug information
-    about ROS ,
-"
+DESCRIPTION = "rosnode is a command-line tool for displaying debug information     about ROS , "
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

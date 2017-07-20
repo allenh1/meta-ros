@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package attempts to show the features of ROS step-by-step,
-    including us"
+DESCRIPTION = "This package attempts to show the features of ROS step-by-step,     including us"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

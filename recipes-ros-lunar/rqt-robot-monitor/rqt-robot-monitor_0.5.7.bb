@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "rqt_robot_monitor displays diagnostics_agg topics messages that
-   are published"
+DESCRIPTION = "rqt_robot_monitor displays diagnostics_agg topics messages that    are published"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

@@ -1,10 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "roscpp_serialization contains the code for serialization as described in
-    .
-
-"
+DESCRIPTION = "roscpp_serialization contains the code for serialization as described in     .  "
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

@@ -4,7 +4,7 @@
 DESCRIPTION = "jsk_gui_msgs"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "Apache 2.0"
+LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=cd1a22ceb914b60db1fb991e52fe3fcc"
 
 DEPENDS = "catkin geometry_msgs message_generation message_runtime sensor_msgs std_msgs"

@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package provides a set of typedef's that allow
-  using Eigen datatypes in S"
+DESCRIPTION = "This package provides a set of typedef's that allow   using Eigen datatypes in S"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

@@ -4,7 +4,7 @@
 DESCRIPTION = "The katana_moveit_ikfast_plugin package"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSDApache"
+LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=7389aef5a605df7910cbc0188bffd7bb"
 
 DEPENDS = "catkin liblapack-dev moveit_core pluginlib roscpp tf_conversions"

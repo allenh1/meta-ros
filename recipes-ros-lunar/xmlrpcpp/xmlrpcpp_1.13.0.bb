@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "XmlRpc++ is a C++ implementation of the XML-RPC protocol. This version is
-    he"
+DESCRIPTION = "XmlRpc++ is a C++ implementation of the XML-RPC protocol. This version is     he"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "LGPL-2.1"

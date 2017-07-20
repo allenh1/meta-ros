@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package provides an implementation of a 2D costmap that takes in sensor
-   "
+DESCRIPTION = "This package provides an implementation of a 2D costmap that takes in sensor    "
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

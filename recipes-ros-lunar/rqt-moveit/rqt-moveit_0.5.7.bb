@@ -1,9 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "An rqt-based tool that assists monitoring tasks
-   for  motion planner
-   develo"
+DESCRIPTION = "An rqt-based tool that assists monitoring tasks    for  motion planner    develo"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

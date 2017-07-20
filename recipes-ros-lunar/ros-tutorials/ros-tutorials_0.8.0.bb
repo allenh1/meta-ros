@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "ros_tutorials contains packages that demonstrate various features of ROS,
-    as"
+DESCRIPTION = "ros_tutorials contains packages that demonstrate various features of ROS,     as"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

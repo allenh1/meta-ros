@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Launch files to open an OpenNI device and load all nodelets to 
-     convert raw"
+DESCRIPTION = "Launch files to open an OpenNI device and load all nodelets to       convert raw"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

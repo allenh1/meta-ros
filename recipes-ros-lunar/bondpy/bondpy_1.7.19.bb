@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Python implementation of bond, a mechanism for checking when
-    another process"
+DESCRIPTION = "Python implementation of bond, a mechanism for checking when     another process"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

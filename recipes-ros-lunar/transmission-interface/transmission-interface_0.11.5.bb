@@ -4,7 +4,7 @@
 DESCRIPTION = "Transmission Interface."
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "Modified BSD"
+LICENSE = "Modified-BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=129fdeb38464449b78c8fb022f356747"
 
 DEPENDS = "catkin cmake_modules hardware_interface pluginlib roscpp tinyxml"

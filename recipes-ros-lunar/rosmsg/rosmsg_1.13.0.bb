@@ -1,9 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "rosmsg contains two command-line tools:  and
-    .  is a command-line tool for
- "
+DESCRIPTION = "rosmsg contains two command-line tools:  and     .  is a command-line tool for  "
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "this package contains a set of messages that are used by the introspection
-    i"
+DESCRIPTION = "this package contains a set of messages that are used by the introspection     i"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

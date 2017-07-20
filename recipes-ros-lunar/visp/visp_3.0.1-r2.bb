@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "ViSP standing for Visual Servoing Platform is a modular cross
-    platform libra"
+DESCRIPTION = "ViSP standing for Visual Servoing Platform is a modular cross     platform libra"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "GPLv2"

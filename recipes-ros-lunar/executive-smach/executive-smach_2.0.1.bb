@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This metapackage depends on the SMACH library and ROS SMACH integration
-    pack"
+DESCRIPTION = "This metapackage depends on the SMACH library and ROS SMACH integration     pack"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "A Python GUI plugin for introspecting available ROS message types.
-  Note that t"
+DESCRIPTION = "A Python GUI plugin for introspecting available ROS message types.   Note that t"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

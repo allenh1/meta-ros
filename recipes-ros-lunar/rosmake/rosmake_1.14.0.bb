@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "rosmake is a ros dependency aware build tool which can be used to
-     build all"
+DESCRIPTION = "rosmake is a ros dependency aware build tool which can be used to      build all"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

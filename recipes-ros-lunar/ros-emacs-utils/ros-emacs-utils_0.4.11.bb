@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "A metapackage of Emacs utils for ROS.
-    Only there for simplifying the release"
+DESCRIPTION = "A metapackage of Emacs utils for ROS.     Only there for simplifying the release"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

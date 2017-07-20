@@ -1,11 +1,10 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "SOEM is an open source EtherCAT master library written in c. Its
-     primary ta"
+DESCRIPTION = "SOEM is an open source EtherCAT master library written in c. Its      primary ta"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "GPL+linking exception"
+LICENSE = "GPL+linking-exception"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=91f97ac3fb8bbb41bde6afdf5c4f9bb3"
 
 DEPENDS = "catkin"

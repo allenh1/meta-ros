@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This rqt plugin ROS package provides easy view of .launch files.
-  User can also"
+DESCRIPTION = "This rqt plugin ROS package provides easy view of .launch files.   User can also"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Launch files to open an RGBD device and load all nodelets to 
-     convert raw d"
+DESCRIPTION = "Launch files to open an RGBD device and load all nodelets to       convert raw d"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

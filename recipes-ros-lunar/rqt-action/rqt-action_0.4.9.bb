@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "rqt_action provides a feature to introspect all available ROS
-  action (from act"
+DESCRIPTION = "rqt_action provides a feature to introspect all available ROS   action (from act"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

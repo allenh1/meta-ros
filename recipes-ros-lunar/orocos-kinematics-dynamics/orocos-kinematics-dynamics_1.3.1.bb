@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package depends on a recent version of the Kinematics and Dynamics
-    Libr"
+DESCRIPTION = "This package depends on a recent version of the Kinematics and Dynamics     Libr"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "LGPL"

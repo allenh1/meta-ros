@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "A Python and C++ implementation of the LZ4 streaming format.  Large data
-    str"
+DESCRIPTION = "A Python and C++ implementation of the LZ4 streaming format.  Large data     str"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

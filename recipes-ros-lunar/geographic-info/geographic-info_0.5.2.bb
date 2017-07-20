@@ -1,9 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Geographic information metapackage.
-
-    Not needed for wet packages, use only t"
+DESCRIPTION = "Geographic information metapackage.      Not needed for wet packages, use only t"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

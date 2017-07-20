@@ -4,7 +4,7 @@
 DESCRIPTION = "Provides ROS plugins that offer message and service publishers for interfacing w"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "Apache 2.0"
+LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=cd1a22ceb914b60db1fb991e52fe3fcc"
 
 DEPENDS = "catkin cmake_modules dynamic_reconfigure gazebo_dev gazebo_msgs geometry_msgs roscpp rosgraph_msgs roslib std_msgs std_srvs tf tinyxml"

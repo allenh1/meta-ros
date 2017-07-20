@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "roslang is a common package that all  depend on.
-    This is mainly used to find"
+DESCRIPTION = "roslang is a common package that all  depend on.     This is mainly used to find"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

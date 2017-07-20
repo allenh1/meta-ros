@@ -4,7 +4,7 @@
 DESCRIPTION = "API and ROS drivers for Phidgets devices"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD, LGPL"
+LICENSE = "BSD,-LGPL"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=5c3b70795c9e04c7d5df7ebe6dfa4666"
 
 DEPENDS = "catkin libphidget21 phidgets_api phidgets_imu"

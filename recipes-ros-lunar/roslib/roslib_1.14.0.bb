@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Base dependencies and support libraries for ROS.
-    roslib contains many of the"
+DESCRIPTION = "Base dependencies and support libraries for ROS.     roslib contains many of the"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "cpp_common contains C++ code for doing things that are not necessarily ROS
-    r"
+DESCRIPTION = "cpp_common contains C++ code for doing things that are not necessarily ROS     r"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

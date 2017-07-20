@@ -1,11 +1,10 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "A 2D navigation stack that takes in information from odometry, sensor
-        st"
+DESCRIPTION = "A 2D navigation stack that takes in information from odometry, sensor         st"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD,LGPL,LGPL (amcl)"
+LICENSE = "BSD,LGPL,LGPL-(amcl)"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=a282159121152d5d4cb476b08eb1e19a"
 
 DEPENDS = "amcl base_local_planner carrot_planner catkin clear_costmap_recovery costmap_2d dwa_local_planner fake_localization global_planner map_server move_base move_base_msgs move_slow_and_clear nav_core navfn robot_pose_ekf rotate_recovery voxel_grid"

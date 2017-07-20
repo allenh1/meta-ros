@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "The nodelet package is designed to provide a way to run multiple
-    algorithms "
+DESCRIPTION = "The nodelet package is designed to provide a way to run multiple     algorithms "
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

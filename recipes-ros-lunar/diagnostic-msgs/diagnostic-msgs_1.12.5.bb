@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package holds the diagnostic messages which provide the
-    standardized in"
+DESCRIPTION = "This package holds the diagnostic messages which provide the     standardized in"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "A rosout GUI viewer developed at Southwest Research Insititute as an
-     altern"
+DESCRIPTION = "A rosout GUI viewer developed at Southwest Research Insititute as an      altern"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

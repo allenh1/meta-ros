@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "A simple viewer for ROS image topics. Includes a specialized viewer
-  for stereo"
+DESCRIPTION = "A simple viewer for ROS image topics. Includes a specialized viewer   for stereo"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

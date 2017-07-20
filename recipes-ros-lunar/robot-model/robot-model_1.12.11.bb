@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "contains packages for modeling various
-    aspects of robot information, specifi"
+DESCRIPTION = "contains packages for modeling various     aspects of robot information, specifi"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

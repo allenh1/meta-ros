@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "actionlib_lisp is a native implementation of the famous actionlib
-   in Common L"
+DESCRIPTION = "actionlib_lisp is a native implementation of the famous actionlib    in Common L"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

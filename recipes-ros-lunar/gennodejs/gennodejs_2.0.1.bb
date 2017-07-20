@@ -4,7 +4,7 @@
 DESCRIPTION = "Javascript ROS message and service generators."
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "Apache 2.0"
+LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=cd1a22ceb914b60db1fb991e52fe3fcc"
 
 DEPENDS = "catkin genmsg"

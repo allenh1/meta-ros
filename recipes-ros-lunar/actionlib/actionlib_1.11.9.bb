@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "The actionlib stack provides a standardized interface for
-    interfacing with p"
+DESCRIPTION = "The actionlib stack provides a standardized interface for     interfacing with p"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

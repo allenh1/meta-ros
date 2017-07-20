@@ -4,7 +4,7 @@
 DESCRIPTION = "3D visualization tool for ROS."
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSDCreative Commons"
+LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
 DEPENDS = "assimp assimp-dev catkin cmake_modules eigen geometry_msgs image_transport interactive_markers laser_geometry libogre-dev libqt5-core libqt5-gui libqt5-opengl libqt5-opengl-dev libqt5-widgets liburdfdom-headers-dev map_msgs media_export message_filters nav_msgs opengl pluginlib python_qt_binding qtbase5-dev resource_retriever rosbag rosconsole roscpp roslib rospy sensor_msgs std_msgs std_srvs tf tinyxml urdf visualization_msgs yaml-cpp"

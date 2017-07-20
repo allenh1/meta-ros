@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "tf is a package that lets the user keep track of multiple coordinate
-frames over"
+DESCRIPTION = "tf is a package that lets the user keep track of multiple coordinate frames over"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

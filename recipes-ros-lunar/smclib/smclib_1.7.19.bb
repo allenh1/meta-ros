@@ -1,11 +1,10 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "The State Machine Compiler (SMC) from http://smc.sourceforge.net/
-    converts a"
+DESCRIPTION = "The State Machine Compiler (SMC) from http://smc.sourceforge.net/     converts a"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "Mozilla Public License Version 1.1"
+LICENSE = "Mozilla-Public-License-Version-1.1"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=6135719b38322526565b80436fc416f7"
 
 DEPENDS = "catkin"

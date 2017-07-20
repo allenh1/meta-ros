@@ -1,9 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Xacro (XML Macros)
-
-    Xacro is an XML macro language. With xacro, you can cons"
+DESCRIPTION = "Xacro (XML Macros)      Xacro is an XML macro language. With xacro, you can cons"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

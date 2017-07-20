@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Tools for directing, throttling, selecting, and otherwise messing with
-    ROS t"
+DESCRIPTION = "Tools for directing, throttling, selecting, and otherwise messing with     ROS t"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

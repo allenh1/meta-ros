@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Provides a node that reports how long a subset of joints has been
-     settled. "
+DESCRIPTION = "Provides a node that reports how long a subset of joints has been      settled. "
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

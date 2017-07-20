@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "A bond allows two processes, A and B, to know when the other has
-    terminated,"
+DESCRIPTION = "A bond allows two processes, A and B, to know when the other has     terminated,"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

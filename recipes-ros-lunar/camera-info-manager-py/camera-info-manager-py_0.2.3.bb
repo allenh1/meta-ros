@@ -1,9 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Python interface for camera calibration information.
-
-    This ROS package provi"
+DESCRIPTION = "Python interface for camera calibration information.      This ROS package provi"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

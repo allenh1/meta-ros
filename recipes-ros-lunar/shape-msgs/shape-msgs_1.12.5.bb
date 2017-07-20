@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package contains messages for defining shapes, such as simple solid
-    obj"
+DESCRIPTION = "This package contains messages for defining shapes, such as simple solid     obj"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "rospy is a pure Python client library for ROS. The rospy client
-    API enables "
+DESCRIPTION = "rospy is a pure Python client library for ROS. The rospy client     API enables "
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

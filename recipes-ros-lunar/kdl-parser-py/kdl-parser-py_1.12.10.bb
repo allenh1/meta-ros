@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "The Kinematics and Dynamics Library (KDL) defines a tree structure
-   to represe"
+DESCRIPTION = "The Kinematics and Dynamics Library (KDL) defines a tree structure    to represe"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

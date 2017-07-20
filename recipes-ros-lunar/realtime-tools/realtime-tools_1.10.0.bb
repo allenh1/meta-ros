@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Contains a set of tools that can be used from a hard
-    realtime thread, withou"
+DESCRIPTION = "Contains a set of tools that can be used from a hard     realtime thread, withou"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

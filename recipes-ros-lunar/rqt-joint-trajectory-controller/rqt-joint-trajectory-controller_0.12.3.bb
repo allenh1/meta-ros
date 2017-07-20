@@ -4,7 +4,7 @@
 DESCRIPTION = "Graphical frontend for interacting with joint_trajectory_controller instances."
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "Modified BSD"
+LICENSE = "Modified-BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=129fdeb38464449b78c8fb022f356747"
 
 DEPENDS = "catkin control_msgs controller_manager_msgs rospy rqt_gui rqt_gui_py trajectory_msgs"

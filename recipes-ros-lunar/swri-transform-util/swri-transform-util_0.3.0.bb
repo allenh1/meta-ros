@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "The swri_transform_util package contains utility functions and classes for
-     "
+DESCRIPTION = "The swri_transform_util package contains utility functions and classes for      "
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "C++ implementation of bond, a mechanism for checking when
-    another process ha"
+DESCRIPTION = "C++ implementation of bond, a mechanism for checking when     another process ha"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

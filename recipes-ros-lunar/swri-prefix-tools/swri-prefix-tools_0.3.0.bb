@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Contains scripts that are useful as prefix commands for nodes
-    started by ros"
+DESCRIPTION = "Contains scripts that are useful as prefix commands for nodes     started by ros"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

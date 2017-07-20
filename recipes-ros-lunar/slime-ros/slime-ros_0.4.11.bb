@@ -4,7 +4,7 @@
 DESCRIPTION = "Extensions for slime to assist in working with ROS packages"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "Public Domain"
+LICENSE = "Public-Domain"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=9410a10dc7d8d68a78f94b401d4efc9b"
 
 DEPENDS = "catkin rosemacs roslisp sbcl slime_wrapper"

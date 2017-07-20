@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Metapackage of rqt plugins that are particularly used with robots
-   during its "
+DESCRIPTION = "Metapackage of rqt plugins that are particularly used with robots    during its "
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

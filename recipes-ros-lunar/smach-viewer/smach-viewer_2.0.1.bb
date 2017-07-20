@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "The smach viewer is a GUI that shows the state of hierarchical
-    SMACH state m"
+DESCRIPTION = "The smach viewer is a GUI that shows the state of hierarchical     SMACH state m"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

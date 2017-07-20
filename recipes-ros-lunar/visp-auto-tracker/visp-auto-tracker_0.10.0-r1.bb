@@ -1,9 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Online automated pattern-based object tracker relying on visual servoing.
-
-    v"
+DESCRIPTION = "Online automated pattern-based object tracker relying on visual servoing.      v"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "GPLv2"

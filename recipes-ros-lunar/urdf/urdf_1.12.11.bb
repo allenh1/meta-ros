@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package contains a C++ parser for the Unified Robot Description
-    Format "
+DESCRIPTION = "This package contains a C++ parser for the Unified Robot Description     Format "
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

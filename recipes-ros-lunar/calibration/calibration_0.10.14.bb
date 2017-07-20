@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Provides a toolchain running through the robot calibration process. This
-     in"
+DESCRIPTION = "Provides a toolchain running through the robot calibration process. This      in"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

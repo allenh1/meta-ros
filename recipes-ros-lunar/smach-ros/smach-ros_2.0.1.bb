@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "The smach_ros package contains extensions for the SMACH library to
-    integrate"
+DESCRIPTION = "The smach_ros package contains extensions for the SMACH library to     integrate"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

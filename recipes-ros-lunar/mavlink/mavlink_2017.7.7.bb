@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "MAVLink message marshaling library.
-  This package provides C-headers and C++11 "
+DESCRIPTION = "MAVLink message marshaling library.   This package provides C-headers and C++11 "
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "LGPLv3"

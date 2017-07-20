@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "rqt_py_common provides common functionality for rqt plugins written in Python.
- "
+DESCRIPTION = "rqt_py_common provides common functionality for rqt plugins written in Python.  "
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

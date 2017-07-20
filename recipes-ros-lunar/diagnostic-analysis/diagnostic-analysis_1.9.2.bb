@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "The diagnostic_analysis package can convert a log of diagnostics data
-    into a"
+DESCRIPTION = "The diagnostic_analysis package can convert a log of diagnostics data     into a"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "roslaunch is a tool for easily launching multiple ROS  locally and remotely
-    "
+DESCRIPTION = "roslaunch is a tool for easily launching multiple ROS  locally and remotely     "
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

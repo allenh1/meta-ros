@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "A ROS driver for OpenNI depth (+ RGB) cameras. These include: 
-       Microsoft "
+DESCRIPTION = "A ROS driver for OpenNI depth (+ RGB) cameras. These include:         Microsoft "
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

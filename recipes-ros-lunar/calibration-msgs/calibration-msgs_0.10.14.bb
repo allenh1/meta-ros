@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package defines messages for storing calibration samples
-     to be used in"
+DESCRIPTION = "This package defines messages for storing calibration samples      to be used in"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

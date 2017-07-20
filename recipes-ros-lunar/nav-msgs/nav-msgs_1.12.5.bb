@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "nav_msgs defines the common messages used to interact with the
-     stack."
+DESCRIPTION = "nav_msgs defines the common messages used to interact with the      stack."
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

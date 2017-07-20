@@ -1,11 +1,10 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package provides a script that launches Emacs with Slime (the
-    Superior "
+DESCRIPTION = "This package provides a script that launches Emacs with Slime (the     Superior "
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "Public domain"
+LICENSE = "Public-domain"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=ceff40a4e51c0530057aab711f27c327"
 
 DEPENDS = "catkin rosemacs roslisp sbcl slime_ros slime_wrapper"

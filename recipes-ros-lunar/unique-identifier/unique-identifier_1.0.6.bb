@@ -1,9 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "ROS messages and interfaces for universally unique identifiers.
-
-    Not needed "
+DESCRIPTION = "ROS messages and interfaces for universally unique identifiers.      Not needed "
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

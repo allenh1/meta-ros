@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Contains nodelets for processing depth images such as those
-     produced by Ope"
+DESCRIPTION = "Contains nodelets for processing depth images such as those      produced by Ope"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

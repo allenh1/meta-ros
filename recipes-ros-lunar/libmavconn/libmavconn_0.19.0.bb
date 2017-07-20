@@ -1,11 +1,10 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "MAVLink communication library.
-    This library provide unified connection handl"
+DESCRIPTION = "MAVLink communication library.     This library provide unified connection handl"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "GPLv3LGPLv3BSD"
+LICENSE = "GPLv3"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=15;endline=15;md5=c4ba05a85e41aed3f3861ec78997656b"
 
 DEPENDS = "boost catkin libconsole-bridge-dev mavlink"

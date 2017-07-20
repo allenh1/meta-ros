@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "A collection of .mk include files for building ROS architectural elements.
-    M"
+DESCRIPTION = "A collection of .mk include files for building ROS architectural elements.     M"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

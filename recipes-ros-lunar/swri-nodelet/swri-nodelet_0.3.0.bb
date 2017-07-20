@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package provides a simple script to write simple launch files
-    that can "
+DESCRIPTION = "This package provides a simple script to write simple launch files     that can "
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

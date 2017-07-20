@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package allows you to publish the state of a robot to
-    . Once the state "
+DESCRIPTION = "This package allows you to publish the state of a robot to     . Once the state "
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

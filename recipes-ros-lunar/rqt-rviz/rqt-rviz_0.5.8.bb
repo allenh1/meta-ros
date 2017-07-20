@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "rqt_rviz provides a GUI plugin embedding .
-    Note that this rqt plugin does NO"
+DESCRIPTION = "rqt_rviz provides a GUI plugin embedding .     Note that this rqt plugin does NO"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

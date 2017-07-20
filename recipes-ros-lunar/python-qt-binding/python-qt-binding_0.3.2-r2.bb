@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This stack provides Python bindings for Qt.
-    There are two providers: pyside "
+DESCRIPTION = "This stack provides Python bindings for Qt.     There are two providers: pyside "
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

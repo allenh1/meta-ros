@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Tools for calculating the intersection of interval messages coming
-    in on sev"
+DESCRIPTION = "Tools for calculating the intersection of interval messages coming     in on sev"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

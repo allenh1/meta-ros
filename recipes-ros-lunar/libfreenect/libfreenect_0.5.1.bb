@@ -4,7 +4,7 @@
 DESCRIPTION = "Open source libraries that will enable the Kinect to be used with Windows, Linux"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "Apache 2.0"
+LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=cd1a22ceb914b60db1fb991e52fe3fcc"
 
 DEPENDS = "catkin cmake glut libusb-1.0-dev libxi-dev libxmu-dev"

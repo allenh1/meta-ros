@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "The ros_type_introspection package allows the user to parse and deserialize
-  RO"
+DESCRIPTION = "The ros_type_introspection package allows the user to parse and deserialize   RO"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

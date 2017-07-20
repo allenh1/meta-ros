@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Listens on a ImageFeatures topic, and waits for the data to settle.
-     This pa"
+DESCRIPTION = "Listens on a ImageFeatures topic, and waits for the data to settle.      This pa"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

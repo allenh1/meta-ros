@@ -4,7 +4,7 @@
 DESCRIPTION = "This package contains a script to generate calibration launch and configurationf"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "Apache 2.0"
+LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=cd1a22ceb914b60db1fb991e52fe3fcc"
 
 DEPENDS = "calibration_launch catkin"

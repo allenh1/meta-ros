@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This contains CvBridge, which converts between ROS
-    Image messages and OpenCV"
+DESCRIPTION = "This contains CvBridge, which converts between ROS     Image messages and OpenCV"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

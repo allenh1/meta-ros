@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "image_geometry contains C++ and Python libraries for interpreting images
-    geo"
+DESCRIPTION = "image_geometry contains C++ and Python libraries for interpreting images     geo"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This ROS package wraps documentation tools like doxygen, sphinx,
-    and epydoc,"
+DESCRIPTION = "This ROS package wraps documentation tools like doxygen, sphinx,     and epydoc,"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

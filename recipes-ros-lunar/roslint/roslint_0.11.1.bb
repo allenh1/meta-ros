@@ -1,9 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "CMake lint commands for ROS packages.
-
-    The lint commands perform static chec"
+DESCRIPTION = "CMake lint commands for ROS packages.      The lint commands perform static chec"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Theora_image_transport provides a plugin to image_transport for
-    transparentl"
+DESCRIPTION = "Theora_image_transport provides a plugin to image_transport for     transparentl"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

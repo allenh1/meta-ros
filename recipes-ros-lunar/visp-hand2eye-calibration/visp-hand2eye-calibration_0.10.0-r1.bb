@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "visp_hand2eye_calibration estimates the camera position with respect
-     to its"
+DESCRIPTION = "visp_hand2eye_calibration estimates the camera position with respect      to its"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "GPLv2"

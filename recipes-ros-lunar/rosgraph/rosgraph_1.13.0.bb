@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "rosgraph contains the rosgraph command-line tool, which prints
-    information a"
+DESCRIPTION = "rosgraph contains the rosgraph command-line tool, which prints     information a"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

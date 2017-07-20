@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This is a set of tools for recording from and playing back to ROS
-    topics.  I"
+DESCRIPTION = "This is a set of tools for recording from and playing back to ROS     topics.  I"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

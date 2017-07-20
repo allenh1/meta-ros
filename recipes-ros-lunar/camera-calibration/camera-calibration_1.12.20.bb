@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "camera_calibration allows easy calibration of monocular or stereo
-     cameras u"
+DESCRIPTION = "camera_calibration allows easy calibration of monocular or stereo      cameras u"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

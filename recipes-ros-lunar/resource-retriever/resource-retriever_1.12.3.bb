@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "This package retrieves data from url-format files such as http://,
-   ftp://, pa"
+DESCRIPTION = "This package retrieves data from url-format files such as http://,    ftp://, pa"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

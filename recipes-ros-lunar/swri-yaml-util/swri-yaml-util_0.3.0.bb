@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "Provides wrappers around the yaml-cpp library for various utility functions
-    "
+DESCRIPTION = "Provides wrappers around the yaml-cpp library for various utility functions     "
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

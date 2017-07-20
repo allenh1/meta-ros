@@ -1,8 +1,7 @@
 # Copyright 2017 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
-DESCRIPTION = "connects to a GPSd server and broadcasts GPS fixes 
-   using the NavSatFix messa"
+DESCRIPTION = "connects to a GPSd server and broadcasts GPS fixes     using the NavSatFix messa"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"

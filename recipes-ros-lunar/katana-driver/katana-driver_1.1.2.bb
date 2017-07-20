@@ -4,7 +4,7 @@
 DESCRIPTION = "This stack contains all descriptions, drivers and bringup facilities for Neuroni"
 AUTHOR = "OSRF"
 SECTION = "devel"
-LICENSE = "BSD,-GPL"
+LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d5e1066b55633f30c0ddbc6905f6ca49"
 
 DEPENDS = "catkin katana katana_arm_gazebo katana_description katana_gazebo_plugins katana_moveit_ikfast_plugin katana_msgs katana_teleop katana_tutorials kni"

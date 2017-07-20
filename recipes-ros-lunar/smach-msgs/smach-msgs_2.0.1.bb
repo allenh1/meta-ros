@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin message_generation message_runtime std_msgs"
+DEPENDS = "catkin message-generation message-runtime std-msgs"
 SRC_URI = "https://github.com/ros-gbp/executive_smach-release/archive/release/lunar/smach_msgs/2.0.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "831939838c3d44b9f1e4a89024cd4eb5"

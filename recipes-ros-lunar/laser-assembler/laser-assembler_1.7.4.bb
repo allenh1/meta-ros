@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin filters laser_geometry message_filters message_generation message_runtime pluginlib roscpp rostest sensor_msgs tf"
+DEPENDS = "catkin filters laser-geometry message-filters message-generation message-runtime pluginlib roscpp rostest sensor-msgs tf"
 SRC_URI = "https://github.com/ros-gbp/laser_assembler-release/archive/release/lunar/laser_assembler/1.7.4-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "6ec90ec1ecade192b08143dbe4cdb454"

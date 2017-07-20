@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin cmake_modules message_filters roscpp sensor_msgs std_msgs tf"
+DEPENDS = "catkin cmake-modules message-filters roscpp sensor-msgs std-msgs tf"
 SRC_URI = "https://github.com/uos-gbp/imu_tools-release/archive/release/lunar/imu_complementary_filter/1.1.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "e67127f017f8957d7aaf30056a303a75"

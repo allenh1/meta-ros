@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "actionlib actionlib_msgs catkin rosconsole roscpp roscpp_serialization settlerlib std_msgs"
+DEPENDS = "actionlib actionlib-msgs catkin rosconsole roscpp roscpp-serialization settlerlib std-msgs"
 SRC_URI = "https://github.com/ros-gbp/calibration-release/archive/release/lunar/joint_states_settler/0.10.14-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "c6c4f517ccb781366b202fb1001faf47"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin message_generation message_runtime std_msgs"
+DEPENDS = "catkin message-generation message-runtime std-msgs"
 SRC_URI = "https://github.com/ros-gbp/common_msgs-release/archive/release/lunar/geometry_msgs/1.12.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "318798c9f80baca82041b2f0dd2ef1bd"

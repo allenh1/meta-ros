@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin cv_bridge geometry_msgs image_transport rqt_gui rqt_gui_cpp sensor_msgs"
+DEPENDS = "catkin cv-bridge geometry-msgs image-transport rqt-gui rqt-gui-cpp sensor-msgs"
 SRC_URI = "https://github.com/ros-gbp/rqt_image_view-release/archive/release/lunar/rqt_image_view/0.4.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "d341b8cd6eb999191b82f254711c6af3"

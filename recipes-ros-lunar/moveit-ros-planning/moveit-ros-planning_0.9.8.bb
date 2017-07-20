@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "actionlib angles catkin dynamic_reconfigure eigen moveit_core moveit_ros_perception pluginlib"
+DEPENDS = "actionlib angles catkin dynamic-reconfigure eigen moveit-core moveit-ros-perception pluginlib"
 SRC_URI = "https://github.com/ros-gbp/moveit-release/archive/release/lunar/moveit_ros_planning/0.9.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "4aa139cb1d1ca0b28699a4d6732768c6"

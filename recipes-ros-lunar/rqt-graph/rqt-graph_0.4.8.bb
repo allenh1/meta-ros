@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin python-rospkg python_qt_binding qt_dotgraph rosgraph rosgraph_msgs roslib rosnode rospy rosservice rostopic rqt_gui rqt_gui_py"
+DEPENDS = "catkin python-rospkg python-qt-binding qt-dotgraph rosgraph rosgraph-msgs roslib rosnode rospy rosservice rostopic rqt-gui rqt-gui-py"
 SRC_URI = "https://github.com/ros-gbp/rqt_graph-release/archive/release/lunar/rqt_graph/0.4.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "b91d0e006bfe43c88c05c02e79ee85af"

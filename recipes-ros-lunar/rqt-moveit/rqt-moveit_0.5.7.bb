@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=26;endline=26;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin python_qt_binding rosnode rospy rostopic rqt_gui rqt_gui_py rqt_py_common rqt_topic sensor_msgs"
+DEPENDS = "catkin python-qt-binding rosnode rospy rostopic rqt-gui rqt-gui-py rqt-py-common rqt-topic sensor-msgs"
 SRC_URI = "https://github.com/ros-gbp/rqt_moveit-release/archive/release/lunar/rqt_moveit/0.5.7-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "c8fbc4e03d9f259ede69c49d91b11977"

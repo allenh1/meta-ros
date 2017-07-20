@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "calibration_msgs catkin python-matplotlib python-scipy python_orocos_kdl rospy rostest sensor_msgs urdfdom_py visualization_msgs"
+DEPENDS = "calibration-msgs catkin python-matplotlib python-scipy python-orocos-kdl rospy rostest sensor-msgs urdfdom-py visualization-msgs"
 SRC_URI = "https://github.com/ros-gbp/calibration-release/archive/release/lunar/calibration_estimation/0.10.14-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "a16f38f797ed7670eaf1ff3c419245f0"

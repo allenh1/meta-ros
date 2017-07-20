@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=6;endline=6;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin ros_base rqt_common_plugins rqt_robot_plugins rviz"
+DEPENDS = "catkin ros-base rqt-common-plugins rqt-robot-plugins rviz"
 SRC_URI = "https://github.com/ros-gbp/metapackages-release/archive/release/lunar/viz/1.3.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "3168508ac3738ae30630000b6ca86ed4"

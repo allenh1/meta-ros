@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin diagnostic_msgs diagnostic_updater roscpp rostest"
+DEPENDS = "catkin diagnostic-msgs diagnostic-updater roscpp rostest"
 SRC_URI = "https://github.com/ros-gbp/diagnostics-release/archive/release/lunar/self_test/1.9.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "a5d4d1e8b1a93c564c14e391ae5d018e"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin controller_interface controller_manager rostest"
+DEPENDS = "catkin controller-interface controller-manager rostest"
 SRC_URI = "https://github.com/ros-gbp/ros_control-release/archive/release/lunar/controller_manager_tests/0.11.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "fe782791b6c435383dccb5937111b3aa"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "boost catkin class_loader cmake_modules rosconsole roslib tinyxml"
+DEPENDS = "boost catkin class-loader cmake-modules rosconsole roslib libtinyxml"
 SRC_URI = "https://github.com/ros-gbp/pluginlib-release/archive/release/lunar/pluginlib/1.10.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "7b42817fee923ffdad967b6027cacece"

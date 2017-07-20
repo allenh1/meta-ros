@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "angles catkin costmap_2d dynamic_reconfigure geometry_msgs nav_core nav_msgs navfn pluginlib roscpp tf"
+DEPENDS = "angles catkin costmap-2d dynamic-reconfigure geometry-msgs nav-core nav-msgs navfn pluginlib roscpp tf"
 SRC_URI = "https://github.com/ros-gbp/navigation-release/archive/release/lunar/global_planner/1.14.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "a556f8d2e46629ed601f414d9308c572"

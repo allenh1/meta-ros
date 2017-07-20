@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=5;endline=5;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin geometry_msgs sensor_msgs std_msgs tf"
+DEPENDS = "catkin geometry-msgs sensor-msgs std-msgs tf"
 SRC_URI = "https://github.com/allenh1/p2os-release/archive/release/lunar/p2os_teleop/2.0.7-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "7ad521ae8d3fe3ea3d6f0497f17667d9"

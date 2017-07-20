@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin controller_interface hardware_interface pluginlib realtime_tools roscpp sensor_msgs"
+DEPENDS = "catkin controller-interface hardware-interface pluginlib realtime-tools roscpp sensor-msgs"
 SRC_URI = "https://github.com/ros-gbp/ros_controllers-release/archive/release/lunar/joint_state_controller/0.12.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "9f8d550e6bb6eef48b59de966cf1df22"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin cmake_modules eigen orocos_kdl tf2 tf2_ros"
+DEPENDS = "catkin cmake-modules eigen orocos-kdl tf2 tf2-ros"
 SRC_URI = "https://github.com/ros-gbp/geometry2-release/archive/release/lunar/tf2_kdl/0.5.16-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "bc8e17dc84aef40feb619964bfe61bdd"

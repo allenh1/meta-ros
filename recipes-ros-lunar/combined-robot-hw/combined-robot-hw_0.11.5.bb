@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin hardware_interface pluginlib roscpp"
+DEPENDS = "catkin hardware-interface pluginlib roscpp"
 SRC_URI = "https://github.com/ros-gbp/ros_control-release/archive/release/lunar/combined_robot_hw/0.11.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "a9d7f59a42164eba4ad4e86343d7c0c6"

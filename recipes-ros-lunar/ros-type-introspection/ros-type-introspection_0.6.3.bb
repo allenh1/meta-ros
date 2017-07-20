@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin rosbag rosbag_storage roscpp roscpp_serialization rostime topic_tools"
+DEPENDS = "catkin rosbag rosbag-storage roscpp roscpp-serialization rostime topic-tools"
 SRC_URI = "https://github.com/facontidavide/ros_type_introspection-release/archive/release/lunar/ros_type_introspection/0.6.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "7d00d2524ed164d9958332dcab74a45a"

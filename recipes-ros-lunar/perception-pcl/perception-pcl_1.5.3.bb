@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=17;endline=17;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin pcl_conversions pcl_msgs pcl_ros"
+DEPENDS = "catkin pcl-conversions pcl-msgs pcl-ros"
 SRC_URI = "https://github.com/ros-gbp/perception_pcl-release/archive/release/lunar/perception_pcl/1.5.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "a0ded8cbf2cb947ae10c49cc9ec0a863"

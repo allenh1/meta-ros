@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin geometry_msgs libqt5-core libqt5-gui message_generation message_runtime qt5-qmake qtbase5-dev rosconsole roscpp roscpp_serialization roslib rostime std_msgs std_srvs"
+DEPENDS = "catkin geometry-msgs libqt5-core libqt5-gui message-generation message-runtime qt5-qmake qtbase5-dev rosconsole roscpp roscpp-serialization roslib rostime std-msgs std-srvs"
 SRC_URI = "https://github.com/ros-gbp/ros_tutorials-release/archive/release/lunar/turtlesim/0.8.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "a894caa50f0d5a5bf4a6ba401800235f"

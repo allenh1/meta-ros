@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin cmake_modules diagnostic_msgs diagnostic_updater eigen geographic_msgs geometry_msgs message_filters message_generation message_runtime nav_msgs python-catkin-pkg roscpp roslint sensor_msgs std_msgs tf2 tf2_geometry_msgs tf2_ros xmlrpcpp"
+DEPENDS = "catkin cmake-modules diagnostic-msgs diagnostic-updater eigen geographic-msgs geometry-msgs message-filters message-generation message-runtime nav-msgs python-catkin-pkg roscpp roslint sensor-msgs std-msgs tf2 tf2-geometry-msgs tf2-ros xmlrpcpp"
 SRC_URI = "https://github.com/cra-ros-pkg/robot_localization-release/archive/release/lunar/robot_localization/2.4.0-1.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "367cacc7deac104844d5e6f821a0a959"

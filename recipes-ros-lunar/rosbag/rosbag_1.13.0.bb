@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "boost catkin cpp_common genmsg genpy python-imaging python-rospkg rosbag_storage rosconsole roscpp roscpp_serialization roslib rospy std_srvs topic_tools xmlrpcpp"
+DEPENDS = "boost catkin cpp-common genmsg genpy python-imaging python-rospkg rosbag-storage rosconsole roscpp roscpp-serialization roslib rospy std-srvs topic-tools xmlrpcpp"
 SRC_URI = "https://github.com/ros-gbp/ros_comm-release/archive/release/lunar/rosbag/1.13.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "6cf3d6c1f3979a2cb9291ce6bb190597"

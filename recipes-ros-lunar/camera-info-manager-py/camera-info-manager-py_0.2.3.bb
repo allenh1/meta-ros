@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin python-rospkg python-yaml rospy rostest sensor_msgs"
+DEPENDS = "catkin python-rospkg python-pyyaml rospy rostest sensor-msgs"
 SRC_URI = "https://github.com/ros-gbp/camera_info_manager_py-release/archive/release/lunar/camera_info_manager_py/0.2.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "de0314920b1744755b4f661bc65e6590"

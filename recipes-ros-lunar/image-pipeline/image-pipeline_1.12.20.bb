@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "camera_calibration catkin depth_image_proc image_proc image_publisher image_rotate image_view stereo_image_proc"
+DEPENDS = "camera-calibration catkin depth-image-proc image-proc image-publisher image-rotate image-view stereo-image-proc"
 SRC_URI = "https://github.com/ros-gbp/image_pipeline-release/archive/release/lunar/image_pipeline/1.12.20-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "34476987e2af126bd09f9e6dbbc50194"

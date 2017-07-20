@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "LGPLv3"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=46dd5907f7af0af456f00c524455d867"
 
-DEPENDS = "boost catkin class_loader linux-kernel-headers"
+DEPENDS = "boost catkin class-loader linux-kernel-headers"
 SRC_URI = "https://github.com/ros-industrial-release/ros_canopen-release/archive/release/lunar/socketcan_interface/0.7.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "b642511d1c50d93fc6c0a7f019fc0d21"

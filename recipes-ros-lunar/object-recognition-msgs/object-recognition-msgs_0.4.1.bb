@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "actionlib_msgs catkin geometry_msgs message_generation message_runtime sensor_msgs shape_msgs std_msgs"
+DEPENDS = "actionlib-msgs catkin geometry-msgs message-generation message-runtime sensor-msgs shape-msgs std-msgs"
 SRC_URI = "https://github.com/ros-gbp/object_recognition_msgs-release/archive/release/lunar/object_recognition_msgs/0.4.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "18b2d32fce1978cfa157df0b8943e1c6"

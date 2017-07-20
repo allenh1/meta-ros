@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=23;endline=23;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin diagnostic_msgs python-rospkg python_qt_binding qt_gui qt_gui_py_common rospy rqt_bag rqt_gui rqt_gui_py rqt_py_common"
+DEPENDS = "catkin diagnostic-msgs python-rospkg python-qt-binding qt-gui qt-gui-py-common rospy rqt-bag rqt-gui rqt-gui-py rqt-py-common"
 SRC_URI = "https://github.com/ros-gbp/rqt_robot_monitor-release/archive/release/lunar/rqt_robot_monitor/0.5.7-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "735fd28e91f07b9795f55f7f703121a4"

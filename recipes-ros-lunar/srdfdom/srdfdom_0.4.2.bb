@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "boost catkin cmake_modules libconsole-bridge-dev liburdfdom-headers-dev tinyxml urdf urdfdom_py"
+DEPENDS = "boost catkin cmake-modules libconsole-bridge-dev liburdfdom-headers-dev libtinyxml urdf urdfdom-py"
 SRC_URI = "https://github.com/ros-gbp/srdfdom-release/archive/release/lunar/srdfdom/0.4.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "53fb55281952c1c37cb85842167d6899"

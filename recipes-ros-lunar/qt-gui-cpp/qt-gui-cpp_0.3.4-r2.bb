@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin pkg-config pluginlib python_qt_binding qt5-qmake qt_gui qtbase5-dev tinyxml"
+DEPENDS = "catkin pkg-config pluginlib python-qt-binding qt5-qmake qt-gui qtbase5-dev libtinyxml"
 SRC_URI = "https://github.com/ros-gbp/qt_gui_core-release/archive/release/lunar/qt_gui_cpp/0.3.4-2.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "1e903d464eebc34b651ae6900ec18083"

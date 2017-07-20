@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=acbed67fd486c51e7a0624505f2e6733"
 
-DEPENDS = "angles catkin cmake_modules costmap_2d dynamic_reconfigure eigen geometry_msgs message_generation nav_core nav_msgs pcl_conversions pcl_ros pluginlib rosconsole roscpp rospy std_msgs tf visualization_msgs voxel_grid"
+DEPENDS = "angles catkin cmake-modules costmap-2d dynamic-reconfigure eigen geometry-msgs message-generation nav-core nav-msgs pcl-conversions pcl-ros pluginlib rosconsole roscpp rospy std-msgs tf visualization-msgs voxel-grid"
 SRC_URI = "https://github.com/ros-gbp/navigation-release/archive/release/lunar/base_local_planner/1.14.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "b34b8657b699af53380427ace05e3ede"

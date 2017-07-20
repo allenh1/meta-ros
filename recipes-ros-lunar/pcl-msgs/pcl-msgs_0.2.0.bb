@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin message_generation message_runtime sensor_msgs std_msgs"
+DEPENDS = "catkin message-generation message-runtime sensor-msgs std-msgs"
 SRC_URI = "https://github.com/ros-gbp/pcl_msgs-release/archive/release/lunar/pcl_msgs/0.2.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "6e5faef65321ab7f2a0e12ffae5d5ae6"

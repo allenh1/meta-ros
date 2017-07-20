@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "actionlib catkin dynamic_reconfigure eigen moveit_core moveit_msgs moveit_ros_move_group moveit_ros_planning pluginlib rosconsole roscpp tf"
+DEPENDS = "actionlib catkin dynamic-reconfigure eigen moveit-core moveit-msgs moveit-ros-move-group moveit-ros-planning pluginlib rosconsole roscpp tf"
 SRC_URI = "https://github.com/ros-gbp/moveit-release/archive/release/lunar/moveit_ros_manipulation/0.9.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "78d595ec5dc9443ce3648561a4fafad8"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin geometry_msgs python-rospkg python_qt_binding qt_dotgraph rospy rqt_graph rqt_gui rqt_gui_py tf2 tf2_msgs tf2_ros"
+DEPENDS = "catkin geometry-msgs python-rospkg python-qt-binding qt-dotgraph rospy rqt-graph rqt-gui rqt-gui-py tf2 tf2-msgs tf2-ros"
 SRC_URI = "https://github.com/ros-gbp/rqt_tf_tree-release/archive/release/lunar/rqt_tf_tree/0.5.7-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "d793f5a47c0882de0ef37efd6b628e8a"

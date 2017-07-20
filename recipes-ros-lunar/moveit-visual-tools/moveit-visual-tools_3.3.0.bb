@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin cmake_modules eigen_conversions geometry_msgs graph_msgs moveit_core moveit_ros_robot_interaction roscpp roslint rviz_visual_tools std_msgs tf_conversions trajectory_msgs visualization_msgs"
+DEPENDS = "catkin cmake-modules eigen-conversions geometry-msgs graph-msgs moveit-core moveit-ros-robot-interaction roscpp roslint rviz-visual-tools std-msgs tf-conversions trajectory-msgs visualization-msgs"
 SRC_URI = "https://github.com/davetcoleman/moveit_visual_tools-release/archive/release/lunar/moveit_visual_tools/3.3.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "846c07f69c5fc206670c0361ff212332"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "boost catkin geometry_msgs pluginlib roscpp rostime std_msgs tf"
+DEPENDS = "boost catkin geometry-msgs pluginlib roscpp rostime std-msgs tf"
 SRC_URI = "https://github.com/ros-gbp/warehouse_ros-release/archive/release/lunar/warehouse_ros/0.9.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "82346cdd0c760aba2078554ca7ce990c"

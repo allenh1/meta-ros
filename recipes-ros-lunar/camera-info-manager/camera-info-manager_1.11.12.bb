@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=15;endline=15;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "boost camera_calibration_parsers catkin image_transport roscpp roslib rostest sensor_msgs"
+DEPENDS = "boost camera-calibration-parsers catkin image-transport roscpp roslib rostest sensor-msgs"
 SRC_URI = "https://github.com/ros-gbp/image_common-release/archive/release/lunar/camera_info_manager/1.11.12-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "c22fcb009858c0943a3d37a3153189e3"

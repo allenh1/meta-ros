@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin interval_intersection joint_states_settler laser_cb_detector monocam_settler urdfdom_py"
+DEPENDS = "catkin interval-intersection joint-states-settler laser-cb-detector monocam-settler urdfdom-py"
 SRC_URI = "https://github.com/ros-gbp/calibration-release/archive/release/lunar/calibration_launch/0.10.14-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "889dca02320641ab138ab3ee451275d9"

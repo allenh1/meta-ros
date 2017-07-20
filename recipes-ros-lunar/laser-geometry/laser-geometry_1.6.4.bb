@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "angles boost catkin cmake_modules eigen python-numpy roscpp sensor_msgs tf"
+DEPENDS = "angles boost catkin cmake-modules eigen python-numpy roscpp sensor-msgs tf"
 SRC_URI = "https://github.com/ros-gbp/laser_geometry-release/archive/release/lunar/laser_geometry/1.6.4-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "a7a367a0cbb7cbf08454d07ed545ceea"

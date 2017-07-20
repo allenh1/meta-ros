@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin diff_drive_controller effort_controllers force_torque_sensor_controller forward_command_controller gripper_action_controller imu_sensor_controller joint_state_controller joint_trajectory_controller position_controllers rqt_joint_trajectory_controller velocity_controllers"
+DEPENDS = "catkin diff-drive-controller effort-controllers force-torque-sensor-controller forward-command-controller gripper-action-controller imu-sensor-controller joint-state-controller joint-trajectory-controller position-controllers rqt-joint-trajectory-controller velocity-controllers"
 SRC_URI = "https://github.com/ros-gbp/ros_controllers-release/archive/release/lunar/ros_controllers/0.12.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "70933d87aa68a656680ea7c31f1f8ca5"

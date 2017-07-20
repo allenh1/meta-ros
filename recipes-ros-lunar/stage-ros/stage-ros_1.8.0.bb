@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "boost catkin geometry_msgs nav_msgs roscpp rostest sensor_msgs stage std_msgs std_srvs tf"
+DEPENDS = "boost catkin geometry-msgs nav-msgs roscpp rostest sensor-msgs stage std-msgs std-srvs tf"
 SRC_URI = "https://github.com/ros-gbp/stage_ros-release/archive/release/lunar/stage_ros/1.8.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "4d4ce24144da42565ecd645df3999403"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "boost catkin dynamic_reconfigure message_filters nodelet pluginlib roscpp"
+DEPENDS = "boost catkin dynamic-reconfigure message-filters nodelet pluginlib roscpp"
 SRC_URI = "https://github.com/ros-gbp/nodelet_core-release/archive/release/lunar/nodelet_topic_tools/1.9.10-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "1a9e6dccfb667141d89781279f38f6c5"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin cl_transforms geometry_msgs roslisp std_msgs"
+DEPENDS = "catkin cl-transforms geometry-msgs roslisp std-msgs"
 SRC_URI = "https://github.com/ros-gbp/roslisp_common-release/archive/release/lunar/cl_transforms_stamped/0.2.9-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "5623db0cb79713d7fe54451de26b4d31"

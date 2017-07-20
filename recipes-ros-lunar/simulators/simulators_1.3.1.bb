@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=6;endline=6;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin gazebo_ros_pkgs robot rqt_common_plugins rqt_robot_plugins stage_ros"
+DEPENDS = "catkin gazebo-ros-pkgs robot rqt-common-plugins rqt-robot-plugins stage-ros"
 SRC_URI = "https://github.com/ros-gbp/metapackages-release/archive/release/lunar/simulators/1.3.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "a3b406554eecddebf5bc05d226210109"

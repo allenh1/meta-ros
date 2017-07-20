@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin geodesy geographic_msgs"
+DEPENDS = "catkin geodesy geographic-msgs"
 SRC_URI = "https://github.com/ros-geographic-info/geographic_info-release/archive/release/lunar/geographic_info/0.5.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "dc04dab26246446ec91ea1569d76b6f2"

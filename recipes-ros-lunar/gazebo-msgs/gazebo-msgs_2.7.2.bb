@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin geometry_msgs message_generation message_runtime sensor_msgs std_msgs std_srvs trajectory_msgs"
+DEPENDS = "catkin geometry-msgs message-generation message-runtime sensor-msgs std-msgs std-srvs trajectory-msgs"
 SRC_URI = "https://github.com/ros-gbp/gazebo_ros_pkgs-release/archive/release/lunar/gazebo_msgs/2.7.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "9d8c4e6b135eded6f1a166fe4a4153f8"

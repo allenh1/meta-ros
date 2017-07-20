@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin message_filters message_generation message_runtime nav_msgs roscpp sensor_msgs std_msgs"
+DEPENDS = "catkin message-filters message-generation message-runtime nav-msgs roscpp sensor-msgs std-msgs"
 SRC_URI = "https://github.com/swri-robotics-gbp/gps_umd-release/archive/release/lunar/gps_common/0.1.9-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "98a9b0a9b7595262fb8c6ca9e678001d"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin diagnostic_msgs python-rospkg python_qt_binding qt_gui rospy rqt_gui rqt_gui_py"
+DEPENDS = "catkin diagnostic-msgs python-rospkg python-qt-binding qt-gui rospy rqt-gui rqt-gui-py"
 SRC_URI = "https://github.com/ros-gbp/rqt_runtime_monitor-release/archive/release/lunar/rqt_runtime_monitor/0.5.7-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "1d5968b1c83c51dbccc53d035ef8715f"

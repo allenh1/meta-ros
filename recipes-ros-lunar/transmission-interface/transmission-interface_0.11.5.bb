@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "Modified-BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=129fdeb38464449b78c8fb022f356747"
 
-DEPENDS = "catkin cmake_modules hardware_interface pluginlib roscpp tinyxml"
+DEPENDS = "catkin cmake-modules hardware-interface pluginlib roscpp libtinyxml"
 SRC_URI = "https://github.com/ros-gbp/ros_control-release/archive/release/lunar/transmission_interface/0.11.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "d706412aad487c462df51fa0a3fcaa21"

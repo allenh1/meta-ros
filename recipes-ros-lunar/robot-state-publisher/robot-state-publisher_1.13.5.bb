@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=22;endline=22;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin eigen kdl_parser liburdfdom-headers-dev orocos_kdl rosconsole roscpp rostest rostime sensor_msgs tf tf2_kdl tf2_ros"
+DEPENDS = "catkin eigen kdl-parser liburdfdom-headers-dev orocos-kdl rosconsole roscpp rostest rostime sensor-msgs tf tf2-kdl tf2-ros"
 SRC_URI = "https://github.com/ros-gbp/robot_state_publisher-release/archive/release/lunar/robot_state_publisher/1.13.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "dd4b002e543d497c7836c6296fe234db"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=16;endline=16;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin cmake_modules liburdfdom-dev liburdfdom-headers-dev pluginlib rosconsole_bridge roscpp rostest urdf_parser_plugin"
+DEPENDS = "catkin cmake-modules liburdfdom-dev liburdfdom-headers-dev pluginlib rosconsole-bridge roscpp rostest urdf-parser-plugin"
 SRC_URI = "https://github.com/ros-gbp/robot_model-release/archive/release/lunar/urdf/1.12.11-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "3b8239ff8b2550abfcbce4bb85c52805"

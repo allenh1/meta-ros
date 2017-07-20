@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "actionlib catkin eigen eigen_conversions moveit_ros_manipulation moveit_ros_move_group moveit_ros_planning moveit_ros_warehouse python python-catkin-pkg rosconsole roscpp rospy tf tf_conversions"
+DEPENDS = "actionlib catkin eigen eigen-conversions moveit-ros-manipulation moveit-ros-move-group moveit-ros-planning moveit-ros-warehouse python python-catkin-pkg rosconsole roscpp rospy tf tf-conversions"
 SRC_URI = "https://github.com/ros-gbp/moveit-release/archive/release/lunar/moveit_ros_planning_interface/0.9.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "4d253e48fd8ffe447ad03c9e6601fc52"

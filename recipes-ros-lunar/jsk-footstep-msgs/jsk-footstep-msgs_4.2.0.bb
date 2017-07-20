@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "actionlib_msgs catkin geometry_msgs message_generation message_runtime"
+DEPENDS = "actionlib-msgs catkin geometry-msgs message-generation message-runtime"
 SRC_URI = "https://github.com/tork-a/jsk_common_msgs-release/archive/release/lunar/jsk_footstep_msgs/4.2.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "cc9da9e34bcee9ea2255e64773ab0fc2"

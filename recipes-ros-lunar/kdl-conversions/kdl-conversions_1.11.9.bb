@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin geometry_msgs orocos_kdl"
+DEPENDS = "catkin geometry-msgs orocos-kdl"
 SRC_URI = "https://github.com/ros-gbp/geometry-release/archive/release/lunar/kdl_conversions/1.11.9-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "cc827de15e382afe0928e4b4a1ef3f60"

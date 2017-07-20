@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=15;endline=15;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin moveit_ros_planning moveit_ros_warehouse pluginlib roscpp"
+DEPENDS = "catkin moveit-ros-planning moveit-ros-warehouse pluginlib roscpp"
 SRC_URI = "https://github.com/ros-gbp/moveit-release/archive/release/lunar/moveit_ros_benchmarks/0.9.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "f3b221639126229aab7bff27bc34b3e5"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=21;endline=21;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "angles catkin geometry_msgs graphviz message_filters message_generation message_runtime rosconsole roscpp rostime roswtf sensor_msgs std_msgs tf2_ros"
+DEPENDS = "angles catkin geometry-msgs graphviz message-filters message-generation message-runtime rosconsole roscpp rostime roswtf sensor-msgs std-msgs tf2-ros"
 SRC_URI = "https://github.com/ros-gbp/geometry-release/archive/release/lunar/tf/1.11.9-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "52e187cc658e11b8348277903f2a31d7"

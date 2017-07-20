@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "boost catkin cmake_modules libconsole-bridge-dev libpoco-dev"
+DEPENDS = "boost catkin cmake-modules libconsole-bridge-dev libpoco-dev"
 SRC_URI = "https://github.com/ros-gbp/class_loader-release/archive/release/lunar/class_loader/0.3.6-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "340f9a95e9272e984e509d54ca60d8a7"

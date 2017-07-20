@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=15;endline=15;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin cmake_modules eigen geometry_msgs orocos_kdl std_msgs"
+DEPENDS = "catkin cmake-modules eigen geometry-msgs orocos-kdl std-msgs"
 SRC_URI = "https://github.com/ros-gbp/geometry-release/archive/release/lunar/eigen_conversions/1.11.9-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "eeb7ed6914f33c0d55f3ef8c8cc96b31"

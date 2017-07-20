@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin message_generation message_runtime std_msgs"
+DEPENDS = "catkin message-generation message-runtime std-msgs"
 SRC_URI = "https://github.com/tork-a/jsk_common_msgs-release/archive/release/lunar/speech_recognition_msgs/4.2.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "341c2c60c8619c474da230b9083d19fb"

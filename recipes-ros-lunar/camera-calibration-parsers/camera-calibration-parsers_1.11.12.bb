@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "boost catkin pkg-config rosconsole roscpp roscpp_serialization sensor_msgs yaml-cpp"
+DEPENDS = "boost catkin pkg-config rosconsole roscpp roscpp-serialization sensor-msgs yaml-cpp"
 SRC_URI = "https://github.com/ros-gbp/image_common-release/archive/release/lunar/camera_calibration_parsers/1.11.12-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "18b4686d52eaee0a72cf9e3d0152e854"

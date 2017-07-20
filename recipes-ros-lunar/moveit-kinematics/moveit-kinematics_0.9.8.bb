@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=15;endline=15;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "actionlib catkin eigen moveit_core moveit_ros_planning pluginlib"
+DEPENDS = "actionlib catkin eigen moveit-core moveit-ros-planning pluginlib"
 SRC_URI = "https://github.com/ros-gbp/moveit-release/archive/release/lunar/moveit_kinematics/0.9.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "05d096ecf1b8f44e4948d773b8f1949e"

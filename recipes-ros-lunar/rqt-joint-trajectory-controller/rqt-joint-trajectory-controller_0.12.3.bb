@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "Modified-BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=129fdeb38464449b78c8fb022f356747"
 
-DEPENDS = "catkin control_msgs controller_manager_msgs rospy rqt_gui rqt_gui_py trajectory_msgs"
+DEPENDS = "catkin control-msgs controller-manager-msgs rospy rqt-gui rqt-gui-py trajectory-msgs"
 SRC_URI = "https://github.com/ros-gbp/ros_controllers-release/archive/release/lunar/rqt_joint_trajectory_controller/0.12.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "36d5fe4fd8b281d005b0b06c2829e186"

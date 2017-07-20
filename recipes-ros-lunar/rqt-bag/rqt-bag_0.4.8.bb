@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin python-rospkg python_qt_binding rosbag rosgraph_msgs roslib rosnode rospy rqt_gui rqt_gui_py"
+DEPENDS = "catkin python-rospkg python-qt-binding rosbag rosgraph-msgs roslib rosnode rospy rqt-gui rqt-gui-py"
 SRC_URI = "https://github.com/ros-gbp/rqt_bag-release/archive/release/lunar/rqt_bag/0.4.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "b6054349258073641a91d538ed8e53e6"

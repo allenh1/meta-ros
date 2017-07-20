@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin visp_auto_tracker visp_bridge visp_camera_calibration visp_hand2eye_calibration visp_tracker"
+DEPENDS = "catkin visp-auto-tracker visp-bridge visp-camera-calibration visp-hand2eye-calibration visp-tracker"
 SRC_URI = "https://github.com/lagadic/vision_visp-release/archive/release/lunar/vision_visp/0.10.0-1.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "3121cb2fb3bbf9ab5c6063bed4f720a6"

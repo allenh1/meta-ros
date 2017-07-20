@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d5e1066b55633f30c0ddbc6905f6ca49"
 
-DEPENDS = "catkin katana katana_arm_gazebo katana_description katana_gazebo_plugins katana_moveit_ikfast_plugin katana_msgs katana_teleop katana_tutorials kni"
+DEPENDS = "catkin katana katana-arm-gazebo katana-description katana-gazebo-plugins katana-moveit-ikfast-plugin katana-msgs katana-teleop katana-tutorials kni"
 SRC_URI = "https://github.com/uos-gbp/katana_driver-release/archive/release/lunar/katana_driver/1.1.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "37dd7b534517e45429554355fce3c6c7"

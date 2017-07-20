@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin geographic_msgs geometry_msgs message_generation message_runtime sensor_msgs std_msgs"
+DEPENDS = "catkin geographic-msgs geometry-msgs message-generation message-runtime sensor-msgs std-msgs"
 SRC_URI = "https://github.com/oceansystemslab/auv_msgs-release/archive/release/lunar/auv_msgs/0.0.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "e037a7998c06d5be63563072ddfd1cc0"

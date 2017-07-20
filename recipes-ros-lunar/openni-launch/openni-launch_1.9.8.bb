@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin nodelet openni_camera rgbd_launch roslaunch"
+DEPENDS = "catkin nodelet openni-camera rgbd-launch roslaunch"
 SRC_URI = "https://github.com/ros-gbp/openni_launch-release/archive/release/lunar/openni_launch/1.9.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "897b6a34a118e1d1200668c351b774d7"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin moveit_core moveit_ros_planning moveit_ros_visualization srdfdom xacro yaml-cpp"
+DEPENDS = "catkin moveit-core moveit-ros-planning moveit-ros-visualization srdfdom xacro yaml-cpp"
 SRC_URI = "https://github.com/ros-gbp/moveit-release/archive/release/lunar/moveit_setup_assistant/0.9.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "bc42e39f725a50cc6fc81045966efaba"

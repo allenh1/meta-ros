@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "boost catkin pluginlib qtbase5-dev rqt_gui rqt_gui_cpp rviz"
+DEPENDS = "boost catkin pluginlib qtbase5-dev rqt-gui rqt-gui-cpp rviz"
 SRC_URI = "https://github.com/ros-gbp/rqt_rviz-release/archive/release/lunar/rqt_rviz/0.5.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "1a62ebf1eda0b2ad6ab04cd9eea74725"

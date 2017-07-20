@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=19;endline=19;md5=acbed67fd486c51e7a0624505f2e6733"
 
-DEPENDS = "catkin cmake_modules costmap_2d geometry_msgs nav_core nav_msgs netpbm pcl_conversions pcl_ros pluginlib rosconsole roscpp tf visualization_msgs"
+DEPENDS = "catkin cmake-modules costmap-2d geometry-msgs nav-core nav-msgs netpbm pcl-conversions pcl-ros pluginlib rosconsole roscpp tf visualization-msgs"
 SRC_URI = "https://github.com/ros-gbp/navigation-release/archive/release/lunar/navfn/1.14.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "ce29c015381c6ce8cb23f4e4963717fa"

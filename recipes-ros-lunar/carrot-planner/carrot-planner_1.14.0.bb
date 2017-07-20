@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=acbed67fd486c51e7a0624505f2e6733"
 
-DEPENDS = "base_local_planner catkin costmap_2d eigen nav_core pluginlib roscpp tf"
+DEPENDS = "base-local-planner catkin costmap-2d eigen nav-core pluginlib roscpp tf"
 SRC_URI = "https://github.com/ros-gbp/navigation-release/archive/release/lunar/carrot_planner/1.14.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "59d58e65734c47026c8a16b567205ac9"

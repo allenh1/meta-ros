@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin diagnostic_msgs rospy"
+DEPENDS = "catkin diagnostic-msgs rospy"
 SRC_URI = "https://github.com/ros-gbp/diagnostics-release/archive/release/lunar/rosdiagnostic/1.9.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "d63382785921872ec65c367d66fa32b1"

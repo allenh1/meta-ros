@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin cmake_modules control_msgs dynamic_reconfigure message_generation message_runtime realtime_tools roscpp std_msgs tinyxml"
+DEPENDS = "catkin cmake-modules control-msgs dynamic-reconfigure message-generation message-runtime realtime-tools roscpp std-msgs libtinyxml"
 SRC_URI = "https://github.com/ros-gbp/control_toolbox-release/archive/release/lunar/control_toolbox/1.15.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "5486f09e0d51f1aa14b9b1853d15cce0"

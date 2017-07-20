@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin tf2 tf2_msgs tf2_ros"
+DEPENDS = "catkin tf2 tf2-msgs tf2-ros"
 SRC_URI = "https://github.com/ros-gbp/geometry2-release/archive/release/lunar/tf2_tools/0.5.16-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "2f518883287ce75394ce61a971d0f950"

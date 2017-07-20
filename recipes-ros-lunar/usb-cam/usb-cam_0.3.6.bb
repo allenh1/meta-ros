@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "camera_info_manager catkin ffmpeg image_transport roscpp sensor_msgs std_msgs std_srvs v4l-utils"
+DEPENDS = "camera-info-manager catkin ffmpeg image-transport roscpp sensor-msgs std-msgs std-srvs v4l-utils"
 SRC_URI = "https://github.com/ros-gbp/usb_cam-release/archive/release/lunar/usb_cam/0.3.6-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "ae39333c76f1246b6c62fe1a6e7b6ea4"

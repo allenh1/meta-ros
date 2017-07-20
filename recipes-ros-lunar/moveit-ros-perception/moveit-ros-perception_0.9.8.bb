@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin cv_bridge eigen glut image_transport libglew-dev message_filters moveit_core moveit_msgs octomap opengl pluginlib rosconsole roscpp sensor_msgs tf tf_conversions urdf"
+DEPENDS = "catkin cv-bridge eigen glut image-transport libglew-dev message-filters moveit-core moveit-msgs octomap opengl pluginlib rosconsole roscpp sensor-msgs tf tf-conversions urdf"
 SRC_URI = "https://github.com/ros-gbp/moveit-release/archive/release/lunar/moveit_ros_perception/0.9.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "a8bddbdf37954407225f7f108e905c7c"

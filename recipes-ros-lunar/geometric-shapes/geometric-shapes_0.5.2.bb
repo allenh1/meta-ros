@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "assimp assimp-dev boost catkin eigen eigen_stl_containers libconsole-bridge-dev libqhull octomap pkg-config random_numbers resource_retriever shape_msgs visualization_msgs"
+DEPENDS = "assimp assimp-dev boost catkin eigen eigen-stl-containers libconsole-bridge-dev libqhull octomap pkg-config random-numbers resource-retriever shape-msgs visualization-msgs"
 SRC_URI = "https://github.com/ros-gbp/geometric_shapes-release/archive/release/lunar/geometric_shapes/0.5.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "b8d4a5137033102cab483efed6ba1b51"

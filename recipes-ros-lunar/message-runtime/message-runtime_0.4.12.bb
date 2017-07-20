@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin cpp_common genpy roscpp_serialization roscpp_traits rostime"
+DEPENDS = "catkin cpp-common genpy roscpp-serialization roscpp-traits rostime"
 SRC_URI = "https://github.com/ros-gbp/message_runtime-release/archive/release/lunar/message_runtime/0.4.12-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "60025242dfd0e30fc99d5f65b4fce159"

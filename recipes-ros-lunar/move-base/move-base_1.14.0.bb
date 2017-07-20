@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=acbed67fd486c51e7a0624505f2e6733"
 
-DEPENDS = "actionlib base_local_planner catkin clear_costmap_recovery cmake_modules costmap_2d dynamic_reconfigure geometry_msgs message_generation message_runtime move_base_msgs nav_core nav_msgs navfn pluginlib roscpp rospy rotate_recovery std_msgs std_srvs tf visualization_msgs"
+DEPENDS = "actionlib base-local-planner catkin clear-costmap-recovery cmake-modules costmap-2d dynamic-reconfigure geometry-msgs message-generation message-runtime move-base-msgs nav-core nav-msgs navfn pluginlib roscpp rospy rotate-recovery std-msgs std-srvs tf visualization-msgs"
 SRC_URI = "https://github.com/ros-gbp/navigation-release/archive/release/lunar/move_base/1.14.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "878f9dbf17adba90f8dfe1eb976be01f"

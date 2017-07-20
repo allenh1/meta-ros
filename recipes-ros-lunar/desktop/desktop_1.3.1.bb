@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=6;endline=6;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin common_tutorials geometry_tutorials robot ros_tutorials roslint visualization_tutorials viz"
+DEPENDS = "catkin common-tutorials geometry-tutorials robot ros-tutorials roslint visualization-tutorials viz"
 SRC_URI = "https://github.com/ros-gbp/metapackages-release/archive/release/lunar/desktop/1.3.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "6a144f2cd75a7e8ed0d045bffe115ce6"

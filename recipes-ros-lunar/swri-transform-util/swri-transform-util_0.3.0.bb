@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "boost catkin cv_bridge diagnostic_msgs dynamic_reconfigure geographic_msgs geometry_msgs gps_common libgeos++-dev nodelet pluginlib proj roscpp rospy sensor_msgs swri_math_util swri_roscpp swri_yaml_util tf topic_tools yaml-cpp"
+DEPENDS = "boost catkin cv-bridge diagnostic-msgs dynamic-reconfigure geographic-msgs geometry-msgs gps-common libgeos++-dev nodelet pluginlib proj roscpp rospy sensor-msgs swri-math-util swri-roscpp swri-yaml-util tf topic-tools yaml-cpp"
 SRC_URI = "https://github.com/swri-robotics-gbp/marti_common-release/archive/release/lunar/swri_transform_util/0.3.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "98a1cb070699b461b9a777b768c32058"

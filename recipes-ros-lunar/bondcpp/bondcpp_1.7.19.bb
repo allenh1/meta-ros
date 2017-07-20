@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "bond boost catkin cmake_modules roscpp smclib uuid"
+DEPENDS = "bond boost catkin cmake-modules roscpp smclib uuid"
 SRC_URI = "https://github.com/ros-gbp/bond_core-release/archive/release/lunar/bondcpp/1.7.19-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "4cb0fa15d25c53c9db5cf6c85a4638f5"

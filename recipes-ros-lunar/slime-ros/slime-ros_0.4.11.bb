@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "Public-Domain"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=9410a10dc7d8d68a78f94b401d4efc9b"
 
-DEPENDS = "catkin rosemacs roslisp sbcl slime_wrapper"
+DEPENDS = "catkin rosemacs roslisp sbcl slime-wrapper"
 SRC_URI = "https://github.com/code-iai-release/ros_emacs_utils-release/archive/release/lunar/slime_ros/0.4.11-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "d3405a6ae126e615cff864b22e26af17"

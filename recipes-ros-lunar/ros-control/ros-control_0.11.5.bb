@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin combined_robot_hw combined_robot_hw_tests controller_interface controller_manager controller_manager_msgs controller_manager_tests hardware_interface joint_limits_interface realtime_tools transmission_interface"
+DEPENDS = "catkin combined-robot-hw combined-robot-hw-tests controller-interface controller-manager controller-manager-msgs controller-manager-tests hardware-interface joint-limits-interface realtime-tools transmission-interface"
 SRC_URI = "https://github.com/ros-gbp/ros_control-release/archive/release/lunar/ros_control/0.11.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "2ebaff008d55e6cac0424a956f91ca21"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin eigen_conversions interactive_markers moveit_ros_planning pluginlib roscpp tf"
+DEPENDS = "catkin eigen-conversions interactive-markers moveit-ros-planning pluginlib roscpp tf"
 SRC_URI = "https://github.com/ros-gbp/moveit-release/archive/release/lunar/moveit_ros_robot_interaction/0.9.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "2ad1bcf1ff20eedac64e6f2dcb48e85a"

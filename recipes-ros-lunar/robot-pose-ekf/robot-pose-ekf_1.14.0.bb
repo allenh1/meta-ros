@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=acbed67fd486c51e7a0624505f2e6733"
 
-DEPENDS = "bfl catkin geometry_msgs nav_msgs roscpp rostest sensor_msgs std_msgs tf"
+DEPENDS = "bfl catkin geometry-msgs nav-msgs roscpp rostest sensor-msgs std-msgs tf"
 SRC_URI = "https://github.com/ros-gbp/navigation-release/archive/release/lunar/robot_pose_ekf/1.14.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "74fbff058b2028edce9414f0cdba8a49"

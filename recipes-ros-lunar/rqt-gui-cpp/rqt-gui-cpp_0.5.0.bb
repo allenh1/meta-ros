@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin nodelet qt_gui qt_gui_cpp qtbase5-dev roscpp"
+DEPENDS = "catkin nodelet qt-gui qt-gui-cpp qtbase5-dev roscpp"
 SRC_URI = "https://github.com/ros-gbp/rqt-release/archive/release/lunar/rqt_gui_cpp/0.5.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "da50eaf69e1751abe531b64cbd9652cd"

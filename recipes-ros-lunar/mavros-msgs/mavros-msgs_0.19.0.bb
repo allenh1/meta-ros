@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "GPLv3"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=c4ba05a85e41aed3f3861ec78997656b"
 
-DEPENDS = "catkin geometry_msgs message_generation message_runtime std_msgs"
+DEPENDS = "catkin geometry-msgs message-generation message-runtime std-msgs"
 SRC_URI = "https://github.com/mavlink/mavros-release/archive/release/lunar/mavros_msgs/0.19.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "023edb2cd8d90589c539a45f8325a055"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin moveit_planners_ompl"
+DEPENDS = "catkin moveit-planners-ompl"
 SRC_URI = "https://github.com/ros-gbp/moveit-release/archive/release/lunar/moveit_planners/0.9.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "721c10f4b11ba97633889def17a6abb9"

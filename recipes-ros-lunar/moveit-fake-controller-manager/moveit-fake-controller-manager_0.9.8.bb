@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin moveit_core moveit_ros_planning pluginlib roscpp"
+DEPENDS = "catkin moveit-core moveit-ros-planning pluginlib roscpp"
 SRC_URI = "https://github.com/ros-gbp/moveit-release/archive/release/lunar/moveit_fake_controller_manager/0.9.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "cff6829069116e4f3aba8e0a77daec30"

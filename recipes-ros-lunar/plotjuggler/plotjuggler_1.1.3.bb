@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "LGPLv3"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=c8282549a849842b617e1a1f9f447790"
 
-DEPENDS = "binutils catkin libqt5-svg-dev qtbase5-dev ros_type_introspection rosbag rosbag_storage roscpp roscpp_serialization rostime topic_tools"
+DEPENDS = "binutils catkin libqt5-svg-dev qtbase5-dev ros-type-introspection rosbag rosbag-storage roscpp roscpp-serialization rostime topic-tools"
 SRC_URI = "https://github.com/facontidavide/plotjuggler-release/archive/release/lunar/plotjuggler/1.1.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "fc58157c949e753f92d5982914009810"

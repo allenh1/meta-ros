@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "bondcpp boost catkin cmake_modules message_generation message_runtime pluginlib rosconsole roscpp rospy std_msgs uuid"
+DEPENDS = "bondcpp boost catkin cmake-modules message-generation message-runtime pluginlib rosconsole roscpp rospy std-msgs uuid"
 SRC_URI = "https://github.com/ros-gbp/nodelet_core-release/archive/release/lunar/nodelet/1.9.10-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "c35cd161ae979c367697f8763064dad0"

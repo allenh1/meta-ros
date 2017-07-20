@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin geographic_msgs geometry_msgs marti_common_msgs message_generation message_runtime sensor_msgs std_msgs"
+DEPENDS = "catkin geographic-msgs geometry-msgs marti-common-msgs message-generation message-runtime sensor-msgs std-msgs"
 SRC_URI = "https://github.com/swri-robotics-gbp/marti_messages-release/archive/release/lunar/marti_nav_msgs/0.0.9-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "a2a3ada858e4fade8d20cd7bf2e24957"

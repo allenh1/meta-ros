@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "LGPL-2.1"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=302bce8d71e5f9efc1da18959b80f70c"
 
-DEPENDS = "catkin cpp_common"
+DEPENDS = "catkin cpp-common"
 SRC_URI = "https://github.com/ros-gbp/ros_comm-release/archive/release/lunar/xmlrpcpp/1.13.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "8b9a68f82e42266f4916ec872c4e03b6"

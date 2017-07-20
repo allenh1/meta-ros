@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin geometry_msgs roscpp rospy std_msgs tf turtlesim"
+DEPENDS = "catkin geometry-msgs roscpp rospy std-msgs tf turtlesim"
 SRC_URI = "https://github.com/ros-gbp/geometry_tutorials-release/archive/release/lunar/turtle_tf/0.2.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "b28e4992b06c2e2e7853b73f9bfd50a0"

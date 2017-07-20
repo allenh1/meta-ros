@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=23;endline=23;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin cv_bridge image_geometry message_filters rospy sensor_msgs std_srvs"
+DEPENDS = "catkin cv-bridge image-geometry message-filters rospy sensor-msgs std-srvs"
 SRC_URI = "https://github.com/ros-gbp/image_pipeline-release/archive/release/lunar/camera_calibration/1.12.20-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "8a55303953606ee179c5224dcec6c663"

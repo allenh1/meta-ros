@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=24ca93924f03642fbbd06efa2e6d00df"
 
-DEPENDS = "actionlib_msgs catkin geometry_msgs message_generation message_runtime object_recognition_msgs octomap_msgs sensor_msgs shape_msgs std_msgs trajectory_msgs"
+DEPENDS = "actionlib-msgs catkin geometry-msgs message-generation message-runtime object-recognition-msgs octomap-msgs sensor-msgs shape-msgs std-msgs trajectory-msgs"
 SRC_URI = "https://github.com/ros-gbp/moveit_msgs-release/archive/release/lunar/moveit_msgs/0.9.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "5b061a71edc2473d3123710fc6b366a8"

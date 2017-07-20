@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "GPLv3"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=c4ba05a85e41aed3f3861ec78997656b"
 
-DEPENDS = "angles boost catkin cmake_modules diagnostic_msgs diagnostic_updater eigen eigen_conversions geometry_msgs libmavconn mavlink mavros_msgs message_runtime nav_msgs pluginlib rosconsole_bridge roscpp rospy sensor_msgs std_msgs std_srvs tf2_ros"
+DEPENDS = "angles boost catkin cmake-modules diagnostic-msgs diagnostic-updater eigen eigen-conversions geometry-msgs libmavconn mavlink mavros-msgs message-runtime nav-msgs pluginlib rosconsole-bridge roscpp rospy sensor-msgs std-msgs std-srvs tf2-ros"
 SRC_URI = "https://github.com/mavlink/mavros-release/archive/release/lunar/mavros/0.19.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "433aba33d6ad0e9b1eecba2abf705b18"

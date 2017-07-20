@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "angles catkin control_msgs control_toolbox controller_interface forward_command_controller realtime_tools urdf"
+DEPENDS = "angles catkin control-msgs control-toolbox controller-interface forward-command-controller realtime-tools urdf"
 SRC_URI = "https://github.com/ros-gbp/ros_controllers-release/archive/release/lunar/effort_controllers/0.12.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "2087df68e6efa3d4cdb7577eda629ae0"

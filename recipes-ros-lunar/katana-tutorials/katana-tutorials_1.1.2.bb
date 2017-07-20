@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "GPL"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=fe6a07ee75db997e0a74d91b3b60fb3a"
 
-DEPENDS = "actionlib catkin control_msgs roscpp sensor_msgs trajectory_msgs"
+DEPENDS = "actionlib catkin control-msgs roscpp sensor-msgs trajectory-msgs"
 SRC_URI = "https://github.com/uos-gbp/katana_driver-release/archive/release/lunar/katana_tutorials/1.1.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "e2243f0532b1d5ec2f5a12cc9dd1a38d"

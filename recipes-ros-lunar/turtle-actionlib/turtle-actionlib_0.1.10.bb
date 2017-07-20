@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "actionlib actionlib_msgs angles catkin geometry_msgs message_generation message_runtime rosconsole roscpp std_msgs turtlesim"
+DEPENDS = "actionlib actionlib-msgs angles catkin geometry-msgs message-generation message-runtime rosconsole roscpp std-msgs turtlesim"
 SRC_URI = "https://github.com/ros-gbp/common_tutorials-release/archive/release/lunar/turtle_actionlib/0.1.10-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "3a2c27c60aeddeb05414a53d5e19da23"

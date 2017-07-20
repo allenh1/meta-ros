@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin libssl-dev message_generation message_runtime roscpp rostest"
+DEPENDS = "catkin libssl-dev message-generation message-runtime roscpp rostest"
 SRC_URI = "https://github.com/gt-rail-release/rosauth-release/archive/release/lunar/rosauth/0.1.7-2.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "624415206c00cd8c143544ec58a2c300"

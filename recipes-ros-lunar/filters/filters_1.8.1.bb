@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/filters-release/archive/release/lunar/filt
 
 SRC_URI[md5sum] = "df5eae9955a25253e36aab36d65f7394"
 SRC_URI[sha256sum] = "7141ed6aa2c29c2e897a12a1ad77aa77420f29c1803cf73de2e7d8783b8e016c"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/filters-release-release-lunar-filters-1.8.1-0"
 
 inherit catkin

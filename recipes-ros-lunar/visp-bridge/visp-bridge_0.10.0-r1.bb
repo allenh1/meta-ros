@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/lagadic/vision_visp-release/archive/release/lunar/
 
 SRC_URI[md5sum] = "ae23fb7ac93284ab5a948c99970d4010"
 SRC_URI[sha256sum] = "b6df17cc49d961dbe7009da4f87a835193cd10ed8b55af60f06719280e9823a2"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/vision_visp-release-release-lunar-visp_bridge-0.10.0-1"
 
 inherit catkin

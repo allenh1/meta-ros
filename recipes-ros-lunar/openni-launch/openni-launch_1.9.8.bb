@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/openni_launch-release/archive/release/luna
 
 SRC_URI[md5sum] = "897b6a34a118e1d1200668c351b774d7"
 SRC_URI[sha256sum] = "8f8b99f525c813f34ec2f50131ac64515fcb794b2a53caa4dd9c1e975cceda01"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/openni_launch-release-release-lunar-openni_launch-1.9.8-0"
 
 inherit catkin

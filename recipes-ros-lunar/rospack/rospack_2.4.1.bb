@@ -7,11 +7,11 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=6;endline=6;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "boost catkin cmake-modules gtest pkg-config python python-catkin-pkg python-rosdep libtinyxml2"
+DEPENDS = "boost catkin cmake-modules gtest pkgconfig python python-catkin-pkg python-rosdep libtinyxml2"
 SRC_URI = "https://github.com/ros-gbp/rospack-release/archive/release/lunar/rospack/2.4.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "dbf4f54bf9c70ca5cf222a4cdcdd1ae4"
 SRC_URI[sha256sum] = "f97a5bd428d54d9c4f67279b03625a35b16c77b728e9fd7fd510574384b4965c"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/rospack-release-release-lunar-rospack-2.4.1-0"
 
 inherit catkin

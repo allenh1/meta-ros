@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-geographic-info/geographic_info-release/archiv
 
 SRC_URI[md5sum] = "853be0ab676dc88aa90ebfe5c15f83be"
 SRC_URI[sha256sum] = "8336ff81fc496e1cc2e3c1cd570c210f3e96fb1d6f093cffa5f6d9ddb47c32d0"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/geographic_info-release-release-lunar-geodesy-0.5.2-0"
 
 inherit catkin

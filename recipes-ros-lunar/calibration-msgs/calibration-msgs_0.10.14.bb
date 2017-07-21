@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/calibration-release/archive/release/lunar/
 
 SRC_URI[md5sum] = "beafa1e581e0e2ab4de37c0e358a82cc"
 SRC_URI[sha256sum] = "8d50e980661d0ee38679c595ed2493ac31e92332fa3bb4939b315bba75422e96"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/calibration-release-release-lunar-calibration_msgs-0.10.14-0"
 
 inherit catkin

@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/uos-gbp/imu_tools-release/archive/release/lunar/im
 
 SRC_URI[md5sum] = "64623d52d50df9a43483f328dad2882b"
 SRC_URI[sha256sum] = "77c4933a647c95930874e68cda8dfa02da09f03a98026099acbca1dfe1d74cfb"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/imu_tools-release-release-lunar-imu_tools-1.1.5-0"
 
 inherit catkin

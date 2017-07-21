@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/camera_info_manager_py-release/archive/rel
 
 SRC_URI[md5sum] = "de0314920b1744755b4f661bc65e6590"
 SRC_URI[sha256sum] = "e5cda8655dbf530dcec51e373f7079771ae09ab287411d4e59af60eb5dbcc13d"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/camera_info_manager_py-release-release-lunar-camera_info_manager_py-0.2.3-0"
 
 inherit catkin

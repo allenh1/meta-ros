@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/object_recognition_msgs-release/archive/re
 
 SRC_URI[md5sum] = "18b2d32fce1978cfa157df0b8943e1c6"
 SRC_URI[sha256sum] = "acbf1a2850fae533f454dd9371dfaf59780e8779a49245faf88ead3893444211"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/object_recognition_msgs-release-release-lunar-object_recognition_msgs-0.4.1-0"
 
 inherit catkin

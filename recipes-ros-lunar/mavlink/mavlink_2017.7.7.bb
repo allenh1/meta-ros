@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/mavlink/mavlink-gbp-release/archive/release/lunar/
 
 SRC_URI[md5sum] = "50659557195c5a2c3c35430a9fe69879"
 SRC_URI[sha256sum] = "073c617783c9afdd34bc5cb1207f1279c2cbaefe53eb31dda48881d00f8f84cd"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/mavlink-gbp-release-release-lunar-mavlink-2017.7.7-0"
 
 inherit catkin

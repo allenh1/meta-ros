@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/nerian-vision/nerian_sp1-release/archive/release/l
 
 SRC_URI[md5sum] = "8330baab874462a0e0769cbe15327412"
 SRC_URI[sha256sum] = "d8f354de7945b704eb2357b5805fa50bc4adbf7ba21c6bb055c76c3d5989924e"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/nerian_sp1-release-release-lunar-nerian_sp1-1.6.2-1"
 
 inherit catkin

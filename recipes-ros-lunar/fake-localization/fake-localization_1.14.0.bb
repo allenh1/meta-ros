@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/navigation-release/archive/release/lunar/f
 
 SRC_URI[md5sum] = "5fc70a8530b82cce089f93b4d0c1d778"
 SRC_URI[sha256sum] = "1bf2bac8fa630b1b49d1523643f2c15ab770c45e5365d614e48efd95e73eecd3"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/navigation-release-release-lunar-fake_localization-1.14.0-0"
 
 inherit catkin

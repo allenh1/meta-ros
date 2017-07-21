@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/rqt_robot_steering-release/archive/release
 
 SRC_URI[md5sum] = "79f1138d4cfe483c3a23484c17344353"
 SRC_URI[sha256sum] = "f354b597272c2c948987f237e3e20c3dd1a26e6fbd472ee59fa1058edbc9d71d"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/rqt_robot_steering-release-release-lunar-rqt_robot_steering-0.5.7-0"
 
 inherit catkin

@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/navigation-release/archive/release/lunar/c
 
 SRC_URI[md5sum] = "99c4b8e4a9e162a64b5e26a96611b382"
 SRC_URI[sha256sum] = "1917a05b7287cae796e8a09f270b0b2e86b0ebf1a8f565c80eb8d6f54cfb2068"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/navigation-release-release-lunar-clear_costmap_recovery-1.14.0-0"
 
 inherit catkin

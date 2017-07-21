@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/rohbotics/xv_11_laser_driver-release/archive/relea
 
 SRC_URI[md5sum] = "185c2f2eca2e9f1fd3c70edac1efcdc6"
 SRC_URI[sha256sum] = "1173b4ec9cb72d0c5ff49e7cac788766535969be82de33997badd2f9e04481b7"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/xv_11_laser_driver-release-release-lunar-xv_11_laser_driver-0.3.0-0"
 
 inherit catkin

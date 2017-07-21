@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-geographic-info/unique_identifier-release/arch
 
 SRC_URI[md5sum] = "d1c5041119ac20a3d11b81c15505ede7"
 SRC_URI[sha256sum] = "666bceb4c7e46d8f3c2dc2cf4f42769949659fb86d1c4dc5091a01efeeaafe23"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/unique_identifier-release-release-lunar-unique_identifier-1.0.6-0"
 
 inherit catkin

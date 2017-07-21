@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/catkin-release/archive/release/lunar/catki
 
 SRC_URI[md5sum] = "c85ef9c52c88f910cd5f37ca60869512"
 SRC_URI[sha256sum] = "772ffc437ec93cc783addfffb8cdaaeabd7eb14a33cc6acf28e8eca511fa4bf5"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/catkin-release-release-lunar-catkin-0.7.6-0"
 
 inherit catkin

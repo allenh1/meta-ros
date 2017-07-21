@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/swri-robotics-gbp/marti_common-release/archive/rel
 
 SRC_URI[md5sum] = "b3844fd754f021b693898f1598fcfad6"
 SRC_URI[sha256sum] = "6963d5166746214efaed08a2f05a3af20fe96cca30c7c1d2e11ba9f446862434"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/marti_common-release-release-lunar-swri_route_util-0.3.0-0"
 
 inherit catkin

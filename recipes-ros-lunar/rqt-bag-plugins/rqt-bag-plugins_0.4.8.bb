@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/rqt_bag-release/archive/release/lunar/rqt_
 
 SRC_URI[md5sum] = "330cdf6b063d25688c489afc781a6648"
 SRC_URI[sha256sum] = "60bc09e5bc568a9ded027ab7bdadb572eac72e6d70d3a3ea64bf6afdea44dab3"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/rqt_bag-release-release-lunar-rqt_bag_plugins-0.4.8-0"
 
 inherit catkin

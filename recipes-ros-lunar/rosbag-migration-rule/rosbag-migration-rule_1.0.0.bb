@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/rosbag_migration_rule-release/archive/rele
 
 SRC_URI[md5sum] = "f9f3e6242b55c2c746a990d40e278788"
 SRC_URI[sha256sum] = "e8d4349799d318a8f5ec8ebe01852e06aeb31125a2d57e2c12b1e5aff926c404"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/rosbag_migration_rule-release-release-lunar-rosbag_migration_rule-1.0.0-0"
 
 inherit catkin

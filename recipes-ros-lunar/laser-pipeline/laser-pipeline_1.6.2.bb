@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/laser_pipeline-release/archive/release/lun
 
 SRC_URI[md5sum] = "989e7dfcea382883247283663fdaa42a"
 SRC_URI[sha256sum] = "f8e5d71fd3177aed50f97954534bfabec587eeb39bf13e8acc5cf01827c6c222"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/laser_pipeline-release-release-lunar-laser_pipeline-1.6.2-0"
 
 inherit catkin

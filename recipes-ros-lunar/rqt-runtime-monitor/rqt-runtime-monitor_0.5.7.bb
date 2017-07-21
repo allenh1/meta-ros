@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/rqt_runtime_monitor-release/archive/releas
 
 SRC_URI[md5sum] = "1d5968b1c83c51dbccc53d035ef8715f"
 SRC_URI[sha256sum] = "e910c184224a8e1ca1bb1dfe54b07c4f366e7e54db5cf5b40243a29528695b62"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/rqt_runtime_monitor-release-release-lunar-rqt_runtime_monitor-0.5.7-0"
 
 inherit catkin

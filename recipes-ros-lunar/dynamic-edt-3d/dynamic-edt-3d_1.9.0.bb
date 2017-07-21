@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/octomap-release/archive/release/lunar/dyna
 
 SRC_URI[md5sum] = "96b48ac3861456a54334483bb3a4ca63"
 SRC_URI[sha256sum] = "49d82aa634d7f1c95335fab2b88678bc45e53a8f2972679d955494cac52ca500"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/octomap-release-release-lunar-dynamic_edt_3d-1.9.0-0"
 
 inherit catkin

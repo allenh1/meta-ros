@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/convex_decomposition-release/archive/relea
 
 SRC_URI[md5sum] = "bc937b26e67b63ec4af37ebdd17172b7"
 SRC_URI[sha256sum] = "e556a6673f9bfa83ba4b7a6ee9a46adb0a339497879da49a371b369417fe9276"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/convex_decomposition-release-release-lunar-convex_decomposition-0.1.11-0"
 
 inherit catkin

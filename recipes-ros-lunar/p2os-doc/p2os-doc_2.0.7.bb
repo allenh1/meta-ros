@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/allenh1/p2os-release/archive/release/lunar/p2os_do
 
 SRC_URI[md5sum] = "da6bd60ace87e108b1b609b3c5cfb5ac"
 SRC_URI[sha256sum] = "adc0ef289f147e3c41bbc7fb0c79550d804bcad2d0c22da018bfb4a84e0b9a11"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/p2os-release-release-lunar-p2os_doc-2.0.7-0"
 
 inherit catkin

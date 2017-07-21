@@ -7,11 +7,11 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "boost catkin pkg-config yaml-cpp"
+DEPENDS = "boost catkin pkgconfig yaml-cpp"
 SRC_URI = "https://github.com/swri-robotics-gbp/marti_common-release/archive/release/lunar/swri_yaml_util/0.3.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "183a762056db545f269f37fc4da7df0c"
 SRC_URI[sha256sum] = "c65cbd443e83574a87d7291dcbddeb410610bc79e9a8153508618ae904e8e1ad"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/marti_common-release-release-lunar-swri_yaml_util-0.3.0-0"
 
 inherit catkin

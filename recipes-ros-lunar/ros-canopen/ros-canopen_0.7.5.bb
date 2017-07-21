@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-industrial-release/ros_canopen-release/archive
 
 SRC_URI[md5sum] = "53277d59f33a8b8ebf68b97e650897df"
 SRC_URI[sha256sum] = "30b0f0a2fe65f4ea93b956964587a145f24e43b332539110801978763c45137e"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/ros_canopen-release-release-lunar-ros_canopen-0.7.5-0"
 
 inherit catkin

@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/kdl_parser-release/archive/release/lunar/k
 
 SRC_URI[md5sum] = "27b76dce240fcc608ab5e978b1f3bcc6"
 SRC_URI[sha256sum] = "4ded36fc779e90a96dadbc28800ba9bf0c858945fcd6fb33d717682c342ed25d"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/kdl_parser-release-release-lunar-kdl_parser_py-1.12.10-0"
 
 inherit catkin

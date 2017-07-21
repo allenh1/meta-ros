@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/robot_model-release/archive/release/lunar/
 
 SRC_URI[md5sum] = "9277c581f5136366c1302186a15f5c9d"
 SRC_URI[sha256sum] = "2011e80de9e6c4e5567b726604e4cf274f184d2061bfc8e386c8ee0e70746a50"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/robot_model-release-release-lunar-urdf_parser_plugin-1.12.11-0"
 
 inherit catkin

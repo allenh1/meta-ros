@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/image_transport_plugins-release/archive/re
 
 SRC_URI[md5sum] = "2e05af164645c1f907ee51eef020fe46"
 SRC_URI[sha256sum] = "f3a0b2741eae0196173162705d442e4d6715c0ba544335e8e9c90cab74cffcac"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/image_transport_plugins-release-release-lunar-theora_image_transport-1.9.5-0"
 
 inherit catkin

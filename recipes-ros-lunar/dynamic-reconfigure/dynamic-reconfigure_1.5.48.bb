@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/dynamic_reconfigure-release/archive/releas
 
 SRC_URI[md5sum] = "3658703b5bd3cc7aa3fefeeeaaafd959"
 SRC_URI[sha256sum] = "1236a1919fa4b2724b780399732d455897a60ab11c9d20aa3e05dfa33f546b29"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/dynamic_reconfigure-release-release-lunar-dynamic_reconfigure-1.5.48-0"
 
 inherit catkin

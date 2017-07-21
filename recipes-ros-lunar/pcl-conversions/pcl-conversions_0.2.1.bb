@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/pcl_conversions-release/archive/release/lu
 
 SRC_URI[md5sum] = "11e508e87e700ae9d924c2f736a64939"
 SRC_URI[sha256sum] = "6497bedee6e6aa9da2c48458e17a7e47755f75802493598b02fcb42da2006b8d"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/pcl_conversions-release-release-lunar-pcl_conversions-0.2.1-0"
 
 inherit catkin

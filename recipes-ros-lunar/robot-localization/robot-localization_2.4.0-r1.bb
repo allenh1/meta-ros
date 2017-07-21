@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/cra-ros-pkg/robot_localization-release/archive/rel
 
 SRC_URI[md5sum] = "367cacc7deac104844d5e6f821a0a959"
 SRC_URI[sha256sum] = "ce8d593d3e04663e92cf713f6bf2c908bb7305109a3aef90fe4d350a40388d0e"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/robot_localization-release-release-lunar-robot_localization-2.4.0-1"
 
 inherit catkin

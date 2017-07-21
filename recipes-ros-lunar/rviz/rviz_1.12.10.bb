@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/rviz-release/archive/release/lunar/rviz/1.
 
 SRC_URI[md5sum] = "84e6fd4223ca9e56f44ed709aa0010a2"
 SRC_URI[sha256sum] = "6505a6d518592469d22e2d1b800d85b2f2fa17acfcbc4b048295425e8d480beb"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/rviz-release-release-lunar-rviz-1.12.10-0"
 
 inherit catkin

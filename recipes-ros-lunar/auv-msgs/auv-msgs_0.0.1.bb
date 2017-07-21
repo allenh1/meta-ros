@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/oceansystemslab/auv_msgs-release/archive/release/l
 
 SRC_URI[md5sum] = "e037a7998c06d5be63563072ddfd1cc0"
 SRC_URI[sha256sum] = "b2f400971dce22133722a0b5a6d0615659823e921d0f011de22ee32e1bea5b26"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/auv_msgs-release-release-lunar-auv_msgs-0.0.1-0"
 
 inherit catkin

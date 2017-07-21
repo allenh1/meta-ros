@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/realtime_tools-release/archive/release/lun
 
 SRC_URI[md5sum] = "59e95d3530d4e06e4f90cf4ab3d9c499"
 SRC_URI[sha256sum] = "08cf2961a536dd3f94057c1f632d035653103bddea05fbe445b4f514f0c14fd1"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/realtime_tools-release-release-lunar-realtime_tools-1.10.0-0"
 
 inherit catkin

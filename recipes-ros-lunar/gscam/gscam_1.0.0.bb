@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-drivers-gbp/gscam-release/archive/release/luna
 
 SRC_URI[md5sum] = "0645b1d3fbad05b5d249a40368da7ff1"
 SRC_URI[sha256sum] = "5aae479a2334ccee471588645fa40d6e870e6eaceb66cd6ca89b547e694e76e4"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/gscam-release-release-lunar-gscam-1.0.0-0"
 
 inherit catkin

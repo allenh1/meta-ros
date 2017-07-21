@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/openni_camera-release/archive/release/luna
 
 SRC_URI[md5sum] = "32e103ff8d0e5f57d074fddb984b259b"
 SRC_URI[sha256sum] = "018b6fdd13d35fd40980450a9aef83267eeeabb9392849b2144f90ca7df6fae7"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/openni_camera-release-release-lunar-openni_camera-1.9.5-0"
 
 inherit catkin

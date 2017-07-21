@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/davetcoleman/moveit_visual_tools-release/archive/r
 
 SRC_URI[md5sum] = "846c07f69c5fc206670c0361ff212332"
 SRC_URI[sha256sum] = "92e377ec2867296230cb12276bcace5288a106c5034b59925a9e81933d876104"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/moveit_visual_tools-release-release-lunar-moveit_visual_tools-3.3.0-0"
 
 inherit catkin

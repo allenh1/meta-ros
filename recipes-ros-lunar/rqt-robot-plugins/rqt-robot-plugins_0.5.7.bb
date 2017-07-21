@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/rqt_robot_plugins-release/archive/release/
 
 SRC_URI[md5sum] = "24bbeaeeef9da41762e61a499e97cc9c"
 SRC_URI[sha256sum] = "2cc4236785fb1505100ed002d2a0da502d70e4b543f6d9e568badd2f160a5f10"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/rqt_robot_plugins-release-release-lunar-rqt_robot_plugins-0.5.7-0"
 
 inherit catkin

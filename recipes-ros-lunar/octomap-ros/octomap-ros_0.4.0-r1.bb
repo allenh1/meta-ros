@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/octomap_ros-release/archive/release/lunar/
 
 SRC_URI[md5sum] = "c962c5e06dcc507ebc81f94097bd8493"
 SRC_URI[sha256sum] = "edd2478dd7ef3cae39781cd2d8671b1b30d5f5d86bd001f54bd308d093d9541e"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/octomap_ros-release-release-lunar-octomap_ros-0.4.0-1"
 
 inherit catkin

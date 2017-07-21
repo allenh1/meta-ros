@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-drivers-gbp/libfreenect-ros-release/archive/re
 
 SRC_URI[md5sum] = "be711f22897070ad071c9aa71193cd20"
 SRC_URI[sha256sum] = "17c4ff968d8fae448ad1611859ea8663d63d6213c575720be5d307447fab6288"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/libfreenect-ros-release-release-lunar-libfreenect-0.5.1-0"
 
 inherit catkin

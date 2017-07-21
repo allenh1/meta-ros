@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/xacro-release/archive/release/lunar/xacro/
 
 SRC_URI[md5sum] = "a1ab44ac8131cbea3d80ed758fbcaeaa"
 SRC_URI[sha256sum] = "c1d072e08302cf630e01cdabd24af1cc219b44987466078e005deff44876e255"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/xacro-release-release-lunar-xacro-1.12.0-1"
 
 inherit catkin

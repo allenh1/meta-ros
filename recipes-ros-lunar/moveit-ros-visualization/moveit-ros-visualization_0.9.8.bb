@@ -7,11 +7,11 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=23f8de2430b349800266ded71351769e"
 
-DEPENDS = "catkin eigen geometric-shapes interactive-markers moveit-ros-perception moveit-ros-planning-interface moveit-ros-robot-interaction moveit-ros-warehouse object-recognition-msgs pkg-config pluginlib roscpp rospy rviz"
+DEPENDS = "catkin eigen geometric-shapes interactive-markers moveit-ros-perception moveit-ros-planning-interface moveit-ros-robot-interaction moveit-ros-warehouse object-recognition-msgs pkgconfig pluginlib roscpp rospy rviz"
 SRC_URI = "https://github.com/ros-gbp/moveit-release/archive/release/lunar/moveit_ros_visualization/0.9.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "2df0d881cf59273d3a9d2adeaacb8bd6"
 SRC_URI[sha256sum] = "547c0e37c967e566887a5e61e626bb58de62fdc084d32ac0473e0a172dba1758"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/moveit-release-release-lunar-moveit_ros_visualization-0.9.8-0"
 
 inherit catkin

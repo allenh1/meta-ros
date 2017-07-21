@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/ros_tutorials-release/archive/release/luna
 
 SRC_URI[md5sum] = "a894caa50f0d5a5bf4a6ba401800235f"
 SRC_URI[sha256sum] = "ae0502f33573619603b38534231d4155fb089a6f76b412f61b3f72e0ecf4320e"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/ros_tutorials-release-release-lunar-turtlesim-0.8.0-0"
 
 inherit catkin

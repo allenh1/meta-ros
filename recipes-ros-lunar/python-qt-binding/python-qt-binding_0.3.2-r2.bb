@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/python_qt_binding-release/archive/release/
 
 SRC_URI[md5sum] = "806c1303948b052f9afc2d7d20e3e69d"
 SRC_URI[sha256sum] = "78800a55021386a39c7bee70a89f5d88b9a45fec276720cf81509839acf3ed41"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/python_qt_binding-release-release-lunar-python_qt_binding-0.3.2-2"
 
 inherit catkin

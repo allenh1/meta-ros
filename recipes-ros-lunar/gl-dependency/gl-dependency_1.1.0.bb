@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/gl_dependency-release/archive/release/luna
 
 SRC_URI[md5sum] = "d7975e56a736dd87bd1c4fd58776b1a9"
 SRC_URI[sha256sum] = "0c78dcf34e3c49635238b3bec4becaa4d1ddc2469d90adab63929373f6a50428"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/gl_dependency-release-release-lunar-gl_dependency-1.1.0-0"
 
 inherit catkin

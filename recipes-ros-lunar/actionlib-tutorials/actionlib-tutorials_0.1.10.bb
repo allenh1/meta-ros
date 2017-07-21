@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/common_tutorials-release/archive/release/l
 
 SRC_URI[md5sum] = "c62eb2b3ec9265ca6e79ba90fce76317"
 SRC_URI[sha256sum] = "3b060785dae27b5af99636cfebe5f72b91ac9a98ab2e2dec977378fbc6ccf4c1"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/common_tutorials-release-release-lunar-actionlib_tutorials-0.1.10-0"
 
 inherit catkin

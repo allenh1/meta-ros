@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-drivers-gbp/libuvc_ros-release/archive/release
 
 SRC_URI[md5sum] = "96dc5c87dbc1f9105660c0902ed7ef85"
 SRC_URI[sha256sum] = "31ee066fb3d90432de4b83fc0d7996625a063193eb4eb1e0112fb8e05b7886c8"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/libuvc_ros-release-release-lunar-libuvc_camera-0.0.9-0"
 
 inherit catkin

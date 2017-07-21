@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/swri-robotics-gbp/gps_umd-release/archive/release/
 
 SRC_URI[md5sum] = "98a9b0a9b7595262fb8c6ca9e678001d"
 SRC_URI[sha256sum] = "a1f05fd77ae83587aeec82893b3e517cf036776478293ebed6200fefc4f4d3f4"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/gps_umd-release-release-lunar-gps_common-0.1.9-0"
 
 inherit catkin

@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/ros_controllers-release/archive/release/lu
 
 SRC_URI[md5sum] = "b317b07d3f22fd462189aeff1aa46c88"
 SRC_URI[sha256sum] = "9439016639fd6bec926a6054d1cf2cecff4223a7906db693fcad5e98bbc5abb0"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/ros_controllers-release-release-lunar-diff_drive_controller-0.12.3-0"
 
 inherit catkin

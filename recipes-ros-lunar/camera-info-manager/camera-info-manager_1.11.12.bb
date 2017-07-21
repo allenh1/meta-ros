@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/image_common-release/archive/release/lunar
 
 SRC_URI[md5sum] = "c22fcb009858c0943a3d37a3153189e3"
 SRC_URI[sha256sum] = "831e8a8c0f17a2313d2f426524578aee16d578b2f9bfbe061c306e80b0633023"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/image_common-release-release-lunar-camera_info_manager-1.11.12-0"
 
 inherit catkin

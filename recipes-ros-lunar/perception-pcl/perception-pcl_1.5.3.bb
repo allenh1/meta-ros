@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/perception_pcl-release/archive/release/lun
 
 SRC_URI[md5sum] = "a0ded8cbf2cb947ae10c49cc9ec0a863"
 SRC_URI[sha256sum] = "1e92abd8ae7005d0b5d3625565f97ed2403ffac2dc9332f1835918e6b81e65d2"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/perception_pcl-release-release-lunar-perception_pcl-1.5.3-0"
 
 inherit catkin

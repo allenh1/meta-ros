@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/uos-gbp/sick_tim-release/archive/release/lunar/sic
 
 SRC_URI[md5sum] = "2c300a69e414733a12979a640197f905"
 SRC_URI[sha256sum] = "92fd33517938e4fbde7d05bc93eeb3546970016c29889c16698c605b9095b6aa"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/sick_tim-release-release-lunar-sick_tim-0.0.10-0"
 
 inherit catkin

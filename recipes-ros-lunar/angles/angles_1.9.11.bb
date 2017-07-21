@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/geometry_angles_utils-release/archive/rele
 
 SRC_URI[md5sum] = "7defdab86e662fac81aca7605ccfea7e"
 SRC_URI[sha256sum] = "e8deedc60c1f06c276cc1cd26017bdb4a651ff60f2a542584d28f8d493f02cea"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/geometry_angles_utils-release-release-lunar-angles-1.9.11-0"
 
 inherit catkin

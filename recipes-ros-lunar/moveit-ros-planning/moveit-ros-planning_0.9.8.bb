@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/moveit-release/archive/release/lunar/movei
 
 SRC_URI[md5sum] = "4aa139cb1d1ca0b28699a4d6732768c6"
 SRC_URI[sha256sum] = "cfe28f6b87238ab0d79fce2392f1d8aa472cbe2eb45a09a54f1a3f253eb81f38"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/moveit-release-release-lunar-moveit_ros_planning-0.9.8-0"
 
 inherit catkin

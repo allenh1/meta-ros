@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/RethinkRobotics-release/gennodejs-release/archive/
 
 SRC_URI[md5sum] = "84113f3bfdd22060393c455bc818df8f"
 SRC_URI[sha256sum] = "66a15f5a929b7792aa1237c1afaba0dbde8fd2808a207c4e85d5f3e3b51397a5"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/gennodejs-release-release-lunar-gennodejs-2.0.1-0"
 
 inherit catkin

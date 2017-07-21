@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/rqt_image_view-release/archive/release/lun
 
 SRC_URI[md5sum] = "d341b8cd6eb999191b82f254711c6af3"
 SRC_URI[sha256sum] = "ac5f1281c3422079ef7d11362934ae418820a1be33250b0a5f48fd46ea9529b4"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/rqt_image_view-release-release-lunar-rqt_image_view-0.4.8-0"
 
 inherit catkin

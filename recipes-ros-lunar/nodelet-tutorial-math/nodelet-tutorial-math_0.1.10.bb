@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/common_tutorials-release/archive/release/l
 
 SRC_URI[md5sum] = "d2a4a075bb4d626728f4c23c9f4ca364"
 SRC_URI[sha256sum] = "2e96b82fe71ce0a9c419f13da0efd38018f146e04f9448d3f5ab23252352895a"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/common_tutorials-release-release-lunar-nodelet_tutorial_math-0.1.10-0"
 
 inherit catkin

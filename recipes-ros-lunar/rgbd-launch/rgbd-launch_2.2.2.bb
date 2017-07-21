@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/rgbd_launch-release/archive/release/lunar/
 
 SRC_URI[md5sum] = "8c4a4ad0bccd0910e13566705cf298a0"
 SRC_URI[sha256sum] = "ed26e8037787008bfc0746ff88ec9954f3afd58de9a35bb33585c2afc18a095f"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/rgbd_launch-release-release-lunar-rgbd_launch-2.2.2-0"
 
 inherit catkin

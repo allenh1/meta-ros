@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/vision_opencv-release/archive/release/luna
 
 SRC_URI[md5sum] = "4ce5501b0dae9f4efbc87fefa7fc566f"
 SRC_URI[sha256sum] = "e4640ef69d7bb912649ed7986fca3aabb093ead1d3736a7a4a58d0340ec696ea"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/vision_opencv-release-release-lunar-cv_bridge-1.12.4-0"
 
 inherit catkin

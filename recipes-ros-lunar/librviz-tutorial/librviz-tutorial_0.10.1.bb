@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/visualization_tutorials-release/archive/re
 
 SRC_URI[md5sum] = "eb9bf01b5b315120bb9ae118e710aba3"
 SRC_URI[sha256sum] = "eadb053a95d02a96395e72601da9aaaee102792e176f4436cd6d300e7e231212"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/visualization_tutorials-release-release-lunar-librviz_tutorial-0.10.1-0"
 
 inherit catkin

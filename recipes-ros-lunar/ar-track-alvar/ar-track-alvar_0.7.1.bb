@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/ar_track_alvar-release/archive/release/lun
 
 SRC_URI[md5sum] = "312e5236aa915958300193c05670cee8"
 SRC_URI[sha256sum] = "d2700ee96bcf3a7fcdc90ed098e8724cd1a01bf3ec973782f3c8ee7d5294b9b2"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/ar_track_alvar-release-release-lunar-ar_track_alvar-0.7.1-0"
 
 inherit catkin

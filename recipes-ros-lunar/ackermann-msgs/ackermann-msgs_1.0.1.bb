@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-drivers-gbp/ackermann_msgs-release/archive/rel
 
 SRC_URI[md5sum] = "f5ea5b7da256fa43368bc83815e7615e"
 SRC_URI[sha256sum] = "8b8598ad6531461ad8f7e352a64277c94dbc0a243ecd14f5c6fe1723554af40b"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/ackermann_msgs-release-release-lunar-ackermann_msgs-1.0.1-0"
 
 inherit catkin

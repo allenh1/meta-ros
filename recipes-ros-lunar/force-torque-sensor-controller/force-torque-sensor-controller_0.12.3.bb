@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/ros_controllers-release/archive/release/lu
 
 SRC_URI[md5sum] = "3fefbe4d3fca054171012c0526dcfe8b"
 SRC_URI[sha256sum] = "00a0777c1f3d481db3d3383cc218901cf096fd6e31944863ce0c2ebac8010128"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/ros_controllers-release-release-lunar-force_torque_sensor_controller-0.12.3-0"
 
 inherit catkin

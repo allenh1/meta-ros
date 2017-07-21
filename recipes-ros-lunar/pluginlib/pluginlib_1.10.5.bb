@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/pluginlib-release/archive/release/lunar/pl
 
 SRC_URI[md5sum] = "7b42817fee923ffdad967b6027cacece"
 SRC_URI[sha256sum] = "52757ac820e93b77a2151428c44099b7b0a995d7e1480a99105679e944f83daa"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/pluginlib-release-release-lunar-pluginlib-1.10.5-0"
 
 inherit catkin

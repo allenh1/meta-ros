@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/qt_gui_core-release/archive/release/lunar/
 
 SRC_URI[md5sum] = "e585de034d57f6b112f5b892eb180aa7"
 SRC_URI[sha256sum] = "11bfceb743a910ca79dce0886772193e3c71949b3d0de768920a33fea0a2d72f"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/qt_gui_core-release-release-lunar-qt_gui_app-0.3.4-2"
 
 inherit catkin

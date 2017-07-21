@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/rqt_tf_tree-release/archive/release/lunar/
 
 SRC_URI[md5sum] = "d793f5a47c0882de0ef37efd6b628e8a"
 SRC_URI[sha256sum] = "c1e5d340c5f745c9fa2d25f2d98b51eb08b0087180e6934dc7db63da36f53591"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/rqt_tf_tree-release-release-lunar-rqt_tf_tree-0.5.7-0"
 
 inherit catkin

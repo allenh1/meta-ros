@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/facontidavide/ros_type_introspection-release/archi
 
 SRC_URI[md5sum] = "7d00d2524ed164d9958332dcab74a45a"
 SRC_URI[sha256sum] = "54906abc8291fc9543a4dce67f1684219e590e867b94899f24a658eea7de226c"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/ros_type_introspection-release-release-lunar-ros_type_introspection-0.6.3-0"
 
 inherit catkin

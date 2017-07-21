@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/swri-robotics-gbp/swri_console-release/archive/rel
 
 SRC_URI[md5sum] = "febc2cadcb5775fdb55bde60369cbed4"
 SRC_URI[sha256sum] = "5f57fc96e5e39a97127d73494b4bb761022bf883700bf0257ceac988c9f92f51"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/swri_console-release-release-lunar-swri_console-1.0.0-0"
 
 inherit catkin

@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/pr2_common-release/archive/release/lunar/p
 
 SRC_URI[md5sum] = "cf34c2316c4f1083d3404f82db46a9ea"
 SRC_URI[sha256sum] = "f537138be876c11a25d4dc3515a6db2a79f663f1bddeda7e0980171142996005"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/pr2_common-release-release-lunar-pr2_dashboard_aggregator-1.12.0-0"
 
 inherit catkin

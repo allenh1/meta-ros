@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/navigation-release/archive/release/lunar/v
 
 SRC_URI[md5sum] = "348d12521583cf0b5738db439e1ce0c3"
 SRC_URI[sha256sum] = "a8361b02adf1c5f8948ad92e24cbd2bd3ab3de3f391905a4f670f7a48d4da552"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/navigation-release-release-lunar-voxel_grid-1.14.0-0"
 
 inherit catkin

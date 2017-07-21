@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/collada_urdf-release/archive/release/lunar
 
 SRC_URI[md5sum] = "7cecab9e6794bf4137dbe5edfb52a1c4"
 SRC_URI[sha256sum] = "1942ac13908a30ab9db831f4fc57b7f463c0ac4617f77183a740e036392a0200"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/collada_urdf-release-release-lunar-collada_urdf-1.12.10-2"
 
 inherit catkin

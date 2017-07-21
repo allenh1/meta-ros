@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/webkit_dependency-release/archive/release/
 
 SRC_URI[md5sum] = "211fbb5f64492bfd7c25a73ee079d74c"
 SRC_URI[sha256sum] = "c7cc33a438e32df0598628be3bf1c96c6011819706c23132f5ddebc591da90cb"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/webkit_dependency-release-release-lunar-webkit_dependency-1.1.0-0"
 
 inherit catkin

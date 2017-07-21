@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/libg2o-release/archive/release/lunar/libg2
 
 SRC_URI[md5sum] = "b6efda91b27c1d9186e104ad41862044"
 SRC_URI[sha256sum] = "9364f946e8412b3f6b45b91bfd05563616ee6fc37fb22e8c31970495f0e108ce"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/libg2o-release-release-lunar-libg2o-2017.4.2-1"
 
 inherit catkin

@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/geometry2-release/archive/release/lunar/tf
 
 SRC_URI[md5sum] = "23341e9d78cdf6396d3e3413eaa3e5fc"
 SRC_URI[sha256sum] = "b391aa086528e0b2184243cbc158d32423593d9bb180d94cce070d1cec1ae88d"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/geometry2-release-release-lunar-tf2_geometry_msgs-0.5.16-0"
 
 inherit catkin

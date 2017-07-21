@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/nodelet_core-release/archive/release/lunar
 
 SRC_URI[md5sum] = "c35cd161ae979c367697f8763064dad0"
 SRC_URI[sha256sum] = "13754aa4ae5eb8da4bd8dffe683e1f3f26199a003f2c7deeb2107f0dbe45d48a"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/nodelet_core-release-release-lunar-nodelet-1.9.10-0"
 
 inherit catkin

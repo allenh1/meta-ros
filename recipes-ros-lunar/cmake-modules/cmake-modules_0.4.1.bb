@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/cmake_modules-release/archive/release/luna
 
 SRC_URI[md5sum] = "46c3d211228a539fc082a348d0e5c2da"
 SRC_URI[sha256sum] = "d3a0413c27e7f13ec4c6d1b3c863850affa33ccee370b5f07937ae3aef177324"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/cmake_modules-release-release-lunar-cmake_modules-0.4.1-0"
 
 inherit catkin

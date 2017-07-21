@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/gazebo_ros_pkgs-release/archive/release/lu
 
 SRC_URI[md5sum] = "9e3a7f941d1d292382e220c2fcdbf643"
 SRC_URI[sha256sum] = "7ce6a96c5596eea0bdd8373be6f8d0fcb6a035d2c828bed60a8519aad0d4e91f"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/gazebo_ros_pkgs-release-release-lunar-gazebo_ros-2.7.2-0"
 
 inherit catkin

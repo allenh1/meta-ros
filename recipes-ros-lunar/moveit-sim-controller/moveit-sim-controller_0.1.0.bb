@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/davetcoleman/moveit_sim_controller-release/archive
 
 SRC_URI[md5sum] = "e47a00d8ff76144c3b155cb1e83c9367"
 SRC_URI[sha256sum] = "3e9a2912db06295e56f371319799553d965fb92367cd10620a8d41a6b61545f6"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/moveit_sim_controller-release-release-lunar-moveit_sim_controller-0.1.0-0"
 
 inherit catkin

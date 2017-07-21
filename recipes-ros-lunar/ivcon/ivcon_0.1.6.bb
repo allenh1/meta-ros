@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/ivcon-release/archive/release/lunar/ivcon/
 
 SRC_URI[md5sum] = "9862f46f4506ebcf804073506b7b2fec"
 SRC_URI[sha256sum] = "c436ad21c51e1b812f4b2466603b8f7ba407ac2b8b633486a5e95de5eb81dfc4"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/ivcon-release-release-lunar-ivcon-0.1.6-0"
 
 inherit catkin

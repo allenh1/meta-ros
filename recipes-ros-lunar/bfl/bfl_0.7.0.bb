@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/bfl-release/archive/release/lunar/bfl/0.7.
 
 SRC_URI[md5sum] = "844982693c5cdc156b5d0a490baea419"
 SRC_URI[sha256sum] = "02930745a24727863d41f471795e56c9ec24ef4303430d8b7e92a42cdbddfa0b"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/bfl-release-release-lunar-bfl-0.7.0-0"
 
 inherit catkin

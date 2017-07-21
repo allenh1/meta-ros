@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/uos-gbp/katana_driver-release/archive/release/luna
 
 SRC_URI[md5sum] = "ab49264d04b4b1e512b6f72f5539cfd3"
 SRC_URI[sha256sum] = "5dd72fdc44c07639929611f227bc8b9b6096d168b03eac63acb7f085ca46830f"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/katana_driver-release-release-lunar-katana_arm_gazebo-1.1.2-0"
 
 inherit catkin

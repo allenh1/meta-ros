@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/eigen_stl_containers-release/archive/relea
 
 SRC_URI[md5sum] = "a023d62aac3633581f87c6ef6b3897d6"
 SRC_URI[sha256sum] = "872b50caa628406f06a55006a7f3f646cd5910b9ea1c613c877aab8b868a926b"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/eigen_stl_containers-release-release-lunar-eigen_stl_containers-0.1.8-0"
 
 inherit catkin

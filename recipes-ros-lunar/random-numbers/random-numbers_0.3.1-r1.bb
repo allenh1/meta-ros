@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/random_numbers-release/archive/release/lun
 
 SRC_URI[md5sum] = "564105d4b53597f358cc80c31bfec829"
 SRC_URI[sha256sum] = "509845f46f8d131433413130dc704c31e64353dfcf77afe9e89f9849caf19910"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/random_numbers-release-release-lunar-random_numbers-0.3.1-1"
 
 inherit catkin

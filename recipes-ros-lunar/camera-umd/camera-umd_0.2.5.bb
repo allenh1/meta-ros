@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-drivers-gbp/camera_umd-release/archive/release
 
 SRC_URI[md5sum] = "b37d18a89e71fe43bc0b38e756fabf36"
 SRC_URI[sha256sum] = "8ade9df169b4e6bad5801fbe525fe47312e8f7bdf92fc386293114c05ed2ffa7"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/camera_umd-release-release-lunar-camera_umd-0.2.5-0"
 
 inherit catkin

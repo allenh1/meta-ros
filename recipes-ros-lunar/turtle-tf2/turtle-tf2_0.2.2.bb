@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/geometry_tutorials-release/archive/release
 
 SRC_URI[md5sum] = "13f5e952ddc65b4f4f9d3261d8e443ea"
 SRC_URI[sha256sum] = "8aaeb265ec96b205f8c360cfefd2f4a2690fceb892f9128b3a1b95dab9ffee6c"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/geometry_tutorials-release-release-lunar-turtle_tf2-0.2.2-0"
 
 inherit catkin

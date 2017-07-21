@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/smits/orocos-kdl-release/archive/release/lunar/pyt
 
 SRC_URI[md5sum] = "ec4a4a40cf96ca83ae8534d99bdf14b1"
 SRC_URI[sha256sum] = "f0fe342a7974c934bfb70e29f4a2a6d1e310ee81611734892533afa240b18422"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/orocos-kdl-release-release-lunar-python_orocos_kdl-1.3.1-0"
 
 inherit catkin

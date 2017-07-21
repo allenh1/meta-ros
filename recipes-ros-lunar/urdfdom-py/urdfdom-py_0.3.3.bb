@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/urdfdom_py-release/archive/release/lunar/u
 
 SRC_URI[md5sum] = "4a673d22a39890c2f6a3bd9fc29d151c"
 SRC_URI[sha256sum] = "496915ba03e4fc8a9e0f31f3af016e20f325f53e38ef13df083b4fef5deeaa46"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/urdfdom_py-release-release-lunar-urdfdom_py-0.3.3-0"
 
 inherit catkin

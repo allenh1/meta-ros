@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-drivers-gbp/phidgets_drivers-release/archive/r
 
 SRC_URI[md5sum] = "191c264f300388ea23aec13b32a3f796"
 SRC_URI[sha256sum] = "565ddb712bdb5aa9d22c8002f2078732b43dcc2052358487c9d77ad2456152d8"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/phidgets_drivers-release-release-lunar-phidgets_drivers-0.7.3-0"
 
 inherit catkin

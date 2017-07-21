@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/davetcoleman/graph_msgs-release/archive/release/lu
 
 SRC_URI[md5sum] = "9174bb7d413dfc104107d951e8dad19c"
 SRC_URI[sha256sum] = "599d1b5ec0878c8c7153be8e5fcbd0a1503631a13b2f5b02469c4a5da60c49ec"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/graph_msgs-release-release-lunar-graph_msgs-0.1.0-0"
 
 inherit catkin

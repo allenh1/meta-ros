@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/mavlink/mavros-release/archive/release/lunar/mavro
 
 SRC_URI[md5sum] = "433aba33d6ad0e9b1eecba2abf705b18"
 SRC_URI[sha256sum] = "cd746061bc94ebb925b04399923a9c7796aa0f87047388baf4642a0b88bc94f7"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/mavros-release-release-lunar-mavros-0.19.0-0"
 
 inherit catkin

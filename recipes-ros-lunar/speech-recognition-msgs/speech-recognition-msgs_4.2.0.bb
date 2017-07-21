@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/tork-a/jsk_common_msgs-release/archive/release/lun
 
 SRC_URI[md5sum] = "341c2c60c8619c474da230b9083d19fb"
 SRC_URI[sha256sum] = "6b12d1093ef19ad69e01672ab2583e385669843910098a8d19aaa710d2e3fabc"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/jsk_common_msgs-release-release-lunar-speech_recognition_msgs-4.2.0-0"
 
 inherit catkin

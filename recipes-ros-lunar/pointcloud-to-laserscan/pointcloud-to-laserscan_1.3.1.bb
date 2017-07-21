@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/pointcloud_to_laserscan-release/archive/re
 
 SRC_URI[md5sum] = "07580aaebe0a7d0f92c880e87720b781"
 SRC_URI[sha256sum] = "f707c68cfda4d2110123b40ebf7d03df1c03e86561394544641194c0050205b1"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/pointcloud_to_laserscan-release-release-lunar-pointcloud_to_laserscan-1.3.1-0"
 
 inherit catkin

@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/gt-rail-release/rosauth-release/archive/release/lu
 
 SRC_URI[md5sum] = "624415206c00cd8c143544ec58a2c300"
 SRC_URI[sha256sum] = "0c2006073c736b085a2e083c9ce1112c36b7f9dc07a684c3fa6beba028d09422"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/rosauth-release-release-lunar-rosauth-0.1.7-2"
 
 inherit catkin

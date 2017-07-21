@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/control_toolbox-release/archive/release/lu
 
 SRC_URI[md5sum] = "5486f09e0d51f1aa14b9b1853d15cce0"
 SRC_URI[sha256sum] = "f70698efc16544dd14861f5782efe48c47cc2dc98329ba20defa3df508ba0846"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/control_toolbox-release-release-lunar-control_toolbox-1.15.0-0"
 
 inherit catkin

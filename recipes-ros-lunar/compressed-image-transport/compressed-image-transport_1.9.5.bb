@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/image_transport_plugins-release/archive/re
 
 SRC_URI[md5sum] = "7ff2007258c96582cdc6076eccaccc16"
 SRC_URI[sha256sum] = "e8dc9d78bd1033f1d3bd3ed1ba52ebdbb5daa4eed211db1b0bdcf949fd48ac09"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/image_transport_plugins-release-release-lunar-compressed_image_transport-1.9.5-0"
 
 inherit catkin

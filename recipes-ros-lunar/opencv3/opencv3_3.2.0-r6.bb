@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/opencv3-release/archive/release/lunar/open
 
 SRC_URI[md5sum] = "8c47d02d9301b4ae60acee24bcbb9301"
 SRC_URI[sha256sum] = "9d84a39c982e6e7e011cf12ddb6962117dcd07e0a9ab5a5ddd096c4d5aeded29"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/opencv3-release-release-lunar-opencv3-3.2.0-6"
 
 inherit catkin

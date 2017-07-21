@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/iot_bridge-release/archive/release/lunar/i
 
 SRC_URI[md5sum] = "9399097447739ab9e74e4f132bb8b2db"
 SRC_URI[sha256sum] = "9e293064bf23b991adadca2795c3bcd32e14faa210bb45e2852d6337d2cac1de"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/iot_bridge-release-release-lunar-iot_bridge-0.9.0-0"
 
 inherit catkin

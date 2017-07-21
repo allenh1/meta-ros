@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/genlisp-release/archive/release/lunar/genl
 
 SRC_URI[md5sum] = "9f0c659e3cd83548cff404c1f653da7c"
 SRC_URI[sha256sum] = "fcdf39b4e33e069f64dc09d655210c1da26ed2fe5de41f6d54a5ccb0ec0673a2"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/genlisp-release-release-lunar-genlisp-0.4.16-0"
 
 inherit catkin

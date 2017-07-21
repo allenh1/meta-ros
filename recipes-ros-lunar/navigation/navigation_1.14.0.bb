@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/navigation-release/archive/release/lunar/n
 
 SRC_URI[md5sum] = "3956d4679c67f19bc8c37bd15158ee3e"
 SRC_URI[sha256sum] = "dafd58738b4ea0db8d2db977b36255f9c08e469220ac75c2d2d4312314ea54ae"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/navigation-release-release-lunar-navigation-1.14.0-0"
 
 inherit catkin

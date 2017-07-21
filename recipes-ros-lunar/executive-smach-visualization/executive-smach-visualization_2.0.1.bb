@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/jbohren/executive_smach_visualization-release/arch
 
 SRC_URI[md5sum] = "a79057a6a0224590e00cd5a2e6a8d489"
 SRC_URI[sha256sum] = "02ae7d0e490e103a263c9d551383327795678f0975fe712223f8699bfcd60c84"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/executive_smach_visualization-release-release-lunar-executive_smach_visualization-2.0.1-0"
 
 inherit catkin

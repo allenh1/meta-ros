@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/bond_core-release/archive/release/lunar/sm
 
 SRC_URI[md5sum] = "186714f0b17e07b3b344667aaab8b724"
 SRC_URI[sha256sum] = "1c122e2f2464ab5c0a114b2590bf0d88c77c829bfccb02d8973c0c6c1839856d"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/bond_core-release-release-lunar-smclib-1.7.19-0"
 
 inherit catkin

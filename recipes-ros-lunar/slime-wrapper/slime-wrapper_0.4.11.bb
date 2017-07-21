@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/code-iai-release/ros_emacs_utils-release/archive/r
 
 SRC_URI[md5sum] = "369b3581c8e28c49b089ea2b841e4ffd"
 SRC_URI[sha256sum] = "185e640dc0aa15c20b59211c7e597e993ae7b56a0608d88efee860de2be320b4"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/ros_emacs_utils-release-release-lunar-slime_wrapper-0.4.11-0"
 
 inherit catkin

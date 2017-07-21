@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/executive_smach-release/archive/release/lu
 
 SRC_URI[md5sum] = "562c1fbc6fa5863c08df79ed0e63014d"
 SRC_URI[sha256sum] = "7725cb005e7f08520fd64bbe78d441192bb1b7980ae85a7fa54dcd42f594f038"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/executive_smach-release-release-lunar-smach_ros-2.0.1-0"
 
 inherit catkin

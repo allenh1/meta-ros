@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/davetcoleman/cartesian_msgs-release/archive/releas
 
 SRC_URI[md5sum] = "b9a2c088b419a9226d7bd8fa128d752d"
 SRC_URI[sha256sum] = "af847e20e8951dfbac31ba73a2ed425c1c36791cd0ac83a8e89a3e78b76f36ae"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/cartesian_msgs-release-release-lunar-cartesian_msgs-0.0.3-0"
 
 inherit catkin

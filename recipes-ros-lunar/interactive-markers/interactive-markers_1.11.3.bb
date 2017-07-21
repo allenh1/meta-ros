@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/interactive_markers-release/archive/releas
 
 SRC_URI[md5sum] = "94b360e186dfae2894ecf9861da137b7"
 SRC_URI[sha256sum] = "4677f9092358bdf84a84748d6554b04a89a23adfdbc25672cb6d074f23058d50"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/interactive_markers-release-release-lunar-interactive_markers-1.11.3-0"
 
 inherit catkin

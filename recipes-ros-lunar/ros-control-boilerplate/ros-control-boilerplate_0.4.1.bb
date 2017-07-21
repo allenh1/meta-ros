@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/davetcoleman/ros_control_boilerplate-release/archi
 
 SRC_URI[md5sum] = "557ee03a5d65ac338279964acffb09f4"
 SRC_URI[sha256sum] = "2e4ef2732ef09d58c065892bc1cb875e29f1321426b3bcb2fe250b8184fcdf51"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/ros_control_boilerplate-release-release-lunar-ros_control_boilerplate-0.4.1-0"
 
 inherit catkin

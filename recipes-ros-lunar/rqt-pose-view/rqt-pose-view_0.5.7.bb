@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/rqt_pose_view-release/archive/release/luna
 
 SRC_URI[md5sum] = "995f9d8f75c8c4bfb156237c874962a0"
 SRC_URI[sha256sum] = "a12a33c6d515475fb095391f978aaa0b7f3256080874a4aac9eec990f4e0e268"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/rqt_pose_view-release-release-lunar-rqt_pose_view-0.5.7-0"
 
 inherit catkin

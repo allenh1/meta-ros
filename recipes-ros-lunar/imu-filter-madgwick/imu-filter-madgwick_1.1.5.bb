@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/uos-gbp/imu_tools-release/archive/release/lunar/im
 
 SRC_URI[md5sum] = "f77987c4d68505bdcdf1f4875145cd66"
 SRC_URI[sha256sum] = "6b12f5f97466cd420c9fe77b68266436dce1d2b8f4c3a12cc009bf1d250bc280"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/imu_tools-release-release-lunar-imu_filter_madgwick-1.1.5-0"
 
 inherit catkin

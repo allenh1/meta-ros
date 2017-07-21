@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/ros_controllers-release/archive/release/lu
 
 SRC_URI[md5sum] = "36d5fe4fd8b281d005b0b06c2829e186"
 SRC_URI[sha256sum] = "7523b5519d30d318d20103f4056a3833f66ac0228486fd39b7ec99617ea0ee33"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/ros_controllers-release-release-lunar-rqt_joint_trajectory_controller-0.12.3-0"
 
 inherit catkin

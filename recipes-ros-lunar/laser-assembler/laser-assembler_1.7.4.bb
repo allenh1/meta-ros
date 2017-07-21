@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/laser_assembler-release/archive/release/lu
 
 SRC_URI[md5sum] = "6ec90ec1ecade192b08143dbe4cdb454"
 SRC_URI[sha256sum] = "8caa3924c6a926d5baab4adeb575763012b8cd2f2dda456a8458b645afbf0930"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/laser_assembler-release-release-lunar-laser_assembler-1.7.4-0"
 
 inherit catkin

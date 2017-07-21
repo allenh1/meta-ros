@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/OTL/cv_camera-release/archive/release/lunar/cv_cam
 
 SRC_URI[md5sum] = "7dbe6c99fa86d1f4ac44cb8a3be45cb0"
 SRC_URI[sha256sum] = "4f7bc93befa19a82231fb3bcc09abc1e0f0e14ef22e12f28d38c10214e95b7d6"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/cv_camera-release-release-lunar-cv_camera-0.2.1-0"
 
 inherit catkin

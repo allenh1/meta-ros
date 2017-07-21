@@ -12,6 +12,6 @@ SRC_URI = "https://github.com/ros-gbp/ros_controllers-release/archive/release/lu
 
 SRC_URI[md5sum] = "72d3fe89ebbae7388894653422b4397d"
 SRC_URI[sha256sum] = "8e5b40d80cd8a1600d7e267a2cd69286d17cc8f5c62bc15c94d19fcee5322535"
-S = "${WORKDIR}/${ROS_SP}"
+S = "${WORKDIR}/ros_controllers-release-release-lunar-gripper_action_controller-0.12.3-0"
 
 inherit catkin

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d81febe1baeaed0bfd599be384185f36"
 
-DEPENDS = "catkin imu-complementary-filter imu-filter-madgwick rviz-imu-plugin"
+DEPENDS = "python-empy-native imu-complementary-filter imu-filter-madgwick rviz-imu-plugin"
 SRC_URI = "https://github.com/uos-gbp/imu_tools-release/archive/release/lunar/imu_tools/1.1.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "64623d52d50df9a43483f328dad2882b"

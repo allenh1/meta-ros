@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin pluginlib roscpp"
+DEPENDS = "python-empy-native pluginlib roscpp"
 SRC_URI = "https://github.com/ros-gbp/common_tutorials-release/archive/release/lunar/pluginlib_tutorials/0.1.10-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "77038c5f97a44402bb4f5938e54ad4da"

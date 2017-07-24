@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin qt-dotgraph qt-gui qt-gui-app qt-gui-cpp qt-gui-py-common"
+DEPENDS = "python-empy-native qt-dotgraph qt-gui qt-gui-app qt-gui-cpp qt-gui-py-common"
 SRC_URI = "https://github.com/ros-gbp/qt_gui_core-release/archive/release/lunar/qt_gui_core/0.3.4-2.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "0994958cb7785545c2dad781990857d2"

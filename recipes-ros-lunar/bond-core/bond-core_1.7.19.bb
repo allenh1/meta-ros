@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "bond bondcpp bondpy catkin smclib"
+DEPENDS = "bond bondcpp bondpy python-empy-native smclib"
 SRC_URI = "https://github.com/ros-gbp/bond_core-release/archive/release/lunar/bond_core/1.7.19-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "f2df2707e91458eefe3d81e0f95cee01"

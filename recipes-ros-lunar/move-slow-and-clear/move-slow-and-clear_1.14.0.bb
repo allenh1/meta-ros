@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=01c2bc31767ccb3a68e12f02612b2a97"
 
-DEPENDS = "catkin cmake-modules costmap-2d geometry-msgs nav-core pluginlib roscpp"
+DEPENDS = "python-empy-native cmake-modules costmap-2d geometry-msgs nav-core pluginlib roscpp"
 SRC_URI = "https://github.com/ros-gbp/navigation-release/archive/release/lunar/move_slow_and_clear/1.14.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "e64a2dc72f10304a483328ebb6c20ce2"

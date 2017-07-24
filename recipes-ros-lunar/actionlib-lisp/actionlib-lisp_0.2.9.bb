@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=15;endline=15;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "actionlib-msgs catkin cl-utils message-runtime roslisp"
+DEPENDS = "actionlib-msgs python-empy-native cl-utils message-runtime roslisp"
 SRC_URI = "https://github.com/ros-gbp/roslisp_common-release/archive/release/lunar/actionlib_lisp/0.2.9-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "fcb02c9bf642d1bde36ac70a6267dfd8"

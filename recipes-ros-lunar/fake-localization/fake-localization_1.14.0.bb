@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=01c2bc31767ccb3a68e12f02612b2a97"
 
-DEPENDS = "angles catkin geometry-msgs message-filters nav-msgs rosconsole roscpp rospy tf"
+DEPENDS = "angles python-empy-native geometry-msgs message-filters nav-msgs rosconsole roscpp rospy tf"
 SRC_URI = "https://github.com/ros-gbp/navigation-release/archive/release/lunar/fake_localization/1.14.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "5fc70a8530b82cce089f93b4d0c1d778"

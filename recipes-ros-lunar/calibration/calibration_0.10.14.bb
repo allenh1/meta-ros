@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "calibration-estimation calibration-launch calibration-msgs catkin image-cb-detector interval-intersection joint-states-settler laser-cb-detector monocam-settler settlerlib"
+DEPENDS = "calibration-estimation calibration-launch calibration-msgs python-empy-native image-cb-detector interval-intersection joint-states-settler laser-cb-detector monocam-settler settlerlib"
 SRC_URI = "https://github.com/ros-gbp/calibration-release/archive/release/lunar/calibration/0.10.14-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "ab3383e76efe479815b8a187616719e4"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin message-filters pluginlib rosconsole roscpp roslib sensor-msgs"
+DEPENDS = "python-empy-native message-filters pluginlib rosconsole roscpp roslib sensor-msgs"
 SRC_URI = "https://github.com/ros-gbp/image_common-release/archive/release/lunar/image_transport/1.11.12-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "59af35996f127e873b629bcdb6a6bec6"

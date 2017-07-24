@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin controller-interface hardware-interface realtime-tools std-msgs"
+DEPENDS = "python-empy-native controller-interface hardware-interface realtime-tools std-msgs"
 SRC_URI = "https://github.com/ros-gbp/ros_controllers-release/archive/release/lunar/forward_command_controller/0.12.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "bc4a493de9f6ed7ceca542b914258e02"

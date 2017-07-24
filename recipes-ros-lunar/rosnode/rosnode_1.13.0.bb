@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin rosgraph rostest rostopic"
+DEPENDS = "python-empy-native rosgraph rostest rostopic"
 SRC_URI = "https://github.com/ros-gbp/ros_comm-release/archive/release/lunar/rosnode/1.13.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "bf05ecd03cea7cfca57af63aa013368d"

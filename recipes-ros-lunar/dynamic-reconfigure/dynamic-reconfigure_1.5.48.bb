@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "boost catkin message-generation message-runtime roscpp roscpp-serialization roslib rospy rosservice rostest std-msgs"
+DEPENDS = "boost python-empy-native message-generation message-runtime roscpp roscpp-serialization roslib rospy rosservice rostest std-msgs"
 SRC_URI = "https://github.com/ros-gbp/dynamic_reconfigure-release/archive/release/lunar/dynamic_reconfigure/1.5.48-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "3658703b5bd3cc7aa3fefeeeaaafd959"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin moveit-core moveit-ros-planning ros-control-boilerplate roscpp roslint rosparam-shortcuts"
+DEPENDS = "python-empy-native moveit-core moveit-ros-planning ros-control-boilerplate roscpp roslint rosparam-shortcuts"
 SRC_URI = "https://github.com/davetcoleman/moveit_sim_controller-release/archive/release/lunar/moveit_sim_controller/0.1.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "e47a00d8ff76144c3b155cb1e83c9367"

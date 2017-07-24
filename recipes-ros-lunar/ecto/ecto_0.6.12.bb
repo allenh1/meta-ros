@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "boost catkin python xdot"
+DEPENDS = "boost python-empy-native python xdot"
 SRC_URI = "https://github.com/ros-gbp/ecto-release/archive/release/lunar/ecto/0.6.12-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "4659518ff0c458b81580ee3eaee08f81"

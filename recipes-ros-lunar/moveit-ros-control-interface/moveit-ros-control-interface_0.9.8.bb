@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "actionlib catkin controller-manager-msgs moveit-core moveit-simple-controller-manager pluginlib trajectory-msgs"
+DEPENDS = "actionlib python-empy-native controller-manager-msgs moveit-core moveit-simple-controller-manager pluginlib trajectory-msgs"
 SRC_URI = "https://github.com/ros-gbp/moveit-release/archive/release/lunar/moveit_ros_control_interface/0.9.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "e8cbe9c2865bfac11c54461826f89275"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=16;endline=16;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin python-paramiko python-rospkg python-pyyaml rosclean rosgraph-msgs roslib rosmaster rosout rosparam rosunit"
+DEPENDS = "python-empy-native python-paramiko python-rospkg python-pyyaml rosclean rosgraph-msgs roslib rosmaster rosout rosparam rosunit"
 SRC_URI = "https://github.com/ros-gbp/ros_comm-release/archive/release/lunar/roslaunch/1.13.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "7d99db22948f00746830a918931e0194"

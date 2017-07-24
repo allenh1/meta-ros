@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "GPL+linking-exception"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=d2094aa59491bce7d3aaf0a0450d7783"
 
-DEPENDS = "catkin"
+DEPENDS = "python-empy-native"
 SRC_URI = "https://github.com/smits/soem-gbp/archive/release/lunar/soem/1.3.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "2ef5fc5eb648209a5d0d55598ea20274"

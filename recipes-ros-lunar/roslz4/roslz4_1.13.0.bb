@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin lz4"
+DEPENDS = "python-empy-native lz4"
 SRC_URI = "https://github.com/ros-gbp/ros_comm-release/archive/release/lunar/roslz4/1.13.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "cdd1339e4f3691d41189e3f48a3927e6"

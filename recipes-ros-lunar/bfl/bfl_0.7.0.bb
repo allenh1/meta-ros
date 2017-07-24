@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "LGPL"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=19;endline=19;md5=46ee8693f40a89a31023e97ae17ecf19"
 
-DEPENDS = "catkin cmake cppunit ros"
+DEPENDS = "python-empy-native cmake cppunit ros"
 SRC_URI = "https://github.com/ros-gbp/bfl-release/archive/release/lunar/bfl/0.7.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "844982693c5cdc156b5d0a490baea419"

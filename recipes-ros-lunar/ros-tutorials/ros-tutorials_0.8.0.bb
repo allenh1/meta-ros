@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin roscpp-tutorials rospy-tutorials turtlesim"
+DEPENDS = "python-empy-native roscpp-tutorials rospy-tutorials turtlesim"
 SRC_URI = "https://github.com/ros-gbp/ros_tutorials-release/archive/release/lunar/ros_tutorials/0.8.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "c2d0515ad194145dde126b6def0907b6"

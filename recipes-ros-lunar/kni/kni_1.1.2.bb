@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "GPL"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=162b49cfbae9eadf37c9b89b2d2ac6be"
 
-DEPENDS = "boost catkin"
+DEPENDS = "boost python-empy-native"
 SRC_URI = "https://github.com/uos-gbp/katana_driver-release/archive/release/lunar/kni/1.1.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "bfea6347a7933ac463750af29d5e1413"

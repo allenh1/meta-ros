@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin marti-nav-msgs roscpp swri-transform-util"
+DEPENDS = "python-empy-native marti-nav-msgs roscpp swri-transform-util"
 SRC_URI = "https://github.com/swri-robotics-gbp/marti_common-release/archive/release/lunar/swri_route_util/0.3.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "b3844fd754f021b693898f1598fcfad6"

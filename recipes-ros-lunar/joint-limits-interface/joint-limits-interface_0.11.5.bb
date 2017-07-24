@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin hardware-interface liburdfdom-dev roscpp urdf"
+DEPENDS = "python-empy-native hardware-interface liburdfdom-dev roscpp urdf"
 SRC_URI = "https://github.com/ros-gbp/ros_control-release/archive/release/lunar/joint_limits_interface/0.11.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "76719876e51870cc595d586675cd3a34"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=58e54c03ca7f821dd3967e2a2cd1596e"
 
-DEPENDS = "boost catkin cv-bridge message-generation message-runtime roscpp sdl sensor-msgs std-msgs"
+DEPENDS = "boost python-empy-native cv-bridge message-generation message-runtime roscpp sdl sensor-msgs std-msgs"
 SRC_URI = "https://github.com/nerian-vision/nerian_sp1-release/archive/release/lunar/nerian_sp1/1.6.2-1.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "8330baab874462a0e0769cbe15327412"

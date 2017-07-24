@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin geometry-msgs message-generation message-runtime std-msgs"
+DEPENDS = "python-empy-native geometry-msgs message-generation message-runtime std-msgs"
 SRC_URI = "https://github.com/davetcoleman/cartesian_msgs-release/archive/release/lunar/cartesian_msgs/0.0.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "b9a2c088b419a9226d7bd8fa128d752d"

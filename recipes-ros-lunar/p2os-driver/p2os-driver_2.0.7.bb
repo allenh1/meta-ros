@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin diagnostic-updater geometry-msgs kdl-parser nav-msgs p2os-msgs roscpp std-msgs tf"
+DEPENDS = "python-empy-native diagnostic-updater geometry-msgs kdl-parser nav-msgs p2os-msgs roscpp std-msgs tf"
 SRC_URI = "https://github.com/allenh1/p2os-release/archive/release/lunar/p2os_driver/2.0.7-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "265083863bde6ea1ac928d228bc6a521"

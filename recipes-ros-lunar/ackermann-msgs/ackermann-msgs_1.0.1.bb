@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin message-generation message-runtime std-msgs"
+DEPENDS = "python-empy-native message-generation message-runtime std-msgs"
 SRC_URI = "https://github.com/ros-drivers-gbp/ackermann_msgs-release/archive/release/lunar/ackermann_msgs/1.0.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "f5ea5b7da256fa43368bc83815e7615e"

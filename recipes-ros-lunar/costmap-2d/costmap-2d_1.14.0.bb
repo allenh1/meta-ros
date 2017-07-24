@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=19;endline=19;md5=01c2bc31767ccb3a68e12f02612b2a97"
 
-DEPENDS = "catkin cmake-modules dynamic-reconfigure geometry-msgs laser-geometry map-msgs message-filters message-generation message-runtime nav-msgs pcl-conversions pcl-ros pluginlib rosconsole roscpp rostest sensor-msgs std-msgs tf visualization-msgs voxel-grid"
+DEPENDS = "python-empy-native cmake-modules dynamic-reconfigure geometry-msgs laser-geometry map-msgs message-filters message-generation message-runtime nav-msgs pcl-conversions pcl-ros pluginlib rosconsole roscpp rostest sensor-msgs std-msgs tf visualization-msgs voxel-grid"
 SRC_URI = "https://github.com/ros-gbp/navigation-release/archive/release/lunar/costmap_2d/1.14.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "ded97863b84985ec7db82aecfc608936"

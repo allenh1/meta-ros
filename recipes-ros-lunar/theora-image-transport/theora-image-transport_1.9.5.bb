@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin cv-bridge dynamic-reconfigure image-transport libogg libtheora message-generation message-runtime pluginlib rosbag std-msgs"
+DEPENDS = "python-empy-native cv-bridge dynamic-reconfigure image-transport libogg libtheora message-generation message-runtime pluginlib rosbag std-msgs"
 SRC_URI = "https://github.com/ros-gbp/image_transport_plugins-release/archive/release/lunar/theora_image_transport/1.9.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "2e05af164645c1f907ee51eef020fe46"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "boost bzip2 catkin cpp-common console-bridge roscpp-serialization roscpp-traits roslz4 rostime"
+DEPENDS = "boost bzip2 python-empy-native cpp-common console-bridge roscpp-serialization roscpp-traits roslz4 rostime"
 SRC_URI = "https://github.com/ros-gbp/ros_comm-release/archive/release/lunar/rosbag_storage/1.13.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "e4290f4c218c8ccc28d2da04edef924c"

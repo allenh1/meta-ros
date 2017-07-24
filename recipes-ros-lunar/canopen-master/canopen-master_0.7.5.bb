@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "LGPLv3"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=b691248d2f70cdaeeaf13696ada5d47c"
 
-DEPENDS = "boost catkin class-loader socketcan-interface"
+DEPENDS = "boost python-empy-native class-loader socketcan-interface"
 SRC_URI = "https://github.com/ros-industrial-release/ros_canopen-release/archive/release/lunar/canopen_master/0.7.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "8529299eb41df3ac57ef3a398095faa0"

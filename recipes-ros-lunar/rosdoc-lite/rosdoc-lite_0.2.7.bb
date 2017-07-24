@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin doxygen epydoc genmsg python-catkin-pkg python-kitchen python-rospkg python-sphinx python-pyyaml"
+DEPENDS = "python-empy-native doxygen epydoc genmsg python-catkin-pkg-native python-kitchen python-rospkg python-sphinx python-pyyaml"
 SRC_URI = "https://github.com/ros-gbp/rosdoc_lite-release/archive/release/lunar/rosdoc_lite/0.2.7-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "60f7dc1a1bbdaab7492745fb35e33b24"

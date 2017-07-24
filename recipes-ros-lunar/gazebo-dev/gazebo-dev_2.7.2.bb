@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=3dce4ba60d7e51ec64f3c3dc18672dd3"
 
-DEPENDS = "catkin gazebo7 libgazebo7-dev"
+DEPENDS = "python-empy-native gazebo7 libgazebo7-dev"
 SRC_URI = "https://github.com/ros-gbp/gazebo_ros_pkgs-release/archive/release/lunar/gazebo_dev/2.7.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "c0ff089197c3347b82d1725a4541e2ab"

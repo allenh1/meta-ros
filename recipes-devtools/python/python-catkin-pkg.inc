@@ -10,4 +10,4 @@ DEPENDS = "python-setuptools"
 
 S = "${WORKDIR}/${SRCNAME}-${PV}"
 
-inherit setuptools
+BBCLASSEXTEND = "native"

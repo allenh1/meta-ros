@@ -5,7 +5,7 @@ DESCRIPTION = "ROS node base implementation for CANopen chains with support for 
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "LGPLv3"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=46dd5907f7af0af456f00c524455d867"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=b691248d2f70cdaeeaf13696ada5d47c"
 
 DEPENDS = "canopen-master catkin diagnostic-updater message-generation message-runtime pluginlib roscpp roslib socketcan-interface std-msgs std-srvs"
 SRC_URI = "https://github.com/ros-industrial-release/ros_canopen-release/archive/release/lunar/canopen_chain_node/0.7.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

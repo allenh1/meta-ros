@@ -5,7 +5,7 @@ DESCRIPTION = "This package provides messages and serializations / conversion fo
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=24ca93924f03642fbbd06efa2e6d00df"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=5ee5b8b046ae48ad94a2037ca953a67b"
 
 DEPENDS = "catkin geometry-msgs message-generation message-runtime std-msgs"
 SRC_URI = "https://github.com/ros-gbp/octomap_msgs-release/archive/release/lunar/octomap_msgs/0.3.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

@@ -5,7 +5,7 @@ DESCRIPTION = "gazebo_ros_control"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "angles catkin control-toolbox controller-manager gazebo-dev gazebo-ros hardware-interface joint-limits-interface pluginlib roscpp std-msgs transmission-interface urdf"
 SRC_URI = "https://github.com/ros-gbp/gazebo_ros_pkgs-release/archive/release/lunar/gazebo_ros_control/2.7.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

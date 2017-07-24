@@ -5,7 +5,7 @@ DESCRIPTION = "rqt is a Qt-based framework for GUI development for ROS. It consi
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin rqt-gui rqt-gui-cpp rqt-gui-py"
 SRC_URI = "https://github.com/ros-gbp/rqt-release/archive/release/lunar/rqt/0.5.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

@@ -5,7 +5,7 @@ DESCRIPTION = "roscpp is a C++ implementation of ROS. It provides     a  that en
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=16;endline=16;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=16;endline=16;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin cpp-common message-generation message-runtime pkgconfig rosconsole roscpp-serialization roscpp-traits rosgraph-msgs roslang rostime std-msgs xmlrpcpp"
 SRC_URI = "https://github.com/ros-gbp/ros_comm-release/archive/release/lunar/roscpp/1.13.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

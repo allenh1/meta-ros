@@ -5,7 +5,7 @@ DESCRIPTION = "Provides a toolchain running through the robot calibration proces
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "calibration-estimation calibration-launch calibration-msgs catkin image-cb-detector interval-intersection joint-states-settler laser-cb-detector monocam-settler settlerlib"
 SRC_URI = "https://github.com/ros-gbp/calibration-release/archive/release/lunar/calibration/0.10.14-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

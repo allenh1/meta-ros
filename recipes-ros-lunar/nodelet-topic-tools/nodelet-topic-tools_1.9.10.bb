@@ -5,7 +5,7 @@ DESCRIPTION = "This package contains common nodelet tools such as a mux, demux a
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "boost catkin dynamic-reconfigure message-filters nodelet pluginlib roscpp"
 SRC_URI = "https://github.com/ros-gbp/nodelet_core-release/archive/release/lunar/nodelet_topic_tools/1.9.10-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

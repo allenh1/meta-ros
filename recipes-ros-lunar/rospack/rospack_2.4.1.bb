@@ -5,7 +5,7 @@ DESCRIPTION = "ROS Package Tool"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=6;endline=6;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=6;endline=6;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "boost catkin cmake-modules gtest pkgconfig python python-catkin-pkg python-rosdep libtinyxml2"
 SRC_URI = "https://github.com/ros-gbp/rospack-release/archive/release/lunar/rospack/2.4.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

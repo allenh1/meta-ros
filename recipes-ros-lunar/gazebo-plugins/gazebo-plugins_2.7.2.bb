@@ -5,7 +5,7 @@ DESCRIPTION = "Robot-independent Gazebo plugins for sensors, motors and dynamic 
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=b70e8de3cb7b1e72b6fd191ef0f624df"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=f7d4e3a22e6490b133f4eb99348a8124"
 
 DEPENDS = "angles camera-info-manager catkin cv-bridge diagnostic-updater dynamic-reconfigure gazebo-dev gazebo-msgs geometry-msgs image-transport message-generation message-runtime nav-msgs nodelet polled-camera rosconsole roscpp rosgraph-msgs rospy sensor-msgs std-msgs std-srvs tf tf2-ros trajectory-msgs urdf"
 SRC_URI = "https://github.com/ros-gbp/gazebo_ros_pkgs-release/archive/release/lunar/gazebo_plugins/2.7.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

@@ -5,7 +5,7 @@ DESCRIPTION = "rqt_py_common provides common functionality for rqt plugins writt
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "actionlib catkin genmsg genpy python-qt-binding qt-gui rosbag roslib rospy rostopic std-msgs"
 SRC_URI = "https://github.com/ros-gbp/rqt-release/archive/release/lunar/rqt_py_common/0.5.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

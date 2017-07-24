@@ -5,7 +5,7 @@ DESCRIPTION = "image_transport should always be used to subscribe to and publish
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin message-filters pluginlib rosconsole roscpp roslib sensor-msgs"
 SRC_URI = "https://github.com/ros-gbp/image_common-release/archive/release/lunar/image_transport/1.11.12-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

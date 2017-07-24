@@ -5,7 +5,7 @@ DESCRIPTION = "The swri_transform_util package contains utility functions and cl
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "boost catkin cv-bridge diagnostic-msgs dynamic-reconfigure geographic-msgs geometry-msgs gps-common libgeos++-dev nodelet pluginlib proj roscpp rospy sensor-msgs swri-math-util swri-roscpp swri-yaml-util tf topic-tools yaml-cpp"
 SRC_URI = "https://github.com/swri-robotics-gbp/marti_common-release/archive/release/lunar/swri_transform_util/0.3.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

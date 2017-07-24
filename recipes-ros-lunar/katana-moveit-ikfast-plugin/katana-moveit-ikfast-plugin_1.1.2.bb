@@ -5,7 +5,7 @@ DESCRIPTION = "The katana_moveit_ikfast_plugin package"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=7389aef5a605df7910cbc0188bffd7bb"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=2c00b8d2854109dbebef7818b4dae1e2"
 
 DEPENDS = "catkin liblapack-dev moveit-core pluginlib roscpp tf-conversions"
 SRC_URI = "https://github.com/uos-gbp/katana_driver-release/archive/release/lunar/katana_moveit_ikfast_plugin/1.1.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

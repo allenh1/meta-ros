@@ -5,7 +5,7 @@ DESCRIPTION = "Extensions for slime to assist in working with ROS packages"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "Public-Domain"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=9410a10dc7d8d68a78f94b401d4efc9b"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=c60c465e235b13ecfc23607d3b1b9e2f"
 
 DEPENDS = "catkin rosemacs roslisp sbcl slime-wrapper"
 SRC_URI = "https://github.com/code-iai-release/ros_emacs_utils-release/archive/release/lunar/slime_ros/0.4.11-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

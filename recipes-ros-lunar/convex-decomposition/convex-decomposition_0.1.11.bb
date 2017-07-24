@@ -5,7 +5,7 @@ DESCRIPTION = "Convex Decomposition Tool for Robot Model"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "MIT"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=c7db68edca7cfc138f25a9f40359c82b"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=58e54c03ca7f821dd3967e2a2cd1596e"
 
 DEPENDS = "catkin unzip"
 SRC_URI = "https://github.com/ros-gbp/convex_decomposition-release/archive/release/lunar/convex_decomposition/0.1.11-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

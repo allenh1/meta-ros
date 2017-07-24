@@ -5,7 +5,7 @@ DESCRIPTION = "SOEM is an open source EtherCAT master library written in c. Its 
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "GPL+linking-exception"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=91f97ac3fb8bbb41bde6afdf5c4f9bb3"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=d2094aa59491bce7d3aaf0a0450d7783"
 
 DEPENDS = "catkin"
 SRC_URI = "https://github.com/smits/soem-gbp/archive/release/lunar/soem/1.3.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

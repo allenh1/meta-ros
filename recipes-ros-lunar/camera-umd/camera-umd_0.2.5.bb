@@ -5,7 +5,7 @@ DESCRIPTION = "UMD camera metapackage"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "GPLv2"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=7389aef5a605df7910cbc0188bffd7bb"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=2c00b8d2854109dbebef7818b4dae1e2"
 
 DEPENDS = "catkin jpeg-streamer uvc-camera"
 SRC_URI = "https://github.com/ros-drivers-gbp/camera_umd-release/archive/release/lunar/camera_umd/0.2.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

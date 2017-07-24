@@ -5,7 +5,7 @@ DESCRIPTION = "Neato XV-11 Laser Driver. This driver works with the laser when i
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=7389aef5a605df7910cbc0188bffd7bb"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=2c00b8d2854109dbebef7818b4dae1e2"
 
 DEPENDS = "boost catkin roscpp sensor-msgs"
 SRC_URI = "https://github.com/rohbotics/xv_11_laser_driver-release/archive/release/lunar/xv_11_laser_driver/0.3.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

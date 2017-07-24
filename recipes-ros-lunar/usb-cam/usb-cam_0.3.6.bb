@@ -5,7 +5,7 @@ DESCRIPTION = "A ROS Driver for V4L USB Cameras"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "camera-info-manager catkin ffmpeg image-transport roscpp sensor-msgs std-msgs std-srvs v4l-utils"
 SRC_URI = "https://github.com/ros-gbp/usb_cam-release/archive/release/lunar/usb_cam/0.3.6-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

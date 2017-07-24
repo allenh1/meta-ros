@@ -5,7 +5,7 @@ DESCRIPTION = "This package defines messages commonly used in mapping packages."
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=0f7622c3db3a77b03663ea6e345a0c38"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=a3ae2ba3f0f44e61270955e8cd98afcf"
 
 DEPENDS = "catkin message-generation message-runtime nav-msgs sensor-msgs std-msgs"
 SRC_URI = "https://github.com/ros-gbp/navigation_msgs-release/archive/release/lunar/map_msgs/1.13.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

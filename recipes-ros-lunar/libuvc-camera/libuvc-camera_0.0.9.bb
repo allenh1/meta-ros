@@ -5,7 +5,7 @@ DESCRIPTION = "USB Video Class camera driver"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=7389aef5a605df7910cbc0188bffd7bb"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=2c00b8d2854109dbebef7818b4dae1e2"
 
 DEPENDS = "camera-info-manager catkin dynamic-reconfigure image-transport libuvc nodelet roscpp sensor-msgs"
 SRC_URI = "https://github.com/ros-drivers-gbp/libuvc_ros-release/archive/release/lunar/libuvc_camera/0.0.9-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

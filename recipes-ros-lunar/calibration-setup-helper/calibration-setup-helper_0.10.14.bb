@@ -5,7 +5,7 @@ DESCRIPTION = "This package contains a script to generate calibration launch and
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "Apache-2.0"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=cd1a22ceb914b60db1fb991e52fe3fcc"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=3dce4ba60d7e51ec64f3c3dc18672dd3"
 
 DEPENDS = "calibration-launch catkin"
 SRC_URI = "https://github.com/ros-gbp/calibration-release/archive/release/lunar/calibration_setup_helper/0.10.14-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

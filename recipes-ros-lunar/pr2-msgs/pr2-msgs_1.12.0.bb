@@ -5,7 +5,7 @@ DESCRIPTION = "Messages for representing PR2 state, such as battery information 
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin geometry-msgs message-generation message-runtime std-msgs"
 SRC_URI = "https://github.com/ros-gbp/pr2_common-release/archive/release/lunar/pr2_msgs/1.12.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

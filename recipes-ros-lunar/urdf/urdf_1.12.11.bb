@@ -5,7 +5,7 @@ DESCRIPTION = "This package contains a C++ parser for the Unified Robot Descript
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=16;endline=16;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=16;endline=16;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin cmake-modules liburdfdom-dev liburdfdom-headers-dev pluginlib rosconsole-bridge roscpp rostest urdf-parser-plugin"
 SRC_URI = "https://github.com/ros-gbp/robot_model-release/archive/release/lunar/urdf/1.12.11-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

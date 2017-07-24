@@ -5,7 +5,7 @@ DESCRIPTION = "An rqt-based tool that assists monitoring tasks    for  motion pl
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=26;endline=26;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=26;endline=26;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin python-qt-binding rosnode rospy rostopic rqt-gui rqt-gui-py rqt-py-common rqt-topic sensor-msgs"
 SRC_URI = "https://github.com/ros-gbp/rqt_moveit-release/archive/release/lunar/rqt_moveit/0.5.7-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

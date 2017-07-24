@@ -5,7 +5,7 @@ DESCRIPTION = "rqt_service_caller provides a GUI plugin for calling arbitrary se
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin python-rospkg rosservice rqt-gui rqt-gui-py rqt-py-common"
 SRC_URI = "https://github.com/ros-gbp/rqt_service_caller-release/archive/release/lunar/rqt_service_caller/0.4.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

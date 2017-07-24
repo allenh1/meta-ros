@@ -5,7 +5,7 @@ DESCRIPTION = "A set of plugins for publishing and subscribing to sensor_msgs/Im
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin compressed-depth-image-transport compressed-image-transport theora-image-transport"
 SRC_URI = "https://github.com/ros-gbp/image_transport_plugins-release/archive/release/lunar/image_transport_plugins/1.9.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

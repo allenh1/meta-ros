@@ -5,7 +5,7 @@ DESCRIPTION = "rqt_console provides a GUI plugin for displaying and filtering RO
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin python-rospkg python-qt-binding roslib rospy rqt-gui rqt-gui-py rqt-logger-level rqt-py-common"
 SRC_URI = "https://github.com/ros-gbp/rqt_console-release/archive/release/lunar/rqt_console/0.4.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

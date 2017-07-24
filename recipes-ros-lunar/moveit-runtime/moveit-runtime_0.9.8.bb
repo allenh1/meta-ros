@@ -5,7 +5,7 @@ DESCRIPTION = "moveit_runtime meta package contains MoveIt! packages that are es
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin moveit-core moveit-planners moveit-plugins moveit-ros-manipulation moveit-ros-move-group moveit-ros-perception moveit-ros-planning moveit-ros-planning-interface moveit-ros-warehouse"
 SRC_URI = "https://github.com/ros-gbp/moveit-release/archive/release/lunar/moveit_runtime/0.9.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

@@ -5,7 +5,7 @@ DESCRIPTION = "mavros_msgs defines messages for ."
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "GPLv3"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=c4ba05a85e41aed3f3861ec78997656b"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=1e7b3bcc2e271699c77c769685058cbe"
 
 DEPENDS = "catkin geometry-msgs message-generation message-runtime std-msgs"
 SRC_URI = "https://github.com/mavlink/mavros-release/archive/release/lunar/mavros_msgs/0.19.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

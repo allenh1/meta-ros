@@ -5,7 +5,7 @@ DESCRIPTION = "ViSP standing for Visual Servoing Platform is a modular cross    
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "GPLv2"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=20;endline=20;md5=3b91e5c038b82a7cd68bc691a0162e6c"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=20;endline=20;md5=fe8b75cf0aba647401e1038bcd69ee74"
 
 DEPENDS = "bzip2 cmake doxygen libcoin80-dev libdc1394-dev libdmtx-dev libfreenect-dev libjpeg liblapack-dev libogre-dev libois-dev libpng-dev libusb-dev libv4l-dev libx11-dev libxml2 opencv3 zbar"
 SRC_URI = "https://github.com/lagadic/visp-release/archive/release/lunar/visp/3.0.1-2.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

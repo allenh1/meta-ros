@@ -5,7 +5,7 @@ DESCRIPTION = "Assorted filters designed to operate on 2D planar laser scanners,
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "angles catkin filters laser-geometry message-filters pluginlib roscpp rostest sensor-msgs tf"
 SRC_URI = "https://github.com/ros-gbp/laser_filters-release/archive/release/lunar/laser_filters/1.8.4-1.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

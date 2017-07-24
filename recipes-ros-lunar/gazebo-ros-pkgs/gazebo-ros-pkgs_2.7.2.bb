@@ -5,7 +5,7 @@ DESCRIPTION = "Interface for using ROS with the  simulator."
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=098349176b98f4d2a266f69515cd2552"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=8caad55b0e7a31e039fbcff07dba789e"
 
 DEPENDS = "catkin gazebo-dev gazebo-msgs gazebo-plugins gazebo-ros"
 SRC_URI = "https://github.com/ros-gbp/gazebo_ros_pkgs-release/archive/release/lunar/gazebo_ros_pkgs/2.7.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

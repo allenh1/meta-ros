@@ -5,7 +5,7 @@ DESCRIPTION = "This package is a ROS wrapper for Alvar, an open source AR tag tr
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "LGPL-2.1"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=19240c261c4a9baa66e78eddf550902d"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=061abe8dc89f326789675967c8760541"
 
 DEPENDS = "ar-track-alvar-msgs catkin cmake-modules cv-bridge dynamic-reconfigure geometry-msgs image-transport message-generation message-runtime pcl-conversions pcl-ros resource-retriever roscpp rospy sensor-msgs std-msgs tf tf2 libtinyxml visualization-msgs"
 SRC_URI = "https://github.com/ros-gbp/ar_track_alvar-release/archive/release/lunar/ar_track_alvar/0.7.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

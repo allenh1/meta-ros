@@ -5,7 +5,7 @@ DESCRIPTION = "Transmission Interface."
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "Modified-BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=129fdeb38464449b78c8fb022f356747"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=9fe507396161b9e47d2b1e01c422787a"
 
 DEPENDS = "catkin cmake-modules hardware-interface pluginlib roscpp libtinyxml"
 SRC_URI = "https://github.com/ros-gbp/ros_control-release/archive/release/lunar/transmission_interface/0.11.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

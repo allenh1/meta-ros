@@ -5,7 +5,7 @@ DESCRIPTION = "tools for streaming JPEG-formatted CompressedImage topics over HT
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=7389aef5a605df7910cbc0188bffd7bb"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=2c00b8d2854109dbebef7818b4dae1e2"
 
 DEPENDS = "catkin image-transport roscpp sensor-msgs"
 SRC_URI = "https://github.com/ros-drivers-gbp/camera_umd-release/archive/release/lunar/jpeg_streamer/0.2.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

@@ -5,7 +5,7 @@ DESCRIPTION = "qt_gui_cpp provides the foundation for C++-bindings for qt_gui an
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin pkgconfig pluginlib python-qt-binding qt5-qmake qt-gui qtbase5-dev libtinyxml"
 SRC_URI = "https://github.com/ros-gbp/qt_gui_core-release/archive/release/lunar/qt_gui_cpp/0.3.4-2.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

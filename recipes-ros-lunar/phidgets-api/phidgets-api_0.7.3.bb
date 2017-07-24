@@ -5,7 +5,7 @@ DESCRIPTION = "A C++ Wrapper for the Phidgets C API"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin libphidget21 libusb-1.0 libusb-1.0-dev"
 SRC_URI = "https://github.com/ros-drivers-gbp/phidgets_drivers-release/archive/release/lunar/phidgets_api/0.7.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

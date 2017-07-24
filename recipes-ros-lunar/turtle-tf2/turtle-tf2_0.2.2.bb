@@ -5,7 +5,7 @@ DESCRIPTION = "turtle_tf2 demonstrates how to write a tf2 broadcaster and listen
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin geometry-msgs roscpp rospy std-msgs tf2 tf2-ros turtlesim"
 SRC_URI = "https://github.com/ros-gbp/geometry_tutorials-release/archive/release/lunar/turtle_tf2/0.2.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

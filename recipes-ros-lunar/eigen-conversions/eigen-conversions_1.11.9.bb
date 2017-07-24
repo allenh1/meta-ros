@@ -5,7 +5,7 @@ DESCRIPTION = "Conversion functions between:       - Eigen and KDL       - Eigen
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=15;endline=15;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=15;endline=15;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin cmake-modules eigen geometry-msgs orocos-kdl std-msgs"
 SRC_URI = "https://github.com/ros-gbp/geometry-release/archive/release/lunar/eigen_conversions/1.11.9-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

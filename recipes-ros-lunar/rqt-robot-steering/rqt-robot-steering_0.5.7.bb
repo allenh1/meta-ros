@@ -5,7 +5,7 @@ DESCRIPTION = "rqt_robot_steering provides a GUI plugin for steering a robot usi
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin geometry-msgs python-rospkg python-qt-binding rostopic rqt-gui rqt-gui-py"
 SRC_URI = "https://github.com/ros-gbp/rqt_robot_steering-release/archive/release/lunar/rqt_robot_steering/0.5.7-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

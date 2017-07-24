@@ -5,7 +5,7 @@ DESCRIPTION = "This is a set of tools for recording from and playing back to ROS
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "boost catkin cpp-common genmsg genpy python-imaging python-rospkg rosbag-storage rosconsole roscpp roscpp-serialization roslib rospy std-srvs topic-tools xmlrpcpp"
 SRC_URI = "https://github.com/ros-gbp/ros_comm-release/archive/release/lunar/rosbag/1.13.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

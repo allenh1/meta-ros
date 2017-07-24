@@ -5,7 +5,7 @@ DESCRIPTION = "A metapackage which extends ros_base and includes ROS libaries fo
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=6;endline=6;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=6;endline=6;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin control-msgs diagnostics executive-smach filters geometry robot-model robot-state-publisher ros-base xacro"
 SRC_URI = "https://github.com/ros-gbp/metapackages-release/archive/release/lunar/robot/1.3.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

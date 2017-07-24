@@ -5,7 +5,7 @@ DESCRIPTION = "This package contains a class for converting from a 2D laser scan
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "angles boost catkin cmake-modules eigen python-numpy roscpp sensor-msgs tf"
 SRC_URI = "https://github.com/ros-gbp/laser_geometry-release/archive/release/lunar/laser_geometry/1.6.4-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

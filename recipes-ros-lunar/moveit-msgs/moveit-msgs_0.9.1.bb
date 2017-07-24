@@ -5,7 +5,7 @@ DESCRIPTION = "Messages, services and actions used by MoveIt"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=24ca93924f03642fbbd06efa2e6d00df"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=5ee5b8b046ae48ad94a2037ca953a67b"
 
 DEPENDS = "actionlib-msgs catkin geometry-msgs message-generation message-runtime object-recognition-msgs octomap-msgs sensor-msgs shape-msgs std-msgs trajectory-msgs"
 SRC_URI = "https://github.com/ros-gbp/moveit_msgs-release/archive/release/lunar/moveit_msgs/0.9.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

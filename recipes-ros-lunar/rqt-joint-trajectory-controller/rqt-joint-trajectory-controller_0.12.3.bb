@@ -5,7 +5,7 @@ DESCRIPTION = "Graphical frontend for interacting with joint_trajectory_controll
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "Modified-BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=129fdeb38464449b78c8fb022f356747"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=9fe507396161b9e47d2b1e01c422787a"
 
 DEPENDS = "catkin control-msgs controller-manager-msgs rospy rqt-gui rqt-gui-py trajectory-msgs"
 SRC_URI = "https://github.com/ros-gbp/ros_controllers-release/archive/release/lunar/rqt_joint_trajectory_controller/0.12.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

@@ -5,7 +5,7 @@ DESCRIPTION = "This package provides a set of simple math utilities to work     
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=15;endline=15;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=15;endline=15;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin"
 SRC_URI = "https://github.com/ros-gbp/geometry_angles_utils-release/archive/release/lunar/angles/1.9.11-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

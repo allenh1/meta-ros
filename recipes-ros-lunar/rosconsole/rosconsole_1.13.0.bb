@@ -5,7 +5,7 @@ DESCRIPTION = "ROS console output library."
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=6;endline=6;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=6;endline=6;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "apr boost catkin cpp-common log4cxx rosbuild rostime rosunit"
 SRC_URI = "https://github.com/ros-gbp/ros_comm-release/archive/release/lunar/rosconsole/1.13.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

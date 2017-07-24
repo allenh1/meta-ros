@@ -5,7 +5,7 @@ DESCRIPTION = "This package provides a script that launches Emacs with Slime (th
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "Public-domain"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=ceff40a4e51c0530057aab711f27c327"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=90cf8e14bb501c1f6d3eda81e45e438a"
 
 DEPENDS = "catkin rosemacs roslisp sbcl slime-ros slime-wrapper"
 SRC_URI = "https://github.com/code-iai-release/ros_emacs_utils-release/archive/release/lunar/roslisp_repl/0.4.11-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

@@ -5,7 +5,7 @@ DESCRIPTION = "CAN related message types."
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin message-generation message-runtime std-msgs"
 SRC_URI = "https://github.com/ros-industrial-release/ros_canopen-release/archive/release/lunar/can_msgs/0.7.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

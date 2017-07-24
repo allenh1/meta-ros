@@ -5,7 +5,7 @@ DESCRIPTION = "Metapackage referencing tutorials related to rviz and visualizati
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=acbed67fd486c51e7a0624505f2e6733"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=01c2bc31767ccb3a68e12f02612b2a97"
 
 DEPENDS = "catkin interactive-marker-tutorials librviz-tutorial rviz-plugin-tutorials rviz-python-tutorial visualization-marker-tutorials"
 SRC_URI = "https://github.com/ros-gbp/visualization_tutorials-release/archive/release/lunar/visualization_tutorials/0.10.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

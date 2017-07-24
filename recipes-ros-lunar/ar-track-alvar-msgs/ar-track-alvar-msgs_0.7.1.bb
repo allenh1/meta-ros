@@ -5,7 +5,7 @@ DESCRIPTION = "This package is a ROS wrapper for Alvar, an open source AR tag tr
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin geometry-msgs message-generation message-runtime std-msgs"
 SRC_URI = "https://github.com/ros-gbp/ar_track_alvar-release/archive/release/lunar/ar_track_alvar_msgs/0.7.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

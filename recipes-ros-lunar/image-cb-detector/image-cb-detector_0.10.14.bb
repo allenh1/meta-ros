@@ -5,7 +5,7 @@ DESCRIPTION = "Provide a node that extracts checkerboard corners from ROS images
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "actionlib actionlib-msgs calibration-msgs catkin cv-bridge geometry-msgs image-transport message-filters message-generation message-runtime roscpp sensor-msgs std-msgs"
 SRC_URI = "https://github.com/ros-gbp/calibration-release/archive/release/lunar/image_cb_detector/0.10.14-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

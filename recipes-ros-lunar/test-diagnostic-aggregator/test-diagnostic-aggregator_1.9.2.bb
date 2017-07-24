@@ -5,7 +5,7 @@ DESCRIPTION = "Basic diagnostic_aggregator tests are  in the"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin diagnostic-aggregator diagnostic-msgs pluginlib roscpp rospy rostest"
 SRC_URI = "https://github.com/ros-gbp/diagnostics-release/archive/release/lunar/test_diagnostic_aggregator/1.9.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

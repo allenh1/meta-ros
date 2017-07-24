@@ -5,7 +5,7 @@ DESCRIPTION = "Mesh Conversion Utility  Used to generate '.iv' files from '.stl'
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "GPL"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=18;endline=18;md5=fe6a07ee75db997e0a74d91b3b60fb3a"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=18;endline=18;md5=162b49cfbae9eadf37c9b89b2d2ac6be"
 
 DEPENDS = "catkin"
 SRC_URI = "https://github.com/ros-gbp/ivcon-release/archive/release/lunar/ivcon/0.1.6-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

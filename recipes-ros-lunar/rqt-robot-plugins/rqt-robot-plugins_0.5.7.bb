@@ -5,7 +5,7 @@ DESCRIPTION = "Metapackage of rqt plugins that are particularly used with robots
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=22;endline=22;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=22;endline=22;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin rqt-moveit rqt-nav-view rqt-pose-view rqt-robot-dashboard rqt-robot-monitor rqt-robot-steering rqt-runtime-monitor rqt-rviz rqt-tf-tree"
 SRC_URI = "https://github.com/ros-gbp/rqt_robot_plugins-release/archive/release/lunar/rqt_robot_plugins/0.5.7-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

@@ -5,7 +5,7 @@ DESCRIPTION = "Low-level build system macros and infrastructure for ROS."
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "cmake gtest python-argparse python-catkin-pkg python-empy python-nose"
 SRC_URI = "https://github.com/ros-gbp/catkin-release/archive/release/lunar/catkin/0.7.6-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

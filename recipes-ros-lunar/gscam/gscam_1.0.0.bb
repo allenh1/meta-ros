@@ -5,7 +5,7 @@ DESCRIPTION = "A ROS camera driver that uses gstreamer to connect to     devices
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "camera-calibration-parsers camera-info-manager catkin cv-bridge image-transport libgstreamer-plugins-base1.0-dev libgstreamer1.0-dev nodelet roscpp sensor-msgs"
 SRC_URI = "https://github.com/ros-drivers-gbp/gscam-release/archive/release/lunar/gscam/1.0.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

@@ -5,7 +5,7 @@ DESCRIPTION = "ROS Driver for XSens MT/MTi/MTi-G devices."
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin diagnostic-msgs geometry-msgs rospy sensor-msgs std-msgs tf"
 SRC_URI = "https://github.com/ethz-asl/ethzasl_xsens_driver-release/archive/release/lunar/xsens_driver/2.1.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

@@ -5,7 +5,7 @@ DESCRIPTION = "qt_gui_app provides the main to start an instance of the integrat
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin qt-gui"
 SRC_URI = "https://github.com/ros-gbp/qt_gui_core-release/archive/release/lunar/qt_gui_app/0.3.4-2.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

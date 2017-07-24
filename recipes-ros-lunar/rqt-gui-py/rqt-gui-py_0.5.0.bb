@@ -5,7 +5,7 @@ DESCRIPTION = "rqt_gui_py enables GUI plugins to use the Python client library f
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin qt-gui rospy rqt-gui"
 SRC_URI = "https://github.com/ros-gbp/rqt-release/archive/release/lunar/rqt_gui_py/0.5.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

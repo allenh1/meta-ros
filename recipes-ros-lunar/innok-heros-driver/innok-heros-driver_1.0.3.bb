@@ -5,7 +5,7 @@ DESCRIPTION = "Driver for the Innok Heros robot plattform"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=7389aef5a605df7910cbc0188bffd7bb"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=2c00b8d2854109dbebef7818b4dae1e2"
 
 DEPENDS = "catkin geometry-msgs rospy std-msgs tf"
 SRC_URI = "https://github.com/innokrobotics/innok_heros_driver-release/archive/release/lunar/innok_heros_driver/1.0.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

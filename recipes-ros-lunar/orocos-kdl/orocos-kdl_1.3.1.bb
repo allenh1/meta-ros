@@ -5,7 +5,7 @@ DESCRIPTION = "This package contains a recent version of the Kinematics and Dyna
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "LGPL"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d2740cd2c4139b24d7392872077c634a"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=46ee8693f40a89a31023e97ae17ecf19"
 
 DEPENDS = "catkin cmake eigen pkgconfig"
 SRC_URI = "https://github.com/smits/orocos-kdl-release/archive/release/lunar/orocos_kdl/1.3.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

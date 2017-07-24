@@ -5,7 +5,7 @@ DESCRIPTION = "qt_gui provides the infrastructure for an integrated graphical us
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin python-qt5-bindings python-rospkg python-qt-binding qt5-qmake tango-icon-theme"
 SRC_URI = "https://github.com/ros-gbp/qt_gui_core-release/archive/release/lunar/qt_gui/0.3.4-2.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

@@ -5,7 +5,7 @@ DESCRIPTION = "OpenCV 3.x"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin cmake ffmpeg libjpeg libpng-dev libtiff-dev libv4l-dev libvtk-qt libwebp-dev protobuf protobuf-dev python python-numpy zlib"
 SRC_URI = "https://github.com/ros-gbp/opencv3-release/archive/release/lunar/opencv3/3.2.0-6.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

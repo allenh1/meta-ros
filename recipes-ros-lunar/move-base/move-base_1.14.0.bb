@@ -5,7 +5,7 @@ DESCRIPTION = "The move_base package provides an implementation of an action (se
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=acbed67fd486c51e7a0624505f2e6733"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=01c2bc31767ccb3a68e12f02612b2a97"
 
 DEPENDS = "actionlib base-local-planner catkin clear-costmap-recovery cmake-modules costmap-2d dynamic-reconfigure geometry-msgs message-generation message-runtime move-base-msgs nav-core nav-msgs navfn pluginlib roscpp rospy rotate-recovery std-msgs std-srvs tf visualization-msgs"
 SRC_URI = "https://github.com/ros-gbp/navigation-release/archive/release/lunar/move_base/1.14.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

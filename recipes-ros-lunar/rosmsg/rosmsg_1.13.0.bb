@@ -5,7 +5,7 @@ DESCRIPTION = "rosmsg contains two command-line tools:  and     .  is a command-
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin genmsg python-rospkg rosbag roslib"
 SRC_URI = "https://github.com/ros-gbp/ros_comm-release/archive/release/lunar/rosmsg/1.13.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

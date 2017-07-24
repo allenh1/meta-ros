@@ -5,7 +5,7 @@ DESCRIPTION = "Command to print aggregated diagnostic contents to the command li
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin diagnostic-msgs rospy"
 SRC_URI = "https://github.com/ros-gbp/diagnostics-release/archive/release/lunar/rosdiagnostic/1.9.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

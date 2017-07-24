@@ -5,7 +5,7 @@ DESCRIPTION = "This package attempts to show the features of ROS step-by-step,  
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin message-generation message-runtime rosconsole roscpp roscpp-serialization rostime std-msgs"
 SRC_URI = "https://github.com/ros-gbp/ros_tutorials-release/archive/release/lunar/roscpp_tutorials/0.8.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

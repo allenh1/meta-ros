@@ -5,7 +5,7 @@ DESCRIPTION = "cl_urdf"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin cl-transforms roslisp"
 SRC_URI = "https://github.com/ros-gbp/roslisp_common-release/archive/release/lunar/cl_urdf/0.2.9-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

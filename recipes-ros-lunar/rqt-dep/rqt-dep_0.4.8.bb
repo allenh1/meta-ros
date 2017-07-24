@@ -5,7 +5,7 @@ DESCRIPTION = "rqt_dep provides a GUI plugin for visualizing the ROS dependency 
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin python-rospkg python-qt-binding qt-dotgraph qt-gui qt-gui-py-common rqt-graph rqt-gui-py"
 SRC_URI = "https://github.com/ros-gbp/rqt_dep-release/archive/release/lunar/rqt_dep/0.4.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

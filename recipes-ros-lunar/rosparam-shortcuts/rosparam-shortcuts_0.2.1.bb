@@ -5,7 +5,7 @@ DESCRIPTION = "Quickly load variables from rosparam with good command line error
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin cmake-modules eigen eigen-conversions roscpp roslint"
 SRC_URI = "https://github.com/davetcoleman/rosparam_shortcuts-release/archive/release/lunar/rosparam_shortcuts/0.2.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

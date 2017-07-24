@@ -5,7 +5,7 @@ DESCRIPTION = "This metapackage depends on the SMACH library and ROS SMACH integ
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin smach smach-msgs smach-ros"
 SRC_URI = "https://github.com/ros-gbp/executive_smach-release/archive/release/lunar/executive_smach/2.0.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

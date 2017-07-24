@@ -5,7 +5,7 @@ DESCRIPTION = "This package provides an implementation of the Dynamic Window App
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=20;endline=20;md5=acbed67fd486c51e7a0624505f2e6733"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=20;endline=20;md5=01c2bc31767ccb3a68e12f02612b2a97"
 
 DEPENDS = "base-local-planner catkin cmake-modules costmap-2d dynamic-reconfigure eigen nav-core nav-msgs pcl-conversions pluginlib roscpp tf"
 SRC_URI = "https://github.com/ros-gbp/navigation-release/archive/release/lunar/dwa_local_planner/1.14.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

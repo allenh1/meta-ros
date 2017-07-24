@@ -5,7 +5,7 @@ DESCRIPTION = "A path planner library and node."
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "angles catkin costmap-2d dynamic-reconfigure geometry-msgs nav-core nav-msgs navfn pluginlib roscpp tf"
 SRC_URI = "https://github.com/ros-gbp/navigation-release/archive/release/lunar/global_planner/1.14.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

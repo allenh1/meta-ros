@@ -5,7 +5,7 @@ DESCRIPTION = "Packages for interfacing ROS with OpenCV, a library of programmin
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin cv-bridge image-geometry"
 SRC_URI = "https://github.com/ros-gbp/vision_opencv-release/archive/release/lunar/vision_opencv/1.12.4-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

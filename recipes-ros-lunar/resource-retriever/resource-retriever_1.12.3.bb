@@ -5,7 +5,7 @@ DESCRIPTION = "This package retrieves data from url-format files such as http://
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=18;endline=18;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=18;endline=18;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin curl python-rospkg rosconsole roslib"
 SRC_URI = "https://github.com/ros-gbp/resource_retriever-release/archive/release/lunar/resource_retriever/1.12.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

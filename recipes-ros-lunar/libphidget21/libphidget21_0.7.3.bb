@@ -5,7 +5,7 @@ DESCRIPTION = "This package wraps the libphidget21 to use it as a ROS dependency
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "LGPL"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d2740cd2c4139b24d7392872077c634a"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=46ee8693f40a89a31023e97ae17ecf19"
 
 DEPENDS = "catkin libusb-dev"
 SRC_URI = "https://github.com/ros-drivers-gbp/phidgets_drivers-release/archive/release/lunar/libphidget21/0.7.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

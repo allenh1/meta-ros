@@ -5,7 +5,7 @@ DESCRIPTION = "The pluginlib package provides tools for writing and dynamically 
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "boost catkin class-loader cmake-modules rosconsole roslib libtinyxml"
 SRC_URI = "https://github.com/ros-gbp/pluginlib-release/archive/release/lunar/pluginlib/1.10.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

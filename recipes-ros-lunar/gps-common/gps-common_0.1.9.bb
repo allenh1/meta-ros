@@ -5,7 +5,7 @@ DESCRIPTION = "GPS messages and common routines for use in GPS drivers"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin message-filters message-generation message-runtime nav-msgs roscpp sensor-msgs std-msgs"
 SRC_URI = "https://github.com/swri-robotics-gbp/gps_umd-release/archive/release/lunar/gps_common/0.1.9-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

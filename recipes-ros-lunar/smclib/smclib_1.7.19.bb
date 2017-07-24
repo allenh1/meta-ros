@@ -5,7 +5,7 @@ DESCRIPTION = "The State Machine Compiler (SMC) from http://smc.sourceforge.net/
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "Mozilla-Public-License-Version-1.1"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=6135719b38322526565b80436fc416f7"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=e1b5a50d4dd59d8102e41a7a2254462d"
 
 DEPENDS = "catkin"
 SRC_URI = "https://github.com/ros-gbp/bond_core-release/archive/release/lunar/smclib/1.7.19-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

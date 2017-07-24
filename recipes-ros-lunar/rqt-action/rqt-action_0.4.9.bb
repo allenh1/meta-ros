@@ -5,7 +5,7 @@ DESCRIPTION = "rqt_action provides a feature to introspect all available ROS   a
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin rospy rqt-msg rqt-py-common"
 SRC_URI = "https://github.com/ros-gbp/rqt_action-release/archive/release/lunar/rqt_action/0.4.9-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

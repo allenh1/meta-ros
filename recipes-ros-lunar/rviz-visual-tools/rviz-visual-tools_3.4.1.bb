@@ -5,7 +5,7 @@ DESCRIPTION = "Utility functions for displaying and debugging data in Rviz via p
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin eigen-conversions eigen-stl-containers geometry-msgs graph-msgs libqt5x11extras5-dev roscpp roslint rviz sensor-msgs std-msgs tf-conversions trajectory-msgs visualization-msgs"
 SRC_URI = "https://github.com/davetcoleman/rviz_visual_tools-release/archive/release/lunar/rviz_visual_tools/3.4.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

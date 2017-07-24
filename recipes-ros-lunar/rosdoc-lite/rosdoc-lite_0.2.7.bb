@@ -5,7 +5,7 @@ DESCRIPTION = "This ROS package wraps documentation tools like doxygen, sphinx, 
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin doxygen epydoc genmsg python-catkin-pkg python-kitchen python-rospkg python-sphinx python-pyyaml"
 SRC_URI = "https://github.com/ros-gbp/rosdoc_lite-release/archive/release/lunar/rosdoc_lite/0.2.7-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

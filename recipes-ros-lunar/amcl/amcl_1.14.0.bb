@@ -5,7 +5,7 @@ DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "LGPL"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=21;endline=21;md5=555b1474f8ff72c4501f69f750549ab0"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=21;endline=21;md5=58d727014cda5ed405b7fb52666a1f97"
 
 DEPENDS = "catkin dynamic-reconfigure message-filters nav-msgs rosbag roscpp rostest std-srvs tf"
 SRC_URI = "https://github.com/ros-gbp/navigation-release/archive/release/lunar/amcl/1.14.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

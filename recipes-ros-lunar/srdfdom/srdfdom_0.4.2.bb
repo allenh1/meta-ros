@@ -5,7 +5,7 @@ DESCRIPTION = "Parser for Semantic Robot Description Format (SRDF)."
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "boost catkin cmake-modules console-bridge liburdfdom-headers-dev libtinyxml urdf urdfdom-py"
 SRC_URI = "https://github.com/ros-gbp/srdfdom-release/archive/release/lunar/srdfdom/0.4.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

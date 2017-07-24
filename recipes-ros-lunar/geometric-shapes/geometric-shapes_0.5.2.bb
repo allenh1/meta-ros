@@ -5,7 +5,7 @@ DESCRIPTION = "This package contains generic definitions of geometric shapes and
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "assimp assimp-dev boost catkin eigen eigen-stl-containers console-bridge libqhull octomap pkgconfig random-numbers resource-retriever shape-msgs visualization-msgs"
 SRC_URI = "https://github.com/ros-gbp/geometric_shapes-release/archive/release/lunar/geometric_shapes/0.5.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

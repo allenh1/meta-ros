@@ -5,7 +5,7 @@ DESCRIPTION = "Various tools for IMU devices"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d5e1066b55633f30c0ddbc6905f6ca49"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d81febe1baeaed0bfd599be384185f36"
 
 DEPENDS = "catkin imu-complementary-filter imu-filter-madgwick rviz-imu-plugin"
 SRC_URI = "https://github.com/uos-gbp/imu_tools-release/archive/release/lunar/imu_tools/1.1.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

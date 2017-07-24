@@ -5,7 +5,7 @@ DESCRIPTION = "This package starts a Neuronics Katana robot arm in the Gazebo si
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "GPL"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=fe6a07ee75db997e0a74d91b3b60fb3a"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=162b49cfbae9eadf37c9b89b2d2ac6be"
 
 DEPENDS = "actionlib catkin controller-manager controller-manager-msgs gazebo-ros joint-trajectory-controller katana-description katana-gazebo-plugins robot-state-publisher roscpp std-msgs urdf xacro"
 SRC_URI = "https://github.com/uos-gbp/katana_driver-release/archive/release/lunar/katana_arm_gazebo/1.1.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

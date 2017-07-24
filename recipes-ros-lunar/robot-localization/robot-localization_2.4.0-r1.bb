@@ -5,7 +5,7 @@ DESCRIPTION = "Provides nonlinear state estimation through sensor fusion of an a
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin cmake-modules diagnostic-msgs diagnostic-updater eigen geographic-msgs geometry-msgs message-filters message-generation message-runtime nav-msgs python-catkin-pkg roscpp roslint sensor-msgs std-msgs tf2 tf2-geometry-msgs tf2-ros xmlrpcpp"
 SRC_URI = "https://github.com/cra-ros-pkg/robot_localization-release/archive/release/lunar/robot_localization/2.4.0-1.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

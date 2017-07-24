@@ -5,7 +5,7 @@ DESCRIPTION = "Small lib to transform sensor_msgs with tf. Most notably, PointCl
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin cmake-modules eigen python-orocos-kdl rospy sensor-msgs tf2 tf2-ros"
 SRC_URI = "https://github.com/ros-gbp/geometry2-release/archive/release/lunar/tf2_sensor_msgs/0.5.16-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

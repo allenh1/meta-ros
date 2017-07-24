@@ -5,7 +5,7 @@ DESCRIPTION = "jsk_gui_msgs"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "Apache-2.0"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=cd1a22ceb914b60db1fb991e52fe3fcc"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=3dce4ba60d7e51ec64f3c3dc18672dd3"
 
 DEPENDS = "catkin geometry-msgs message-generation message-runtime sensor-msgs std-msgs"
 SRC_URI = "https://github.com/tork-a/jsk_common_msgs-release/archive/release/lunar/jsk_gui_msgs/4.2.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

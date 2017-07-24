@@ -5,7 +5,7 @@ DESCRIPTION = "Object_recognition_msgs contains the ROS message and the actionli
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "actionlib-msgs catkin geometry-msgs message-generation message-runtime sensor-msgs shape-msgs std-msgs"
 SRC_URI = "https://github.com/ros-gbp/object_recognition_msgs-release/archive/release/lunar/object_recognition_msgs/0.4.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

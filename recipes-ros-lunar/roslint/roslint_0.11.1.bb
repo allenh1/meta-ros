@@ -5,7 +5,7 @@ DESCRIPTION = "CMake lint commands for ROS packages.      The lint commands perf
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin"
 SRC_URI = "https://github.com/ros-gbp/roslint-release/archive/release/lunar/roslint/0.11.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

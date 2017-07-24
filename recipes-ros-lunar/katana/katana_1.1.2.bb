@@ -5,7 +5,7 @@ DESCRIPTION = "This package provides ROS interfaces to the Neuronics Katana 450 
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "GPL"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=fe6a07ee75db997e0a74d91b3b60fb3a"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=162b49cfbae9eadf37c9b89b2d2ac6be"
 
 DEPENDS = "actionlib armadillo catkin control-msgs geometry-msgs katana-msgs kni moveit-msgs roscpp roslib sensor-msgs std-srvs tf trajectory-msgs urdf"
 SRC_URI = "https://github.com/uos-gbp/katana_driver-release/archive/release/lunar/katana/1.1.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

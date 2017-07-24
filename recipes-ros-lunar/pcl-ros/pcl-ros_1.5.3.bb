@@ -5,7 +5,7 @@ DESCRIPTION = "PCL (Point Cloud Library) ROS interface stack. PCL-ROS is the pre
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=19;endline=19;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=19;endline=19;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin cmake-modules dynamic-reconfigure eigen genmsg libpcl-all-dev libvtk-java message-filters nodelet nodelet-topic-tools pcl-conversions pcl-msgs pluginlib proj qtbase5-dev rosbag rosconsole roscpp roslib sensor-msgs std-msgs tf tf2-eigen"
 SRC_URI = "https://github.com/ros-gbp/perception_pcl-release/archive/release/lunar/pcl_ros/1.5.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

@@ -5,7 +5,7 @@ DESCRIPTION = "cv_camera uses OpenCV capture object to capture camera image.   T
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "camera-info-manager catkin cv-bridge image-transport nodelet opencv3 roscpp roslint rostest sensor-msgs"
 SRC_URI = "https://github.com/OTL/cv_camera-release/archive/release/lunar/cv_camera/0.2.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

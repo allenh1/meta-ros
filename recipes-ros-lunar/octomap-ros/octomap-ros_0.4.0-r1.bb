@@ -5,7 +5,7 @@ DESCRIPTION = "octomap_ros provides conversion functions between ROS and OctoMap
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin octomap octomap-msgs sensor-msgs tf"
 SRC_URI = "https://github.com/ros-gbp/octomap_ros-release/archive/release/lunar/octomap_ros/0.4.0-1.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

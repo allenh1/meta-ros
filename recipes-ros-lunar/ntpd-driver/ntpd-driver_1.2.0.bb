@@ -5,7 +5,7 @@ DESCRIPTION = "ntpd_driver sends TimeReference message time to ntpd server"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=23f8de2430b349800266ded71351769e"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "catkin cmake-modules libpoco-dev message-generation message-runtime roscpp sensor-msgs"
 SRC_URI = "https://github.com/vooon/ntpd_driver-release/archive/release/lunar/ntpd_driver/1.2.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

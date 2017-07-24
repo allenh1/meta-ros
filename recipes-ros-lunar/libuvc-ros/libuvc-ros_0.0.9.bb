@@ -5,7 +5,7 @@ DESCRIPTION = "libuvc_ros metapackage"
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=7389aef5a605df7910cbc0188bffd7bb"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=2c00b8d2854109dbebef7818b4dae1e2"
 
 DEPENDS = "catkin libuvc-camera"
 SRC_URI = "https://github.com/ros-drivers-gbp/libuvc_ros-release/archive/release/lunar/libuvc_ros/0.0.9-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

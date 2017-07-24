@@ -5,7 +5,7 @@ DESCRIPTION = "This stack contains all descriptions, drivers and bringup facilit
 AUTHOR = "OSRF"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d5e1066b55633f30c0ddbc6905f6ca49"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d81febe1baeaed0bfd599be384185f36"
 
 DEPENDS = "catkin katana katana-arm-gazebo katana-description katana-gazebo-plugins katana-moveit-ikfast-plugin katana-msgs katana-teleop katana-tutorials kni"
 SRC_URI = "https://github.com/uos-gbp/katana_driver-release/archive/release/lunar/katana_driver/1.1.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "python-empy-native message-generation message-runtime std-msgs"
+DEPENDS = "catkin-native message-generation message-runtime std-msgs"
 SRC_URI = "https://github.com/ros-gbp/ros_control-release/archive/release/lunar/controller_manager_msgs/0.11.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "9c693f7d90afbbf648a3f5ac7149cdd6"

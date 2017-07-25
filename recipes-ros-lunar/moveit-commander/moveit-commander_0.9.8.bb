@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "python-empy-native geometry-msgs moveit-msgs moveit-ros-planning-interface python python-catkin-pkg-native python-pyassimp rospy sensor-msgs shape-msgs tf"
+DEPENDS = "catkin-native geometry-msgs moveit-msgs moveit-ros-planning-interface python python-catkin-pkg-native python-pyassimp rospy sensor-msgs shape-msgs tf"
 SRC_URI = "https://github.com/ros-gbp/moveit-release/archive/release/lunar/moveit_commander/0.9.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "fa1612403d41854707f44577a828742d"

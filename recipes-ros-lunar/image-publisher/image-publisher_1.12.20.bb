@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "camera-info-manager python-empy-native cv-bridge dynamic-reconfigure image-transport nodelet roscpp sensor-msgs"
+DEPENDS = "camera-info-manager catkin-native cv-bridge dynamic-reconfigure image-transport nodelet roscpp sensor-msgs"
 SRC_URI = "https://github.com/ros-gbp/image_pipeline-release/archive/release/lunar/image_publisher/1.12.20-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "97d9f6a36b5b9a1ee80537fb078c59fa"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=01c2bc31767ccb3a68e12f02612b2a97"
 
-DEPENDS = "python-empy-native roscpp"
+DEPENDS = "catkin-native roscpp"
 SRC_URI = "https://github.com/ros-gbp/navigation-release/archive/release/lunar/voxel_grid/1.14.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "348d12521583cf0b5738db439e1ce0c3"

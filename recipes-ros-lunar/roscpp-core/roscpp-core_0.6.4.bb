@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "python-empy-native cpp-common roscpp-serialization roscpp-traits rostime"
+DEPENDS = "catkin-native cpp-common roscpp-serialization roscpp-traits rostime"
 SRC_URI = "https://github.com/ros-gbp/roscpp_core-release/archive/release/lunar/roscpp_core/0.6.4-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "a84d78018031790816b2aedd59c91fc8"

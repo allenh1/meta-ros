@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "python-empy-native gencpp geneus genlisp genmsg gennodejs genpy"
+DEPENDS = "catkin-native gencpp geneus genlisp genmsg gennodejs genpy"
 SRC_URI = "https://github.com/ros-gbp/message_generation-release/archive/release/lunar/message_generation/0.4.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "b32f43c1c811e4cb20899fb0e193ae69"

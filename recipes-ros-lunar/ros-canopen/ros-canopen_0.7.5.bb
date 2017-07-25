@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "LGPL"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=46ee8693f40a89a31023e97ae17ecf19"
 
-DEPENDS = "can-msgs canopen-402 canopen-chain-node canopen-master canopen-motor-node python-empy-native socketcan-bridge socketcan-interface"
+DEPENDS = "can-msgs canopen-402 canopen-chain-node canopen-master canopen-motor-node catkin-native socketcan-bridge socketcan-interface"
 SRC_URI = "https://github.com/ros-industrial-release/ros_canopen-release/archive/release/lunar/ros_canopen/0.7.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "53277d59f33a8b8ebf68b97e650897df"

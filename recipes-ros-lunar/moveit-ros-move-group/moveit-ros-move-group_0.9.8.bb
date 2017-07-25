@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "actionlib python-empy-native moveit-core moveit-kinematics moveit-ros-planning pluginlib std-srvs tf"
+DEPENDS = "actionlib catkin-native moveit-core moveit-kinematics moveit-ros-planning pluginlib std-srvs tf"
 SRC_URI = "https://github.com/ros-gbp/moveit-release/archive/release/lunar/moveit_ros_move_group/0.9.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "282546e01183f38888554526f26ead11"

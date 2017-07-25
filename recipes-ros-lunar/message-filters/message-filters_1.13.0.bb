@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "boost python-empy-native rosconsole roscpp rostest rosunit xmlrpcpp"
+DEPENDS = "boost catkin-native rosconsole roscpp rostest rosunit xmlrpcpp"
 SRC_URI = "https://github.com/ros-gbp/ros_comm-release/archive/release/lunar/message_filters/1.13.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "7739e9d879b00e061c94411adcbad36d"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "boost python-empy-native rosgraph roslaunch rosmaster rospy rosunit"
+DEPENDS = "boost catkin-native rosgraph roslaunch rosmaster rospy rosunit"
 SRC_URI = "https://github.com/ros-gbp/ros_comm-release/archive/release/lunar/rostest/1.13.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "4ee8ff80f78a77fe13620b3658c34647"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "python-empy-native nodelet rosbash roscpp std-msgs"
+DEPENDS = "catkin-native nodelet rosbash roscpp std-msgs"
 SRC_URI = "https://github.com/swri-robotics-gbp/marti_common-release/archive/release/lunar/swri_nodelet/0.3.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "f97621692b292935525cedbbea94c81e"

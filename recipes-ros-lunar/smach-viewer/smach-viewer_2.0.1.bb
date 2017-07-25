@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=16;endline=16;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "python-empy-native graphviz rostest smach-msgs smach-ros wxpython"
+DEPENDS = "catkin-native graphviz rostest smach-msgs smach-ros wxpython"
 SRC_URI = "https://github.com/jbohren/executive_smach_visualization-release/archive/release/lunar/smach_viewer/2.0.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "91f2a85da9f3ab1bd9dc81c8efd6f19d"

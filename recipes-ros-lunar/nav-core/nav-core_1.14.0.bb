@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=01c2bc31767ccb3a68e12f02612b2a97"
 
-DEPENDS = "python-empy-native costmap-2d geometry-msgs std-msgs tf"
+DEPENDS = "catkin-native costmap-2d geometry-msgs std-msgs tf"
 SRC_URI = "https://github.com/ros-gbp/navigation-release/archive/release/lunar/nav_core/1.14.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "a9690de05c68ef8d3dd7fd6ee300eeb4"

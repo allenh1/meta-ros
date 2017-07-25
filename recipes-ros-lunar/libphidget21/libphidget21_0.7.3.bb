@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "LGPL"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=46ee8693f40a89a31023e97ae17ecf19"
 
-DEPENDS = "python-empy-native libusb-dev"
+DEPENDS = "catkin-native libusb-dev"
 SRC_URI = "https://github.com/ros-drivers-gbp/phidgets_drivers-release/archive/release/lunar/libphidget21/0.7.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "a71b223f4f041dfe23c41729b49cf10f"

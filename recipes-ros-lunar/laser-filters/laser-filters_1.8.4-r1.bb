@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "angles python-empy-native filters laser-geometry message-filters pluginlib roscpp rostest sensor-msgs tf"
+DEPENDS = "angles catkin-native filters laser-geometry message-filters pluginlib roscpp rostest sensor-msgs tf"
 SRC_URI = "https://github.com/ros-gbp/laser_filters-release/archive/release/lunar/laser_filters/1.8.4-1.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "4cd03dfb907b1fa76a23a594031a34ba"

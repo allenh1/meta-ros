@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "LGPLv3"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=b691248d2f70cdaeeaf13696ada5d47c"
 
-DEPENDS = "canopen-master python-empy-native class-loader"
+DEPENDS = "canopen-master catkin-native class-loader"
 SRC_URI = "https://github.com/ros-industrial-release/ros_canopen-release/archive/release/lunar/canopen_402/0.7.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "b25282f18fdfb42624f06bb5f7f6b481"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "python-empy-native message-generation message-runtime sensor-msgs std-msgs"
+DEPENDS = "catkin-native message-generation message-runtime sensor-msgs std-msgs"
 SRC_URI = "https://github.com/swri-robotics-gbp/marti_messages-release/archive/release/lunar/marti_perception_msgs/0.0.9-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "f3e3f3b48c44432aff4792d53a25ff03"

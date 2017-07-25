@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "python-empy-native geometry-msgs python-rospkg python-qt-binding rostopic rqt-gui rqt-gui-py"
+DEPENDS = "catkin-native geometry-msgs python-rospkg python-qt-binding rostopic rqt-gui rqt-gui-py"
 SRC_URI = "https://github.com/ros-gbp/rqt_robot_steering-release/archive/release/lunar/rqt_robot_steering/0.5.7-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "79f1138d4cfe483c3a23484c17344353"

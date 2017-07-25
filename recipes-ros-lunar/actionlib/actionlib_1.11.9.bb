@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "actionlib-msgs boost python-empy-native message-generation message-runtime roscpp rospy rostest std-msgs"
+DEPENDS = "actionlib-msgs boost catkin-native message-generation message-runtime roscpp rospy rostest std-msgs"
 SRC_URI = "https://github.com/ros-gbp/actionlib-release/archive/release/lunar/actionlib/1.11.9-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "fb49a284ef56bb7f6a39f3ef027f3c7b"

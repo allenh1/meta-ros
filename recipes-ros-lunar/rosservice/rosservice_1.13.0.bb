@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "python-empy-native genpy rosgraph roslib rosmsg rospy"
+DEPENDS = "catkin-native genpy rosgraph roslib rosmsg rospy"
 SRC_URI = "https://github.com/ros-gbp/ros_comm-release/archive/release/lunar/rosservice/1.13.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "7e6b51a662075dc484f7576aa2ea5fd4"

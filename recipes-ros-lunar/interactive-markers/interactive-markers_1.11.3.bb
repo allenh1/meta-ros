@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=5ee5b8b046ae48ad94a2037ca953a67b"
 
-DEPENDS = "python-empy-native rosconsole roscpp rospy rostest std-msgs tf visualization-msgs"
+DEPENDS = "catkin-native rosconsole roscpp rospy rostest std-msgs tf visualization-msgs"
 SRC_URI = "https://github.com/ros-gbp/interactive_markers-release/archive/release/lunar/interactive_markers/1.11.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "94b360e186dfae2894ecf9861da137b7"

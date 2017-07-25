@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=16;endline=16;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "python-empy-native roscpp rospy"
+DEPENDS = "catkin-native roscpp rospy"
 SRC_URI = "https://github.com/ros-gbp/realtime_tools-release/archive/release/lunar/realtime_tools/1.10.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "59e95d3530d4e06e4f90cf4ab3d9c499"

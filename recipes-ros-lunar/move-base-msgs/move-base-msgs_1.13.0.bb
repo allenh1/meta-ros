@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=01c2bc31767ccb3a68e12f02612b2a97"
 
-DEPENDS = "actionlib-msgs python-empy-native geometry-msgs message-generation message-runtime"
+DEPENDS = "actionlib-msgs catkin-native geometry-msgs message-generation message-runtime"
 SRC_URI = "https://github.com/ros-gbp/navigation_msgs-release/archive/release/lunar/move_base_msgs/1.13.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "107007d4f5c3cc3379a14c650f94654f"

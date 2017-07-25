@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "python-empy-native pkgconfig pluginlib python-qt-binding qt5-qmake qt-gui qtbase5-dev libtinyxml"
+DEPENDS = "catkin-native pkgconfig pluginlib python-qt-binding qt5-qmake qt-gui qtbase5-dev libtinyxml"
 SRC_URI = "https://github.com/ros-gbp/qt_gui_core-release/archive/release/lunar/qt_gui_cpp/0.3.4-2.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "1e903d464eebc34b651ae6900ec18083"

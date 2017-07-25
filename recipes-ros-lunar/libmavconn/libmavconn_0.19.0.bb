@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "GPLv3"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=15;endline=15;md5=1e7b3bcc2e271699c77c769685058cbe"
 
-DEPENDS = "boost python-empy-native console-bridge mavlink"
+DEPENDS = "boost catkin-native console-bridge mavlink"
 SRC_URI = "https://github.com/mavlink/mavros-release/archive/release/lunar/libmavconn/0.19.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "580c1327e14915014f500695f8b1c030"

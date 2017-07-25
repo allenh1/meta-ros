@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=20;endline=20;md5=01c2bc31767ccb3a68e12f02612b2a97"
 
-DEPENDS = "base-local-planner python-empy-native cmake-modules costmap-2d dynamic-reconfigure eigen nav-core nav-msgs pcl-conversions pluginlib roscpp tf"
+DEPENDS = "base-local-planner catkin-native cmake-modules costmap-2d dynamic-reconfigure eigen nav-core nav-msgs pcl-conversions pluginlib roscpp tf"
 SRC_URI = "https://github.com/ros-gbp/navigation-release/archive/release/lunar/dwa_local_planner/1.14.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "7a15bc262ef277f1ba8d6f6b2ea2a97a"

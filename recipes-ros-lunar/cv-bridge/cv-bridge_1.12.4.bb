@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "boost python-empy-native opencv3 python rosconsole sensor-msgs"
+DEPENDS = "boost catkin-native opencv3 python rosconsole sensor-msgs"
 SRC_URI = "https://github.com/ros-gbp/vision_opencv-release/archive/release/lunar/cv_bridge/1.12.4-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "4ce5501b0dae9f4efbc87fefa7fc566f"

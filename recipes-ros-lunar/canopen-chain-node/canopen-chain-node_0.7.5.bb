@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "LGPLv3"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=b691248d2f70cdaeeaf13696ada5d47c"
 
-DEPENDS = "canopen-master python-empy-native diagnostic-updater message-generation message-runtime pluginlib roscpp roslib socketcan-interface std-msgs std-srvs"
+DEPENDS = "canopen-master catkin-native diagnostic-updater message-generation message-runtime pluginlib roscpp roslib socketcan-interface std-msgs std-srvs"
 SRC_URI = "https://github.com/ros-industrial-release/ros_canopen-release/archive/release/lunar/canopen_chain_node/0.7.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "d216abed173020f2638630bc26e4e587"

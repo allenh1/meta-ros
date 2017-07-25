@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=15;endline=15;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "python-empy-native python-pyyaml rosgraph"
+DEPENDS = "catkin-native python-pyyaml rosgraph"
 SRC_URI = "https://github.com/ros-gbp/ros_comm-release/archive/release/lunar/rosparam/1.13.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "f77c6f0ab9620a7c1b643984cabee145"

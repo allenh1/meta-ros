@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=3dce4ba60d7e51ec64f3c3dc18672dd3"
 
-DEPENDS = "python-empy-native genmsg catkin-native"
+DEPENDS = "catkin-native genmsg"
 SRC_URI = "https://github.com/RethinkRobotics-release/gennodejs-release/archive/release/lunar/gennodejs/2.0.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "84113f3bfdd22060393c455bc818df8f"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "Public-domain"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=90cf8e14bb501c1f6d3eda81e45e438a"
 
-DEPENDS = "python-empy-native emacs"
+DEPENDS = "catkin-native emacs"
 SRC_URI = "https://github.com/code-iai-release/ros_emacs_utils-release/archive/release/lunar/slime_wrapper/0.4.11-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "369b3581c8e28c49b089ea2b841e4ffd"

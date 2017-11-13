@@ -7,11 +7,11 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "python-empy-native diagnostic-aggregator diagnostic-msgs pluginlib roscpp rospy rostest"
+DEPENDS = "catkin-native diagnostic-aggregator diagnostic-msgs pluginlib roscpp rospy rostest"
 SRC_URI = "https://github.com/ros-gbp/diagnostics-release/archive/release/lunar/test_diagnostic_aggregator/1.9.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
-SRC_URI[md5sum] = "636e9f6900879f90bbba88086ae15a75"
-SRC_URI[sha256sum] = "f63cfd5187fbb4dbf9110818a813bef4c86cf7f388e46b8cd1da7f942a9cb504"
+SRC_URI[md5sum] = "771e58d40f56daee307bd15cb8d45f34"
+SRC_URI[sha256sum] = "a1d299e5a6c3176ca85df39bcab3be06a73f5be6167db86ae70773e0a7b9e6f9"
 S = "${WORKDIR}/diagnostics-release-release-lunar-test_diagnostic_aggregator-1.9.2-0"
 
 inherit catkin

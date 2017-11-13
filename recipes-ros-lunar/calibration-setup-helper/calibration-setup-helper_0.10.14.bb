@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=3dce4ba60d7e51ec64f3c3dc18672dd3"
 
-DEPENDS = "calibration-launch python-empy-native"
+DEPENDS = "calibration-launch catkin-native"
 SRC_URI = "https://github.com/ros-gbp/calibration-release/archive/release/lunar/calibration_setup_helper/0.10.14-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "a448334622d5c40d62062c1bdc69eab6"

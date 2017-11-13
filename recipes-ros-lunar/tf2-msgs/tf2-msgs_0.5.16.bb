@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "actionlib-msgs python-empy-native geometry-msgs message-generation"
+DEPENDS = "actionlib-msgs catkin-native geometry-msgs message-generation"
 SRC_URI = "https://github.com/ros-gbp/geometry2-release/archive/release/lunar/tf2_msgs/0.5.16-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "f4ed375f244b450842d65942a90bd4e6"

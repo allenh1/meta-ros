@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=6;endline=6;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "actionlib-tutorials python-empy-native nodelet-tutorial-math pluginlib-tutorials turtle-actionlib"
+DEPENDS = "actionlib-tutorials catkin-native nodelet-tutorial-math pluginlib-tutorials turtle-actionlib"
 SRC_URI = "https://github.com/ros-gbp/common_tutorials-release/archive/release/lunar/common_tutorials/0.1.10-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "454769d5bdd7ddf90251ae8ca3098b56"

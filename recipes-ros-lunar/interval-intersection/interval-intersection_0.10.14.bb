@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "actionlib actionlib-msgs boost calibration-msgs python-empy-native geometry-msgs rosconsole roscpp roscpp-serialization rostime std-msgs"
+DEPENDS = "actionlib actionlib-msgs boost calibration-msgs catkin-native geometry-msgs rosconsole roscpp roscpp-serialization rostime std-msgs"
 SRC_URI = "https://github.com/ros-gbp/calibration-release/archive/release/lunar/interval_intersection/0.10.14-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "32c9d36359f725cda47450dd566bfb54"

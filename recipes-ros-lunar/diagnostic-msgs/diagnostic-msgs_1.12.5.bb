@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=17;endline=17;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "python-empy-native message-generation message-runtime std-msgs"
+DEPENDS = "catkin-native message-generation message-runtime std-msgs"
 SRC_URI = "https://github.com/ros-gbp/common_msgs-release/archive/release/lunar/diagnostic_msgs/1.12.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "74afa8965114b3f49203463e8e675435"

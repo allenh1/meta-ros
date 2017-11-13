@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=16;endline=16;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "python-empy-native orocos-kdl python-catkin-pkg-native python-orocos-kdl rostest urdf urdfdom-py"
+DEPENDS = "catkin-native orocos-kdl python-catkin-pkg-native python-orocos-kdl rostest urdf urdfdom-py"
 SRC_URI = "https://github.com/ros-gbp/kdl_parser-release/archive/release/lunar/kdl_parser_py/1.12.10-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "27b76dce240fcc608ab5e978b1f3bcc6"

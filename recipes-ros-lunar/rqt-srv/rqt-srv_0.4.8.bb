@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "python-empy-native rosmsg rospy rqt-gui rqt-gui-py rqt-msg"
+DEPENDS = "catkin-native rosmsg rospy rqt-gui rqt-gui-py rqt-msg"
 SRC_URI = "https://github.com/ros-gbp/rqt_srv-release/archive/release/lunar/rqt_srv/0.4.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "13e4fb71fc7fc79f16df38080fb2965c"

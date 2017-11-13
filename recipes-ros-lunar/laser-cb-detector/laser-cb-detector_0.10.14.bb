@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "actionlib actionlib-msgs python-empy-native cv-bridge image-cb-detector message-filters roscpp settlerlib std-msgs"
+DEPENDS = "actionlib actionlib-msgs catkin-native cv-bridge image-cb-detector message-filters roscpp settlerlib std-msgs"
 SRC_URI = "https://github.com/ros-gbp/calibration-release/archive/release/lunar/laser_cb_detector/0.10.14-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "331c3f8d442ccde1e2ffb5639a0b1314"

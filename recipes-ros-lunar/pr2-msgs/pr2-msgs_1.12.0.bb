@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "python-empy-native geometry-msgs message-generation message-runtime std-msgs"
+DEPENDS = "catkin-native geometry-msgs message-generation message-runtime std-msgs"
 SRC_URI = "https://github.com/ros-gbp/pr2_common-release/archive/release/lunar/pr2_msgs/1.12.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "253c0997dbf51dd6d75835202ff271bf"

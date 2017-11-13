@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "python-empy-native liburdfdom-headers-dev"
+DEPENDS = "catkin-native liburdfdom-headers-dev"
 SRC_URI = "https://github.com/ros-gbp/robot_model-release/archive/release/lunar/urdf_parser_plugin/1.12.11-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "9277c581f5136366c1302186a15f5c9d"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "python-empy-native dynamic-reconfigure message-generation message-runtime roscpp std-msgs"
+DEPENDS = "catkin-native dynamic-reconfigure message-generation message-runtime roscpp std-msgs"
 SRC_URI = "https://github.com/AndyZe/pid-release/archive/release/lunar/pid/0.0.22-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "902a277d3d108f9b10326a1f255387ac"

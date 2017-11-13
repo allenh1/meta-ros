@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=21;endline=21;md5=2c00b8d2854109dbebef7818b4dae1e2"
 
-DEPENDS = "camera-info-manager python-empy-native image-transport libv4l-dev nodelet roscpp sensor-msgs"
+DEPENDS = "camera-info-manager catkin-native image-transport libv4l-dev nodelet roscpp sensor-msgs"
 SRC_URI = "https://github.com/ros-drivers-gbp/camera_umd-release/archive/release/lunar/uvc_camera/0.2.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "ee860e9ef117cc04aeb0b709d00e8509"

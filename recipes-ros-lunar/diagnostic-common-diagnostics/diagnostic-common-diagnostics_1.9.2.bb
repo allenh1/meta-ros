@@ -7,11 +7,11 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "python-empy-native diagnostic-updater hddtemp python-psutil rospy rostest tf"
+DEPENDS = "catkin-native diagnostic-updater hddtemp python-psutil rospy rostest tf"
 SRC_URI = "https://github.com/ros-gbp/diagnostics-release/archive/release/lunar/diagnostic_common_diagnostics/1.9.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
-SRC_URI[md5sum] = "987b2a600532f51041b672e590e0b22c"
-SRC_URI[sha256sum] = "200e795cfa883b844a40ee63127fc1120f12c4dcec0757bef2d8f63de872f047"
+SRC_URI[md5sum] = "28baca764b15eb402b9030cb37b2941a"
+SRC_URI[sha256sum] = "20823055ecdb24da2fae0d4ade63d2f6bfa97323ed260de3fce682b907099f6e"
 S = "${WORKDIR}/diagnostics-release-release-lunar-diagnostic_common_diagnostics-1.9.2-0"
 
 inherit catkin

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=17;endline=17;md5=75730354549103aaba72b66caf53717b"
 
-DEPENDS = "python-empy-native dynamic-reconfigure python-qt-binding rospy rqt-console rqt-gui rqt-gui-py rqt-py-common"
+DEPENDS = "catkin-native dynamic-reconfigure python-qt-binding rospy rqt-console rqt-gui rqt-gui-py rqt-py-common"
 SRC_URI = "https://github.com/ros-gbp/rqt_reconfigure-release/archive/release/lunar/rqt_reconfigure/0.4.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "65b58690b8b902cab5d30f5cb745929f"

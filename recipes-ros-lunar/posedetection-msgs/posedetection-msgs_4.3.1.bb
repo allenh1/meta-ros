@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native cv-bridge geometry-msgs message-filters message-generation message-runtime roscpp sensor-msgs std-msgs"
+DEPENDS = "catkin cv-bridge geometry-msgs message-filters message-generation message-runtime roscpp sensor-msgs std-msgs"
 SRC_URI = "https://github.com/tork-a/jsk_common_msgs-release/archive/release/lunar/posedetection_msgs/4.3.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "56306d851a4a8521969b30db3d5e0168"

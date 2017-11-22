@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native depth-image-proc image-proc nodelet openni2-camera python-catkin-pkg-native rgbd-launch tf"
+DEPENDS = "catkin depth-image-proc image-proc nodelet openni2-camera python-catkin-pkg rgbd-launch tf"
 SRC_URI = "https://github.com/ros-gbp/openni2_camera-release/archive/release/lunar/openni2_launch/0.3.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "f9f4ab8290e8683550b4ba09418148d1"

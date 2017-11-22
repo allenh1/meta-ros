@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "actionlib-msgs catkin-native geometry-msgs message-generation message-runtime std-msgs trajectory-msgs"
+DEPENDS = "actionlib-msgs catkin geometry-msgs message-generation message-runtime std-msgs trajectory-msgs"
 SRC_URI = "https://github.com/ros-gbp/control_msgs-release/archive/release/lunar/control_msgs/1.4.0-1.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "424f2ee590234ec1cb7795e0ff807272"

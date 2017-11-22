@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native interactive-markers roscpp visualization-msgs"
+DEPENDS = "catkin interactive-markers roscpp visualization-msgs"
 SRC_URI = "https://github.com/ros-gbp/interactive_marker_twist_server-release/archive/release/lunar/interactive_marker_twist_server/1.2.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "9d38beea74c3316476c8be029c2955f8"

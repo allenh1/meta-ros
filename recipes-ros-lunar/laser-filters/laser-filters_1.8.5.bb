@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "angles catkin-native filters laser-geometry message-filters pluginlib roscpp rostest sensor-msgs tf"
+DEPENDS = "angles catkin filters laser-geometry message-filters pluginlib roscpp rostest sensor-msgs tf"
 SRC_URI = "https://github.com/ros-gbp/laser_filters-release/archive/release/lunar/laser_filters/1.8.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "6a3e7b1a23f28f31b18b823004073a10"

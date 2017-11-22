@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin-pip rosgraph roslaunch roslint rospy rostest"
+DEPENDS = "catkin catkin-pip rosgraph roslaunch roslint rospy rostest"
 SRC_URI = "https://github.com/pyros-dev/pyros-utils-release/archive/release/lunar/pyros_utils/0.1.4-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "0f2a92610aa8ad652d392db41abbb02f"

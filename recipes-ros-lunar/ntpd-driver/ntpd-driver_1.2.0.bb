@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native cmake-modules libpoco-dev message-generation message-runtime roscpp sensor-msgs"
+DEPENDS = "catkin cmake-modules libpoco-dev message-generation message-runtime roscpp sensor-msgs"
 SRC_URI = "https://github.com/vooon/ntpd_driver-release/archive/release/lunar/ntpd_driver/1.2.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "7187f9257681018e7869a27929c9cae0"

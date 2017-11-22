@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native geometry-msgs message-generation message-runtime sensor-msgs std-msgs"
+DEPENDS = "catkin geometry-msgs message-generation message-runtime sensor-msgs std-msgs"
 SRC_URI = "https://github.com/ros-gbp/calibration-release/archive/release/lunar/calibration_msgs/0.10.14-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "beafa1e581e0e2ab4de37c0e358a82cc"

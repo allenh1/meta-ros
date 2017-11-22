@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "bondpy catkin-native message-generation message-runtime nodelet python-pyyaml roslaunch rospy rostest std-msgs std-srvs"
+DEPENDS = "bondpy catkin message-generation message-runtime nodelet python-pyyaml roslaunch rospy rostest std-msgs std-srvs"
 SRC_URI = "https://github.com/ros-gbp/capabilities-release/archive/release/lunar/capabilities/0.2.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "b7f36d1231f63f5fca67e331c6c542ee"

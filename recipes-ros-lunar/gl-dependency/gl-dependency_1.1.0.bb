@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native python-qt5-bindings-gl"
+DEPENDS = "catkin python-qt5-bindings-gl"
 SRC_URI = "https://github.com/ros-gbp/gl_dependency-release/archive/release/lunar/gl_dependency/1.1.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "d7975e56a736dd87bd1c4fd58776b1a9"

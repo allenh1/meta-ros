@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=19;endline=19;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native cmake-modules eigen geometry-msgs kdl-conversions orocos-kdl python-orocos-kdl tf"
+DEPENDS = "catkin cmake-modules eigen geometry-msgs kdl-conversions orocos-kdl python-orocos-kdl tf"
 SRC_URI = "https://github.com/ros-gbp/geometry-release/archive/release/lunar/tf_conversions/1.11.9-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "9c668009c0f81e16c1ca5c7e80362555"

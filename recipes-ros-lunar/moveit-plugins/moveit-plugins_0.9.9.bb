@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native moveit-fake-controller-manager moveit-ros-control-interface moveit-simple-controller-manager"
+DEPENDS = "catkin moveit-fake-controller-manager moveit-ros-control-interface moveit-simple-controller-manager"
 SRC_URI = "https://github.com/ros-gbp/moveit-release/archive/release/lunar/moveit_plugins/0.9.9-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "c54ab2d035f99d169e2124d2ddc354b5"

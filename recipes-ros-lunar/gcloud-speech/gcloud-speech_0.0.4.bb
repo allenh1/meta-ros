@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "actionlib actionlib-msgs catkin-native gcloud-speech-msgs grpc libgflags-dev libgoogle-glog-dev"
+DEPENDS = "actionlib actionlib-msgs catkin gcloud-speech-msgs grpc libgflags-dev libgoogle-glog-dev"
 SRC_URI = "https://github.com/CogRobRelease/gcloud_speech-release/archive/release/lunar/gcloud_speech/0.0.4-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "4373df15ba06166868d2779c378e07e1"

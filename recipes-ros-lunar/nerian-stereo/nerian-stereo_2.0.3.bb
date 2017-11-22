@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=58e54c03ca7f821dd3967e2a2cd1596e"
 
-DEPENDS = "boost catkin-native cv-bridge message-generation message-runtime roscpp sdl sensor-msgs std-msgs"
+DEPENDS = "boost catkin cv-bridge message-generation message-runtime roscpp sdl sensor-msgs std-msgs"
 SRC_URI = "https://github.com/nerian-vision/nerian_stereo-release/archive/release/lunar/nerian_stereo/2.0.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "8004da7573c1e20f995161d4448b263f"

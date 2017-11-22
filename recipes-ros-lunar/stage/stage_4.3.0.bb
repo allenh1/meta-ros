@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "GPL"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=162b49cfbae9eadf37c9b89b2d2ac6be"
 
-DEPENDS = "catkin-native cmake gtk2 libfltk-dev libjpeg libtool opengl pkgconfig"
+DEPENDS = "catkin cmake gtk2 libfltk-dev libjpeg libtool opengl pkgconfig"
 SRC_URI = "https://github.com/ros-gbp/stage-release/archive/release/lunar/stage/4.3.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "d46e91e64fa5f0bea9460966e008462b"

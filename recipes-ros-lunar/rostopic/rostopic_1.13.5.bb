@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=17;endline=17;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native genpy rosbag rospy rostest"
+DEPENDS = "catkin genpy rosbag rospy rostest"
 SRC_URI = "https://github.com/ros-gbp/ros_comm-release/archive/release/lunar/rostopic/1.13.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "d7bd8c4381faa71d3ebdb33ccb5f497f"

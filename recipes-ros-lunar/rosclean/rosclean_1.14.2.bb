@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native python-rospkg"
+DEPENDS = "catkin python-rospkg"
 SRC_URI = "https://github.com/ros-gbp/ros-release/archive/release/lunar/rosclean/1.14.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "78bbb02ebc372031898d2f4b1ce49113"

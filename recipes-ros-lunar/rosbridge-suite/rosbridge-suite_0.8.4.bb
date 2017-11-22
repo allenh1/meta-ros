@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native rosapi rosbridge-library rosbridge-server"
+DEPENDS = "catkin rosapi rosbridge-library rosbridge-server"
 SRC_URI = "https://github.com/RobotWebTools-release/rosbridge_suite-release/archive/release/lunar/rosbridge_suite/0.8.4-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "4e92cfa9adac41c116b0c3de037b6fec"

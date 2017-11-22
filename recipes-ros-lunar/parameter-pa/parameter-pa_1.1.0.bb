@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native cmake-modules eigen roscpp roslib"
+DEPENDS = "catkin cmake-modules eigen roscpp roslib"
 SRC_URI = "https://github.com/peterweissig/ros_parameter-release/archive/release/lunar/parameter_pa/1.1.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "4d196a281cb0fd5b096846a889ab77e3"

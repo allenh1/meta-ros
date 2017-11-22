@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "CreativeCommons-by-nc-sa-2.0"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=11e24f757f025b2cbebd5b14b4a7ca19"
 
-DEPENDS = "catkin-native nav-msgs nodelet openslam-gmapping roscpp rostest tf"
+DEPENDS = "catkin nav-msgs nodelet openslam-gmapping roscpp rostest tf"
 SRC_URI = "https://github.com/ros-gbp/slam_gmapping-release/archive/release/lunar/gmapping/1.3.9-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "e45cbd243ce472e7ee6213d8b180af43"

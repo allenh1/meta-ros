@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "cmake gtest python-argparse python-catkin-pkg-native python-empy-native python-nose"
+DEPENDS = "cmake gtest python-argparse python-catkin-pkg python-empy-native python-nose"
 SRC_URI = "https://github.com/ros-gbp/catkin-release/archive/release/lunar/catkin/0.7.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "1fef00c3336dfa23e2ec6d5f54741d95"

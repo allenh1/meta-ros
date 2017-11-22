@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "camera-info-manager catkin-native dynamic-reconfigure image-transport libopenni2-dev message-generation message-runtime nodelet roscpp sensor-msgs"
+DEPENDS = "camera-info-manager catkin dynamic-reconfigure image-transport libopenni2-dev message-generation message-runtime nodelet roscpp sensor-msgs"
 SRC_URI = "https://github.com/ros-gbp/openni2_camera-release/archive/release/lunar/openni2_camera/0.3.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "7b85e956562cfbab4c0c435d240212fc"

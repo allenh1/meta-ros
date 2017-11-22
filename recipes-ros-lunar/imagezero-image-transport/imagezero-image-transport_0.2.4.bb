@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native cv-bridge image-transport imagezero-ros message-runtime sensor-msgs"
+DEPENDS = "catkin cv-bridge image-transport imagezero-ros message-runtime sensor-msgs"
 SRC_URI = "https://github.com/swri-robotics-gbp/imagezero_transport-release/archive/release/lunar/imagezero_image_transport/0.2.4-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "1e19b94bb0f26a3aa31248a0464edbf3"

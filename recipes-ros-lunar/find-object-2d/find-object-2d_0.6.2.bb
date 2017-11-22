@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native cv-bridge genmsg image-transport message-filters qt-gui-cpp roscpp rospy sensor-msgs std-msgs std-srvs tf"
+DEPENDS = "catkin cv-bridge genmsg image-transport message-filters qt-gui-cpp roscpp rospy sensor-msgs std-msgs std-srvs tf"
 SRC_URI = "https://github.com/introlab/find_object_2d-release/archive/release/lunar/find_object_2d/0.6.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "a2f251dba532f05de97f6950d37fcc16"

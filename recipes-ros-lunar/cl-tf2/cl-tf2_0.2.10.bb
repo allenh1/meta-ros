@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=15;endline=15;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "actionlib-lisp catkin-native cl-transforms-stamped cl-utils roslisp tf2-msgs"
+DEPENDS = "actionlib-lisp catkin cl-transforms-stamped cl-utils roslisp tf2-msgs"
 SRC_URI = "https://github.com/ros-gbp/roslisp_common-release/archive/release/lunar/cl_tf2/0.2.10-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "8789dbab365e888dfc16a3f51d183ce8"

@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "assimp boost catkin-native eigen eigen-conversions eigen-stl-containers geometric-shapes geometry-msgs kdl-parser console-bridge libfcl-dev liburdfdom-dev liburdfdom-headers-dev moveit-msgs octomap octomap-msgs pkgconfig random-numbers roslib rostime sensor-msgs shape-msgs srdfdom std-msgs trajectory-msgs urdf visualization-msgs"
+DEPENDS = "assimp boost catkin eigen eigen-conversions eigen-stl-containers geometric-shapes geometry-msgs kdl-parser console-bridge libfcl-dev liburdfdom-dev liburdfdom-headers-dev moveit-msgs octomap octomap-msgs pkgconfig random-numbers roslib rostime sensor-msgs shape-msgs srdfdom std-msgs trajectory-msgs urdf visualization-msgs"
 SRC_URI = "https://github.com/ros-gbp/moveit-release/archive/release/lunar/moveit_core/0.9.9-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "72557840681c28f82f00f321bf3f0168"

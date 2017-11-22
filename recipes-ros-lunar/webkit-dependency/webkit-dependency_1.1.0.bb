@@ -7,7 +7,7 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native python-qt5-bindings-webkit"
+DEPENDS = "catkin python-qt5-bindings-webkit"
 SRC_URI = "https://github.com/ros-gbp/webkit_dependency-release/archive/release/lunar/webkit_dependency/1.1.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "211fbb5f64492bfd7c25a73ee079d74c"

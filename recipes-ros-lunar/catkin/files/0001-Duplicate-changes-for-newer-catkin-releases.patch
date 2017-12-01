@@ -1,7 +1,7 @@
 From 46cc40dfa21ed4c6bf11fabe48e7c99ef19fe4a7 Mon Sep 17 00:00:00 2001
 From: "Hunter L. Allen" <hunter@openrobotics.org>
 Date: Fri, 1 Dec 2017 12:07:00 -0500
-Subject: [PATCH] Duplicate changes for newer catkin releases.
+Subject: [PATCH 1/2] Duplicate changes for newer catkin releases.
 
 ---
  cmake/catkin_package.cmake         |  5 ++++-

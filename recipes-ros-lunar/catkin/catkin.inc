@@ -1,16 +1,16 @@
 DEPENDS = "cmake ${PYTHON_PN}-empy-native ${PYTHON_PN}-catkin-pkg-native"
 
 SRC_URI += "\
-    file://0001-CATKIN_WORKSPACES-Don-t-require-.catkin-file.patch \
-    file://0001-use-python-provided-by-environment-instead-of-the-ge.patch \
-    file://0001-avoid-using-host-s-paths-when-cross-compiling.patch \
-    file://0001-relocate-dependency-s-headers-to-current-sysroot.patch \
-    ${@'file://0001-python.cmake-look-for-python3-first.patch' if d.getVar('PYTHON_PN', True) == 'python3' else ''} \
-    "
+    file://0001-Duplicate-changes-for-newer-catkin-releases.patch \
+    file://0002-Don-t-set-LD_LIBRARY_PATH-in-environment-cache.patch \
+    file://0003-Don-t-use-system-env.patch \
+    file://0004-Use-bin-sh.patch \
+    file://0005-Add-quotes-to-generated-python-call.patch \
+    file://0001-avoid-using-host-s-paths-when-cross-compiling.patch"
 
 inherit catkin
 
-FILES_${PN}-dev += "\
+FILES_${PN} += "\
     ${ros_datadir}/eigen/cmake \
     ${ros_datadir}/ros/cmake \
     ${ros_datadir}/.catkin \
@@ -20,4 +20,3 @@ FILES_${PN}-dev += "\
     ${ros_prefix}/env.sh \
     ${ros_prefix}/setup.* \
     "
-

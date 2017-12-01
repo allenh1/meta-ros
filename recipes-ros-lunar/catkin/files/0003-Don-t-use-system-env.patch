@@ -1,0 +1,22 @@
+From 1558a5fa58c24dd7315637ef0472dd216f132ada Mon Sep 17 00:00:00 2001
+From: "Hunter L. Allen" <hunter@openrobotics.org>
+Date: Fri, 1 Dec 2017 12:18:41 -0500
+Subject: [PATCH 3/3] Don't use system env
+
+---
+ cmake/templates/setup.sh.in | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/cmake/templates/setup.sh.in b/cmake/templates/setup.sh.in
+index c916772..b3ea0a7 100644
+--- a/cmake/templates/setup.sh.in
++++ b/cmake/templates/setup.sh.in
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env sh
++#!/bin/sh
+ # generated from catkin/cmake/template/setup.sh.in
+ 
+ # Sets various environment variables and sources additional environment hooks.
+-- 
+2.15.1
+

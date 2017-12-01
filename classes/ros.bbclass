@@ -1,7 +1,5 @@
-#
 # Copyright (c) 2017 Open Source Robotics Foundation, Inc.
 # Copyright (c) 2013 Stefan Herbrechtsmeier, Bielefeld University
-# 
 
 ROS_BPN = "${@d.getVar('BPN', True).replace('-', '_')}"
 

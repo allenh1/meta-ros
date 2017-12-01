@@ -10,8 +10,8 @@ LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc
 DEPENDS = "catkin-native moveit-core moveit-ros-planning ros-control-boilerplate roscpp roslint rosparam-shortcuts"
 SRC_URI = "https://github.com/davetcoleman/moveit_sim_controller-release/archive/release/lunar/moveit_sim_controller/0.1.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
-SRC_URI[md5sum] = "e47a00d8ff76144c3b155cb1e83c9367"
-SRC_URI[sha256sum] = "3e9a2912db06295e56f371319799553d965fb92367cd10620a8d41a6b61545f6"
+SRC_URI[md5sum] = "131fd54a77dce857b51d80e9310d1075"
+SRC_URI[sha256sum] = "9cd5698fa5789a94c942d58c15b5a71f68e3066ee85e6d9bcd588aa2a6e071d3"
 S = "${WORKDIR}/moveit_sim_controller-release-release-lunar-moveit_sim_controller-0.1.0-0"
 
 inherit catkin

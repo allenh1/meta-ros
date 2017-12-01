@@ -10,8 +10,8 @@ LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc
 DEPENDS = "catkin-native cv-bridge dynamic-reconfigure image-transport"
 SRC_URI = "https://github.com/ros-gbp/image_transport_plugins-release/archive/release/lunar/compressed_depth_image_transport/1.9.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
-SRC_URI[md5sum] = "c9a789c5b7873c54f4ee68d30348de4b"
-SRC_URI[sha256sum] = "9308c916b9628f1818081862ca92916e14f65312a185a489d14b02529f13c258"
+SRC_URI[md5sum] = "011f3a660325219888a3a7eb07bc6d4d"
+SRC_URI[sha256sum] = "181a4b08caa3dc050c32b7d54e39756653c4b893a0bd8019735e598866b74c66"
 S = "${WORKDIR}/image_transport_plugins-release-release-lunar-compressed_depth_image_transport-1.9.5-0"
 
 inherit catkin

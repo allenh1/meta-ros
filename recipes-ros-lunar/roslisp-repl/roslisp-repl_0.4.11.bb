@@ -4,6 +4,7 @@
 DESCRIPTION = "This package provides a script that launches Emacs with Slime (the     Superior "
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "Public-domain"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=90cf8e14bb501c1f6d3eda81e45e438a"
 

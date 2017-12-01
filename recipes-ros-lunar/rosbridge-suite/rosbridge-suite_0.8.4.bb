@@ -4,6 +4,7 @@
 DESCRIPTION = "Rosbridge provides a JSON API to ROS functionality for non-ROS programs.     The"
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=d566ef916e9dedc494f5f793a6690ba5"
 

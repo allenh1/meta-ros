@@ -4,6 +4,7 @@
 DESCRIPTION = "map_server provides the  ROS , which offers map data as a ROS . It also provides"
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=16;endline=16;md5=01c2bc31767ccb3a68e12f02612b2a97"
 

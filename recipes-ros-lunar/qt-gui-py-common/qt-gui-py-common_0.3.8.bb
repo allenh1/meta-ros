@@ -4,6 +4,7 @@
 DESCRIPTION = "qt_gui_py_common provides common functionality for GUI plugins written in Python"
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 

@@ -4,6 +4,7 @@
 DESCRIPTION = "This package starts a Neuronics Katana robot arm in the Gazebo simulation enviro"
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "GPL"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=162b49cfbae9eadf37c9b89b2d2ac6be"
 

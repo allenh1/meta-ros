@@ -4,6 +4,7 @@
 DESCRIPTION = "rqt_robot_monitor displays diagnostics_agg topics messages that    are published"
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=23;endline=23;md5=d566ef916e9dedc494f5f793a6690ba5"
 

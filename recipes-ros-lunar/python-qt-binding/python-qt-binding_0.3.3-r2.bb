@@ -4,6 +4,7 @@
 DESCRIPTION = "This stack provides Python bindings for Qt.     There are two providers: pyside "
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=18;endline=18;md5=d566ef916e9dedc494f5f793a6690ba5"
 

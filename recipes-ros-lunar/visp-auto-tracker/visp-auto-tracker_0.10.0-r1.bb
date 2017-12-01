@@ -4,6 +4,7 @@
 DESCRIPTION = "Online automated pattern-based object tracker relying on visual servoing.      v"
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=22;endline=22;md5=fe8b75cf0aba647401e1038bcd69ee74"
 

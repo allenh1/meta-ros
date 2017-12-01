@@ -4,6 +4,7 @@
 DESCRIPTION = "This planner attempts to find a legal place to put a carrot for the robot to fol"
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=16;endline=16;md5=01c2bc31767ccb3a68e12f02612b2a97"
 

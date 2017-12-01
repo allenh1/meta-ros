@@ -4,6 +4,7 @@
 DESCRIPTION = "Maintains the ecl licenses and also provides an install      target for deployin"
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=3;endline=3;md5=f895f13378d9b55d775a2405d35506fd"
 

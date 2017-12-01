@@ -4,6 +4,7 @@
 DESCRIPTION = "ROS communications-related packages, including core client libraries (roscpp, ro"
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 

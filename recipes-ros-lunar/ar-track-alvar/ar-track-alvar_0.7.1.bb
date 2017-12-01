@@ -4,6 +4,7 @@
 DESCRIPTION = "This package is a ROS wrapper for Alvar, an open source AR tag tracking library."
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "LGPL-2.1"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=061abe8dc89f326789675967c8760541"
 

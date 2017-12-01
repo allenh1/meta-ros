@@ -4,6 +4,7 @@
 DESCRIPTION = "This package retrieves data from url-format files such as http://,    ftp://, pa"
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=18;endline=18;md5=d566ef916e9dedc494f5f793a6690ba5"
 

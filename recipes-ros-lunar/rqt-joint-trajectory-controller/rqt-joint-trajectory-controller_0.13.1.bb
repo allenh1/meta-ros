@@ -4,6 +4,7 @@
 DESCRIPTION = "Graphical frontend for interacting with joint_trajectory_controller instances."
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "Modified-BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=9fe507396161b9e47d2b1e01c422787a"
 

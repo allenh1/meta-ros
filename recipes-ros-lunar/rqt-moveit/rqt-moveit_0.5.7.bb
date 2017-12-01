@@ -4,6 +4,7 @@
 DESCRIPTION = "An rqt-based tool that assists monitoring tasks    for  motion planner    develo"
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=26;endline=26;md5=d566ef916e9dedc494f5f793a6690ba5"
 

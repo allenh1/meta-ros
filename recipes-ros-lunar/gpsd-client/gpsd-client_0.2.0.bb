@@ -4,6 +4,7 @@
 DESCRIPTION = "connects to a GPSd server and broadcasts GPS fixes     using the NavSatFix messa"
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=d566ef916e9dedc494f5f793a6690ba5"
 

@@ -4,6 +4,7 @@
 DESCRIPTION = "This package provides an implementation of the Dynamic Window Approach to       "
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=22;endline=22;md5=01c2bc31767ccb3a68e12f02612b2a97"
 

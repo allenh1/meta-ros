@@ -4,6 +4,7 @@
 DESCRIPTION = "Metapackage of rqt plugins that are particularly used with robots    during its "
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=22;endline=22;md5=d566ef916e9dedc494f5f793a6690ba5"
 

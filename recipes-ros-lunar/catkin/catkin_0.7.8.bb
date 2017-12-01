@@ -16,3 +16,4 @@ SRC_URI[sha256sum] = "2057edf73b042a304447c7433e97056f07a32e74a98a01b40ecd06064f
 S = "${WORKDIR}/${PN}-release-release-lunar-${PN}-0.7.8-0"
 
 inherit catkin
+include catkin.inc

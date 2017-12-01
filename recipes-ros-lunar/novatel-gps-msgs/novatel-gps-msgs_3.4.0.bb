@@ -4,6 +4,7 @@
 DESCRIPTION = "Messages for proprietary (non-NMEA) sentences from Novatel GPS receivers."
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "Southwest-Research-Institute-Proprietary"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=0ecd2b809a714729aa61f2072c17e9ad"
 

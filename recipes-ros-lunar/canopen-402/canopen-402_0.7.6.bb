@@ -4,6 +4,7 @@
 DESCRIPTION = "This implements the CANopen device profile for drives and motion control. CiA(r)"
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "LGPLv3"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=b691248d2f70cdaeeaf13696ada5d47c"
 

@@ -4,6 +4,7 @@
 DESCRIPTION = "Drivers for the Asus Xtion and Primesense Devices. For using a kinect   with ROS"
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 

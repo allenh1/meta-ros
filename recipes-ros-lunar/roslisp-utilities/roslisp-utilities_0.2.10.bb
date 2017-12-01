@@ -4,6 +4,7 @@
 DESCRIPTION = "Some utility functionality to interact with ROS using roslisp."
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=d566ef916e9dedc494f5f793a6690ba5"
 

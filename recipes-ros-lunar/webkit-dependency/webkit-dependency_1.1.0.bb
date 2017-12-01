@@ -4,6 +4,7 @@
 DESCRIPTION = "This encapsulates the WebKit dependency for a specific ROS distribution and its "
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=d566ef916e9dedc494f5f793a6690ba5"
 

@@ -4,6 +4,7 @@
 DESCRIPTION = "Driver package for Wacohtech dynpick force sensor. This contains -compatible lin"
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=16;endline=16;md5=2c00b8d2854109dbebef7818b4dae1e2"
 

@@ -4,6 +4,7 @@
 DESCRIPTION = "Driver for the Innok Heros robot plattform"
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=2c00b8d2854109dbebef7818b4dae1e2"
 

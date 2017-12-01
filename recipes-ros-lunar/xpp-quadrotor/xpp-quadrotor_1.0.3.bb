@@ -4,6 +4,7 @@
 DESCRIPTION = "The URDF file for a quadrotor to be used with the xpp packages and a      simple"
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=18;endline=18;md5=d566ef916e9dedc494f5f793a6690ba5"
 

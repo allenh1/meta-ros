@@ -4,6 +4,7 @@
 DESCRIPTION = "slam_gmapping contains a wrapper around gmapping which provides SLAM capabilitie"
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "CreativeCommons-by-nc-sa-2.0"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=11e24f757f025b2cbebd5b14b4a7ca19"
 

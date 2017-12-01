@@ -4,6 +4,7 @@
 DESCRIPTION = "This package provides an implementation of a 2D costmap that takes in sensor    "
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=21;endline=21;md5=01c2bc31767ccb3a68e12f02612b2a97"
 

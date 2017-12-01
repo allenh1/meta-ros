@@ -4,6 +4,7 @@
 DESCRIPTION = "This package contains an URDF description of the Katana arm and all supporting m"
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "GPL"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=162b49cfbae9eadf37c9b89b2d2ac6be"
 

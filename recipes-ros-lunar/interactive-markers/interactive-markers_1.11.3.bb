@@ -4,6 +4,7 @@
 DESCRIPTION = "3D interactive marker communication library for RViz and similar tools."
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=5ee5b8b046ae48ad94a2037ca953a67b"
 

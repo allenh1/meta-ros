@@ -4,6 +4,7 @@
 DESCRIPTION = "This package depends on a recent version of the Kinematics and Dynamics     Libr"
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "LGPL"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=46ee8693f40a89a31023e97ae17ecf19"
 

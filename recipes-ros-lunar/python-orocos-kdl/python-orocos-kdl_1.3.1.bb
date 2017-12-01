@@ -4,6 +4,7 @@
 DESCRIPTION = "This package contains the python bindings PyKDL for the Kinematics and Dynamics "
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "LGPL"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=46ee8693f40a89a31023e97ae17ecf19"
 

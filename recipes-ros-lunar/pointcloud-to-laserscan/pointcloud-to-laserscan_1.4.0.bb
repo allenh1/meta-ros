@@ -4,6 +4,7 @@
 DESCRIPTION = "Converts a 3D Point Cloud into a 2D laser scan. This is useful for making device"
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=01c2bc31767ccb3a68e12f02612b2a97"
 

@@ -4,6 +4,7 @@
 DESCRIPTION = "The katana_moveit_ikfast_plugin package"
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=2c00b8d2854109dbebef7818b4dae1e2"
 

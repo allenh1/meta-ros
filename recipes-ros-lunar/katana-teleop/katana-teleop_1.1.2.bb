@@ -4,6 +4,7 @@
 DESCRIPTION = "This package provides tele-operation nodes to control the Neuronics Katana 450 a"
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "GPL"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=162b49cfbae9eadf37c9b89b2d2ac6be"
 

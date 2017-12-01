@@ -4,6 +4,7 @@
 DESCRIPTION = "Robot-independent Gazebo plugins for sensors, motors and dynamic reconfigurable "
 AUTHOR = "OSRF"
 SECTION = "devel"
+ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=f7d4e3a22e6490b133f4eb99348a8124"
 

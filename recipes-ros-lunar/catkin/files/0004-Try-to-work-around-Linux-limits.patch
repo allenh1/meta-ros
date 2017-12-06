@@ -1,0 +1,37 @@
+From ce60a1aedaa3946de0b3680f984c16350e408e6b Mon Sep 17 00:00:00 2001
+From: "Hunter L. Allen" <hunter@openrobotics.org>
+Date: Fri, 1 Dec 2017 14:00:50 -0500
+Subject: [PATCH 4/4] Try to work-around Linux limits.
+
+---
+ cmake/templates/_setup_util.py.in  | 3 ++-
+ python/catkin/environment_cache.py | 2 +-
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/cmake/templates/_setup_util.py.in b/cmake/templates/_setup_util.py.in
+index 106507a..bfdf6bc 100755
+--- a/cmake/templates/_setup_util.py.in
++++ b/cmake/templates/_setup_util.py.in
+@@ -1,4 +1,5 @@
+-#!@PYTHON_EXECUTABLE@
++#!/bin/sh
++eval 'exec @PYTHON_EXECUTABLE@ $0 ${1 + "$@"}'
+ # -*- coding: utf-8 -*-
+ 
+ # Software License Agreement (BSD License)
+diff --git a/python/catkin/environment_cache.py b/python/catkin/environment_cache.py
+index 591236b..05f0838 100644
+--- a/python/catkin/environment_cache.py
++++ b/python/catkin/environment_cache.py
+@@ -58,7 +58,7 @@ def generate_environment_script(env_script):
+ 
+     # fetch environment after calling setup
+     python_code = '"import os; print(dict(os.environ))"'
+-    output = subprocess.check_output(['bash', env_script, sys.executable, '-c', python_code])
++    output = subprocess.check_output([env_script, sys.executable, '-c', python_code])
+     env_after = ast.literal_eval(output.decode('utf8'))
+ 
+     # calculate added and modified environment variables
+-- 
+2.15.1
+

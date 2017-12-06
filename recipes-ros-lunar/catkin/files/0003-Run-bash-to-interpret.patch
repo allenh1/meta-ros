@@ -1,0 +1,25 @@
+From f549192b41f05e372ffcef385d591de6f6d1de2c Mon Sep 17 00:00:00 2001
+From: "Hunter L. Allen" <hunter@openrobotics.org>
+Date: Fri, 1 Dec 2017 13:29:56 -0500
+Subject: [PATCH 3/3] Run bash to interpret.
+
+---
+ python/catkin/environment_cache.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/python/catkin/environment_cache.py b/python/catkin/environment_cache.py
+index 05f0838..591236b 100644
+--- a/python/catkin/environment_cache.py
++++ b/python/catkin/environment_cache.py
+@@ -58,7 +58,7 @@ def generate_environment_script(env_script):
+ 
+     # fetch environment after calling setup
+     python_code = '"import os; print(dict(os.environ))"'
+-    output = subprocess.check_output([env_script, sys.executable, '-c', python_code])
++    output = subprocess.check_output(['bash', env_script, sys.executable, '-c', python_code])
+     env_after = ast.literal_eval(output.decode('utf8'))
+ 
+     # calculate added and modified environment variables
+-- 
+2.15.1
+

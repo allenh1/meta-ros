@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "CreativeCommons-by-nc-sa-2.0"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=11e24f757f025b2cbebd5b14b4a7ca19"
 
-DEPENDS = "catkin-native gmapping openslam-gmapping"
+DEPENDS = "catkin-native catkin gmapping openslam-gmapping"
 SRC_URI = "https://github.com/ros-gbp/slam_gmapping-release/archive/release/lunar/slam_gmapping/1.3.9-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "131a8e78c7ad022a23cad0400f4b4abe"

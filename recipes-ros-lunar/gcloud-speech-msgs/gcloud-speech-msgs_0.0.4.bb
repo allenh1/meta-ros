@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "actionlib actionlib-msgs catkin-native message-generation message-runtime"
+DEPENDS = "actionlib actionlib-msgs catkin-native catkin message-generation message-runtime"
 SRC_URI = "https://github.com/CogRobRelease/gcloud_speech-release/archive/release/lunar/gcloud_speech_msgs/0.0.4-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "6d992e22b76fedb00823e643ca7d4486"

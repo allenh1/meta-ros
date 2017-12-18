@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native rospy rqt-msg rqt-py-common"
+DEPENDS = "catkin-native catkin rospy rqt-msg rqt-py-common"
 SRC_URI = "https://github.com/ros-gbp/rqt_action-release/archive/release/lunar/rqt_action/0.4.9-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "c2ce7e6c67137ce8dbf8019d0d2bcb24"

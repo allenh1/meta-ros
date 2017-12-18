@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "angles catkin-native geographic-msgs geometry-msgs python-catkin-pkg-native python-pyproj sensor-msgs tf unique-id uuid-msgs"
+DEPENDS = "angles catkin-native catkin geographic-msgs geometry-msgs python-catkin-pkg-native python-pyproj sensor-msgs tf unique-id uuid-msgs"
 SRC_URI = "https://github.com/ros-geographic-info/geographic_info-release/archive/release/lunar/${PN}/0.5.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "853be0ab676dc88aa90ebfe5c15f83be"

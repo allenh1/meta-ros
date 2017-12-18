@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSL1.0"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=1c7945be8716a98e36e855a20dc9b844"
 
-DEPENDS = "catkin-native cmake"
+DEPENDS = "catkin-native catkin cmake"
 SRC_URI = "https://github.com/ros-drivers-gbp/${PN}-release/archive/release/lunar/${PN}/7.33.1-5.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "92b62682b8febe4b02587d7c2fe12ca6"

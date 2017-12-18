@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native gps-common libgps pkgconfig roscpp sensor-msgs"
+DEPENDS = "catkin-native catkin gps-common libgps pkgconfig roscpp sensor-msgs"
 SRC_URI = "https://github.com/swri-robotics-gbp/gps_umd-release/archive/release/lunar/gpsd_client/0.2.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "8f27ad05e59476443d6c49d171dc482e"

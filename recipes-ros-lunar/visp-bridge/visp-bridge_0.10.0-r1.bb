@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=fe8b75cf0aba647401e1038bcd69ee74"
 
-DEPENDS = "camera-calibration-parsers catkin-native geometry-msgs roscpp sensor-msgs std-msgs visp"
+DEPENDS = "camera-calibration-parsers catkin-native catkin geometry-msgs roscpp sensor-msgs std-msgs visp"
 SRC_URI = "https://github.com/lagadic/vision_visp-release/archive/release/lunar/visp_bridge/0.10.0-1.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "ae23fb7ac93284ab5a948c99970d4010"

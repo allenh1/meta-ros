@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native grid-map-core octomap"
+DEPENDS = "catkin-native catkin grid-map-core octomap"
 SRC_URI = "https://github.com/ethz-asl/grid_map-release/archive/release/lunar/grid_map_octomap/1.6.0-1.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "c62c4bc8ac7b039dc0b5453e87acf251"

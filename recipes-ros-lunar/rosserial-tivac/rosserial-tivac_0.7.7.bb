@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native rosserial-client rosserial-msgs"
+DEPENDS = "catkin-native catkin rosserial-client rosserial-msgs"
 SRC_URI = "https://github.com/ros-gbp/rosserial-release/archive/release/lunar/rosserial_tivac/0.7.7-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "5efd38befeffe0551e5d4961b7f69fff"

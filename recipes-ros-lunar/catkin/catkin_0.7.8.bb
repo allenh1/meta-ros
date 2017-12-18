@@ -5,6 +5,7 @@ DESCRIPTION = "Low-level build system macros and infrastructure for ROS."
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
+CATKIN_NO_BIN="True"
 
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=d566ef916e9dedc494f5f793a6690ba5"
@@ -16,5 +17,13 @@ SRC_URI[md5sum] = "1fef00c3336dfa23e2ec6d5f54741d95"
 SRC_URI[sha256sum] = "2057edf73b042a304447c7433e97056f07a32e74a98a01b40ecd06064f1603b9"
 S = "${WORKDIR}/${PN}-release-release-lunar-${PN}-0.7.8-0"
 
-inherit catkin
 include catkin.inc
+
+
+FILES_${PN} += "/opt/ros/lunar/.catkin \
+          /opt/ros/lunar/_setup_util.py \
+          /opt/ros/lunar/env.sh \
+          /opt/ros/lunar/setup.bash \
+          /opt/ros/lunar/setup.sh \
+          /opt/ros/lunar/setup.zsh \
+          /opt/ros/lunar/.rosinstall"

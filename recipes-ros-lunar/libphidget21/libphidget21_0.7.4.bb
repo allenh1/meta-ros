@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "LGPL"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=46ee8693f40a89a31023e97ae17ecf19"
 
-DEPENDS = "catkin-native libusb-dev"
+DEPENDS = "catkin-native catkin libusb-dev"
 SRC_URI = "https://github.com/ros-drivers-gbp/phidgets_drivers-release/archive/release/lunar/${PN}/0.7.4-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "ea18492502ed14740070ff18ba4b1c95"

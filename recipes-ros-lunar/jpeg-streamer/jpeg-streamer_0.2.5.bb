@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=2c00b8d2854109dbebef7818b4dae1e2"
 
-DEPENDS = "catkin-native image-transport roscpp sensor-msgs"
+DEPENDS = "catkin-native catkin image-transport roscpp sensor-msgs"
 SRC_URI = "https://github.com/ros-drivers-gbp/camera_umd-release/archive/release/lunar/jpeg_streamer/0.2.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "fa8b0d76db1d066b0af020dadbd83bae"

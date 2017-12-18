@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "actionlib catkin-native geometry-msgs move-base-msgs roscpp roslib sensor-msgs std-msgs tf visualization-msgs"
+DEPENDS = "actionlib catkin-native catkin geometry-msgs move-base-msgs roscpp roslib sensor-msgs std-msgs tf visualization-msgs"
 SRC_URI = "https://github.com/code-iai-release/nav_pcontroller-release/archive/release/lunar/nav_pcontroller/0.1.4-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "a4ce84eeb2cbc2e82673cbc080585a9e"

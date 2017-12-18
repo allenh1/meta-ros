@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=58e54c03ca7f821dd3967e2a2cd1596e"
 
-DEPENDS = "boost catkin-native cv-bridge message-generation message-runtime roscpp sdl sensor-msgs std-msgs"
+DEPENDS = "boost catkin-native catkin cv-bridge message-generation message-runtime roscpp sdl sensor-msgs std-msgs"
 SRC_URI = "https://github.com/nerian-vision/nerian_sp1-release/archive/release/lunar/nerian_sp1/1.6.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "668862659550ea38adc91e999e72029f"

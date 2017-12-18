@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native diagnostic-msgs python-requests rospy rostopic"
+DEPENDS = "catkin-native catkin diagnostic-msgs python-requests rospy rostopic"
 SRC_URI = "https://github.com/ros-gbp/iot_bridge-release/archive/release/lunar/iot_bridge/0.9.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "9399097447739ab9e74e4f132bb8b2db"

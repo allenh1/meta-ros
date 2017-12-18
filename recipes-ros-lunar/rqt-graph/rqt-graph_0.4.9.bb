@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native python-rospkg python-qt-binding qt-dotgraph rosgraph rosgraph-msgs roslib rosnode rospy rosservice rostopic rqt-gui rqt-gui-py"
+DEPENDS = "catkin-native catkin python-rospkg python-qt-binding qt-dotgraph rosgraph rosgraph-msgs roslib rosnode rospy rosservice rostopic rqt-gui rqt-gui-py"
 SRC_URI = "https://github.com/ros-gbp/rqt_graph-release/archive/release/lunar/rqt_graph/0.4.9-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "24266b22890a7dfdd95b9ce352e5aca6"

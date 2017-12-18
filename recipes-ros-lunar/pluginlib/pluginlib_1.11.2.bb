@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "boost catkin-native class-loader cmake-modules rosconsole roslib libtinyxml2"
+DEPENDS = "boost catkin-native catkin class-loader cmake-modules rosconsole roslib libtinyxml2"
 SRC_URI = "https://github.com/ros-gbp/${PN}-release/archive/release/lunar/${PN}/1.11.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "aab9b6ef1618a2ff554868f8ea92e5c4"

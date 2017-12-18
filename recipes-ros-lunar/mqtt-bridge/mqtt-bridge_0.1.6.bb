@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=58e54c03ca7f821dd3967e2a2cd1596e"
 
-DEPENDS = "catkin-native rosbridge-library rospy std-msgs"
+DEPENDS = "catkin-native catkin rosbridge-library rospy std-msgs"
 SRC_URI = "https://github.com/groove-x/mqtt_bridge-release/archive/release/lunar/mqtt_bridge/0.1.6-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "7cf38e1f9e8621c4eabd4d89af78cd1f"

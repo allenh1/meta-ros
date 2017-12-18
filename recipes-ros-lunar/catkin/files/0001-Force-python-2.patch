@@ -1,0 +1,22 @@
+From 6e50366f6353aef8efc3480772051401b346d088 Mon Sep 17 00:00:00 2001
+From: "Hunter L. Allen" <hunter@openrobotics.org>
+Date: Mon, 18 Dec 2017 14:55:50 -0500
+Subject: [PATCH] Force python 2.
+
+---
+ cmake/templates/_setup_util.py.in | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/cmake/templates/_setup_util.py.in b/cmake/templates/_setup_util.py.in
+index 106507a..bd85ac1 100755
+--- a/cmake/templates/_setup_util.py.in
++++ b/cmake/templates/_setup_util.py.in
+@@ -1,4 +1,4 @@
+-#!@PYTHON_EXECUTABLE@
++#!/usr/bin/python2.7
+ # -*- coding: utf-8 -*-
+ 
+ # Software License Agreement (BSD License)
+-- 
+2.7.4
+

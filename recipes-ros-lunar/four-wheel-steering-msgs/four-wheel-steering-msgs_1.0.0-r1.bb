@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native message-generation message-runtime std-msgs"
+DEPENDS = "catkin-native catkin message-generation message-runtime std-msgs"
 SRC_URI = "https://github.com/ros-drivers-gbp/four_wheel_steering_msgs-release/archive/release/lunar/four_wheel_steering_msgs/1.0.0-1.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "2ce10153e60934d08f92863a26ac35a7"

@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "GPL"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=162b49cfbae9eadf37c9b89b2d2ac6be"
 
-DEPENDS = "actionlib catkin-native control-msgs roscpp sensor-msgs trajectory-msgs"
+DEPENDS = "actionlib catkin-native catkin control-msgs roscpp sensor-msgs trajectory-msgs"
 SRC_URI = "https://github.com/uos-gbp/katana_driver-release/archive/release/lunar/katana_tutorials/1.1.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "e2243f0532b1d5ec2f5a12cc9dd1a38d"

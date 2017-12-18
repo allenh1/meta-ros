@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native cv-bridge imagezero message-runtime roscpp sensor-msgs"
+DEPENDS = "catkin-native catkin cv-bridge imagezero message-runtime roscpp sensor-msgs"
 SRC_URI = "https://github.com/swri-robotics-gbp/imagezero_transport-release/archive/release/lunar/imagezero_ros/0.2.4-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "2f544b1445842212804c0900ec35be08"

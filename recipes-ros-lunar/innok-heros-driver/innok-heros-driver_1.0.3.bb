@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=2c00b8d2854109dbebef7818b4dae1e2"
 
-DEPENDS = "catkin-native geometry-msgs rospy std-msgs tf"
+DEPENDS = "catkin-native catkin geometry-msgs rospy std-msgs tf"
 SRC_URI = "https://github.com/innokrobotics/innok_heros_driver-release/archive/release/lunar/innok_heros_driver/1.0.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "5c75a231871b38e10246f46222ee1975"

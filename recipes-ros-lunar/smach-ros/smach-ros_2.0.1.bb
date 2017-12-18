@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=17;endline=17;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "actionlib actionlib-msgs catkin-native rospy rostest rostopic smach smach-msgs std-msgs std-srvs"
+DEPENDS = "actionlib actionlib-msgs catkin-native catkin rospy rostest rostopic smach smach-msgs std-msgs std-srvs"
 SRC_URI = "https://github.com/ros-gbp/executive_smach-release/archive/release/lunar/smach_ros/2.0.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "562c1fbc6fa5863c08df79ed0e63014d"

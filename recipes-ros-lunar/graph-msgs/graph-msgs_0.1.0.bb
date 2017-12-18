@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native geometry-msgs message-generation message-runtime std-msgs"
+DEPENDS = "catkin-native catkin geometry-msgs message-generation message-runtime std-msgs"
 SRC_URI = "https://github.com/davetcoleman/graph_msgs-release/archive/release/lunar/graph_msgs/0.1.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "9174bb7d413dfc104107d951e8dad19c"

@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native message-generation message-runtime roslint rospy std-msgs"
+DEPENDS = "catkin-native catkin message-generation message-runtime roslint rospy std-msgs"
 SRC_URI = "https://github.com/pyros-dev/${PN}-release/archive/release/lunar/pyros_test/0.0.6-1.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "1240be961567608fff20e5bf173f72e4"

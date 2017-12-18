@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native genmsg python-pyyaml"
+DEPENDS = "catkin-native catkin genmsg python-pyyaml"
 SRC_URI = "https://github.com/ros-gbp/${PN}-release/archive/release/lunar/${PN}/0.6.7-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "b4f58aed005f5e7d6fea40fec97424bb"

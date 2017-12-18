@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native diagnostic-msgs geometry-msgs rospy sensor-msgs std-msgs tf"
+DEPENDS = "catkin-native catkin diagnostic-msgs geometry-msgs rospy sensor-msgs std-msgs tf"
 SRC_URI = "https://github.com/ethz-asl/ethzasl_xsens_driver-release/archive/release/lunar/xsens_driver/2.1.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "8e1fe98b0137b32685f5257ee08df793"

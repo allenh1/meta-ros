@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native message-generation message-runtime rosconsole roscpp roscpp-serialization rostime std-msgs"
+DEPENDS = "catkin-native catkin message-generation message-runtime rosconsole roscpp roscpp-serialization rostime std-msgs"
 SRC_URI = "https://github.com/ros-gbp/ros_tutorials-release/archive/release/lunar/roscpp_tutorials/0.8.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "fcaf2f4dca79d954726c26dc67545b73"

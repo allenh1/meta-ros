@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native rosgraph-msgs roslang rospack sbcl std-srvs"
+DEPENDS = "catkin-native catkin rosgraph-msgs roslang rospack sbcl std-srvs"
 SRC_URI = "https://github.com/ros-gbp/${PN}-release/archive/release/lunar/${PN}/1.9.21-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "a385512aa6523cda169524b28b10f3be"

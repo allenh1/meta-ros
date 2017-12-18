@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "boost catkin-native console-bridge"
+DEPENDS = "boost catkin-native catkin console-bridge"
 SRC_URI = "https://github.com/ros-gbp/roscpp_core-release/archive/release/lunar/cpp_common/0.6.7-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "e3a408368c94448064dc127a972188d9"

@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native message-generation message-runtime pkgconfig"
+DEPENDS = "catkin-native catkin message-generation message-runtime pkgconfig"
 SRC_URI = "https://github.com/ros-gbp/ros-release/archive/release/lunar/${PN}/1.14.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "a2f70e90c0d6284bb7c8878f942a8625"

@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native nodelet nodelet-topic-tools"
+DEPENDS = "catkin-native catkin nodelet nodelet-topic-tools"
 SRC_URI = "https://github.com/ros-gbp/nodelet_core-release/archive/release/lunar/nodelet_core/1.9.14-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "6e85b0fb2c7df8f3b56eeb40e82c97c6"

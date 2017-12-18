@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=9b8b2c2c843b0cb5803c38944da723d5"
 
-DEPENDS = "catkin-native libphidget21 phidgets-api phidgets-high-speed-encoder phidgets-imu"
+DEPENDS = "catkin-native catkin libphidget21 phidgets-api phidgets-high-speed-encoder phidgets-imu"
 SRC_URI = "https://github.com/ros-drivers-gbp/phidgets_drivers-release/archive/release/lunar/phidgets_drivers/0.7.4-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "1c75939e33cfc877ec6ec10137cafb1d"

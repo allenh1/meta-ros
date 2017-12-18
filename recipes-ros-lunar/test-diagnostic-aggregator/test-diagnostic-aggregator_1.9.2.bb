@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native diagnostic-aggregator diagnostic-msgs pluginlib roscpp rospy rostest"
+DEPENDS = "catkin-native catkin diagnostic-aggregator diagnostic-msgs pluginlib roscpp rospy rostest"
 SRC_URI = "https://github.com/ros-gbp/diagnostics-release/archive/release/lunar/test_diagnostic_aggregator/1.9.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "771e58d40f56daee307bd15cb8d45f34"

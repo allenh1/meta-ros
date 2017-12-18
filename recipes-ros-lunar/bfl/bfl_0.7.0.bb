@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "LGPL"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=19;endline=19;md5=46ee8693f40a89a31023e97ae17ecf19"
 
-DEPENDS = "catkin-native cmake cppunit ros"
+DEPENDS = "catkin-native catkin cmake cppunit ros"
 SRC_URI = "https://github.com/ros-gbp/${PN}-release/archive/release/lunar/${PN}/0.7.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "844982693c5cdc156b5d0a490baea419"

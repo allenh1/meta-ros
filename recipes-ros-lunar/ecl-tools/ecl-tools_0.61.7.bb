@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native ecl-build ecl-license"
+DEPENDS = "catkin-native catkin ecl-build ecl-license"
 SRC_URI = "https://github.com/yujinrobot-release/ecl_tools-release/archive/release/lunar/ecl_tools/0.61.7-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "ff6e3898aa44f720340a6dd408f73009"

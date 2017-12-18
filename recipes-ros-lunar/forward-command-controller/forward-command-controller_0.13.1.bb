@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native controller-interface hardware-interface realtime-tools std-msgs"
+DEPENDS = "catkin-native catkin controller-interface hardware-interface realtime-tools std-msgs"
 SRC_URI = "https://github.com/ros-gbp/ros_controllers-release/archive/release/lunar/forward_command_controller/0.13.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "57688c3fbb960d1d1eeb88fab28c0b2c"

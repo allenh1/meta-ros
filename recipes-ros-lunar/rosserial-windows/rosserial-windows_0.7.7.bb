@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native geometry-msgs message-runtime nav-msgs rospy rosserial-client rosserial-msgs sensor-msgs std-msgs"
+DEPENDS = "catkin-native catkin geometry-msgs message-runtime nav-msgs rospy rosserial-client rosserial-msgs sensor-msgs std-msgs"
 SRC_URI = "https://github.com/ros-gbp/rosserial-release/archive/release/lunar/rosserial_windows/0.7.7-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "de37c7e50ecb03de67a72495cc860568"

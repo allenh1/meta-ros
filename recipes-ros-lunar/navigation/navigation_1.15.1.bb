@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=15;endline=15;md5=2988eb2faff9dfbcfa1c72a9efc3fa78"
 
-DEPENDS = "amcl base-local-planner carrot-planner catkin-native clear-costmap-recovery costmap-2d dwa-local-planner fake-localization global-planner map-server move-base move-base-msgs move-slow-and-clear nav-core navfn robot-pose-ekf rotate-recovery voxel-grid"
+DEPENDS = "amcl base-local-planner carrot-planner catkin-native catkin clear-costmap-recovery costmap-2d dwa-local-planner fake-localization global-planner map-server move-base move-base-msgs move-slow-and-clear nav-core navfn robot-pose-ekf rotate-recovery voxel-grid"
 SRC_URI = "https://github.com/ros-gbp/${PN}-release/archive/release/lunar/${PN}/1.15.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "088056d307e16b6a1d15e65e7f69752a"

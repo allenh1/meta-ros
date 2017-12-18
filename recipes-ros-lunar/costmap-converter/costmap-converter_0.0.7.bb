@@ -8,7 +8,7 @@ ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=15;endline=15;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native costmap-2d cv-bridge dynamic-reconfigure geometry-msgs message-generation message-runtime pluginlib roscpp std-msgs"
+DEPENDS = "catkin-native catkin costmap-2d cv-bridge dynamic-reconfigure geometry-msgs message-generation message-runtime pluginlib roscpp std-msgs"
 SRC_URI = "https://github.com/rst-tu-dortmund/costmap_converter-release/archive/release/lunar/costmap_converter/0.0.7-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "00707f0e542a4286515a35a33f1fd82c"

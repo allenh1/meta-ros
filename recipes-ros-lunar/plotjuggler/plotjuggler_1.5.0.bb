@@ -4,11 +4,10 @@
 DESCRIPTION = "PlotJuggler: juggle with data"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
-LICENSE = "LGPLv3"
+LICENSE = "LGPL-3"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=a9a72c186797ff98a79f90205c589abf"
 
-DEPENDS = "binutils catkin-native catkin libqt5-svg-dev qtbase5-dev ros-type-introspection rosbag rosbag-storage roscpp roscpp-serialization rostime topic-tools"
+DEPENDS = "binutils catkin-native libqt5-svg-dev qtbase5-dev ros-type-introspection rosbag rosbag-storage roscpp roscpp-serialization rostime topic-tools"
 SRC_URI = "https://github.com/facontidavide/${PN}-release/archive/release/lunar/${PN}/1.5.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "5b7e88e175882fff6a1bb9161d401088"

@@ -4,11 +4,10 @@
 DESCRIPTION = "This package contains common nodelet tools such as a mux, demux and throttle."
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "boost catkin-native catkin dynamic-reconfigure message-filters nodelet pluginlib roscpp"
+DEPENDS = "boost catkin-native dynamic-reconfigure message-filters nodelet pluginlib roscpp"
 SRC_URI = "https://github.com/ros-gbp/nodelet_core-release/archive/release/lunar/nodelet_topic_tools/1.9.14-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "a2bcc994b31f711b814a1b50f4826598"

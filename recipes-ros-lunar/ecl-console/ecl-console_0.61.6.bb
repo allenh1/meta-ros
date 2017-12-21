@@ -4,11 +4,10 @@
 DESCRIPTION = "Color codes for ansii consoles."
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin ecl-build ecl-config ecl-license"
+DEPENDS = "catkin-native ecl-build ecl-config ecl-license"
 SRC_URI = "https://github.com/yujinrobot-release/ecl_lite-release/archive/release/lunar/ecl_console/0.61.6-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "0ed174670c7fdcef8bb13c40b47017e3"

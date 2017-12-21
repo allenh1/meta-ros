@@ -4,11 +4,10 @@
 DESCRIPTION = "swri_string_util"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin"
+DEPENDS = "catkin-native"
 SRC_URI = "https://github.com/swri-robotics-gbp/marti_common-release/archive/release/lunar/swri_string_util/2.0.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "e3120ad4aeac2d0b42d8cea264af3428"

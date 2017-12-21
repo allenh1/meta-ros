@@ -4,11 +4,10 @@
 DESCRIPTION = "Provides nodes to convert messages from SocketCAN to a ROS Topic and vice versa."
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "can-msgs catkin-native catkin roscpp socketcan-interface"
+DEPENDS = "can-msgs catkin-native roscpp socketcan-interface"
 SRC_URI = "https://github.com/ros-industrial-release/ros_canopen-release/archive/release/lunar/socketcan_bridge/0.7.6-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "85ae30074e524b3dd4beacb390491bb4"

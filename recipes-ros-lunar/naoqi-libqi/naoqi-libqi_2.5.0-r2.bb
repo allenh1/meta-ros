@@ -4,11 +4,10 @@
 DESCRIPTION = "Aldebaran's libqi: a core library for NAOqiOS development"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "boost catkin-native catkin"
+DEPENDS = "boost catkin-native"
 SRC_URI = "https://github.com/ros-naoqi/libqi-release/archive/release/lunar/naoqi_libqi/2.5.0-2.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "116a688eb412ca69a484ea2eeee309de"

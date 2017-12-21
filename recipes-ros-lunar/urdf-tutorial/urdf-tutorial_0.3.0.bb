@@ -4,11 +4,10 @@
 DESCRIPTION = "This package contains a number of URDF tutorials."
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin joint-state-publisher robot-state-publisher roslaunch rviz xacro"
+DEPENDS = "catkin-native joint-state-publisher robot-state-publisher roslaunch rviz xacro"
 SRC_URI = "https://github.com/ros-gbp/urdf_tutorial-release/archive/release/lunar/urdf_tutorial/0.3.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "80f3fd90b97591ae1f0c445253e767c7"

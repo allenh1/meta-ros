@@ -4,11 +4,10 @@
 DESCRIPTION = "Some utility functionality to interact with ROS using roslisp."
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin roslisp"
+DEPENDS = "catkin-native roslisp"
 SRC_URI = "https://github.com/ros-gbp/roslisp_common-release/archive/release/lunar/roslisp_utilities/0.2.10-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "383ecaad725cc8835943725ad1f29548"

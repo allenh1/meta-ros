@@ -4,11 +4,10 @@
 DESCRIPTION = "The class_loader package is a ROS-independent package for loading plugins during"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "boost catkin-native catkin cmake-modules console-bridge poco"
+DEPENDS = "boost catkin-native cmake-modules console-bridge libpoco-dev"
 SRC_URI = "https://github.com/ros-gbp/class_loader-release/archive/release/lunar/class_loader/0.3.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "94d53465987bb86fba0e20a16cbad8ad"

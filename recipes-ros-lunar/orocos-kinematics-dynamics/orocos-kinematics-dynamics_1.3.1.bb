@@ -4,11 +4,10 @@
 DESCRIPTION = "This package depends on a recent version of the Kinematics and Dynamics     Libr"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
-LICENSE = "LGPL"
+LICENSE = "LGPL-2"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=46ee8693f40a89a31023e97ae17ecf19"
 
-DEPENDS = "catkin-native catkin orocos-kdl python-orocos-kdl"
+DEPENDS = "catkin-native orocos-kdl python-orocos-kdl"
 SRC_URI = "https://github.com/smits/orocos-kdl-release/archive/release/lunar/orocos_kinematics_dynamics/1.3.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "010022a040b7dd12e004f49b1fe8031d"

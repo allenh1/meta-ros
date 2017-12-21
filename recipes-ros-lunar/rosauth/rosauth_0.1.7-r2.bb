@@ -4,11 +4,10 @@
 DESCRIPTION = "Server Side tools for Authorization and Authentication of ROS Clients"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin libssl-dev message-generation message-runtime roscpp rostest"
+DEPENDS = "catkin-native libssl-dev message-generation message-runtime roscpp rostest"
 SRC_URI = "https://github.com/gt-rail-release/${PN}-release/archive/release/lunar/${PN}/0.1.7-2.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "624415206c00cd8c143544ec58a2c300"

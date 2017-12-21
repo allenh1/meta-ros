@@ -4,11 +4,10 @@
 DESCRIPTION = "Theora_image_transport provides a plugin to image_transport for     transparentl"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin cv-bridge dynamic-reconfigure image-transport libogg libtheora message-generation message-runtime pluginlib rosbag std-msgs"
+DEPENDS = "catkin-native cv-bridge dynamic-reconfigure image-transport libogg libtheora message-generation message-runtime pluginlib rosbag std-msgs"
 SRC_URI = "https://github.com/ros-gbp/image_transport_plugins-release/archive/release/lunar/theora_image_transport/1.9.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "8b58936244aaee6c35c7a56286193b25"

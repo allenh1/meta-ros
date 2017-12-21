@@ -4,11 +4,10 @@
 DESCRIPTION = "Components of MoveIt connecting to MongoDB"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin moveit-ros-planning rosconsole roscpp tf warehouse-ros"
+DEPENDS = "catkin-native moveit-ros-planning rosconsole roscpp tf warehouse-ros"
 SRC_URI = "https://github.com/ros-gbp/moveit-release/archive/release/lunar/moveit_ros_warehouse/0.9.10-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "7465478427d40b48fa126148f50476fe"

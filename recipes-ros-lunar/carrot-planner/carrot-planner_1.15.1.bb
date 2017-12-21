@@ -4,11 +4,10 @@
 DESCRIPTION = "This planner attempts to find a legal place to put a carrot for the robot to fol"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=16;endline=16;md5=01c2bc31767ccb3a68e12f02612b2a97"
 
-DEPENDS = "base-local-planner catkin-native catkin costmap-2d eigen nav-core pluginlib roscpp tf"
+DEPENDS = "base-local-planner catkin-native costmap-2d eigen nav-core pluginlib roscpp tf"
 SRC_URI = "https://github.com/ros-gbp/navigation-release/archive/release/lunar/carrot_planner/1.15.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "b38654ad3b9f135e005029ac1d448df7"

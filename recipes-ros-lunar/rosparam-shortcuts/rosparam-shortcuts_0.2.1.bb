@@ -4,11 +4,10 @@
 DESCRIPTION = "Quickly load variables from rosparam with good command line error checking."
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin cmake-modules eigen eigen-conversions roscpp roslint"
+DEPENDS = "catkin-native cmake-modules eigen eigen-conversions roscpp roslint"
 SRC_URI = "https://github.com/davetcoleman/rosparam_shortcuts-release/archive/release/lunar/rosparam_shortcuts/0.2.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "8de9b018e57f0e62a8475b8de0e1c210"

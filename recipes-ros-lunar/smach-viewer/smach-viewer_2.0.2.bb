@@ -4,11 +4,10 @@
 DESCRIPTION = "The smach viewer is a GUI that shows the state of hierarchical     SMACH state m"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=16;endline=16;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin graphviz rostest smach-msgs smach-ros wxpython"
+DEPENDS = "catkin-native graphviz rostest smach-msgs smach-ros wxpython"
 SRC_URI = "https://github.com/jbohren/executive_smach_visualization-release/archive/release/lunar/smach_viewer/2.0.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "cf26b05a254318bbc66da2b4f6a6af11"

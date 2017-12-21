@@ -4,11 +4,10 @@
 DESCRIPTION = "MAVLink communication library.     This library provide unified connection handl"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
-LICENSE = "GPLv3"
+LICENSE = "GPL-3 & LGPL-3 & BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=15;endline=15;md5=1e7b3bcc2e271699c77c769685058cbe"
 
-DEPENDS = "boost catkin-native catkin console-bridge mavlink"
+DEPENDS = "boost catkin-native console-bridge mavlink"
 SRC_URI = "https://github.com/mavlink/mavros-release/archive/release/lunar/${PN}/0.22.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "ab814b4916b12a713d0c80523eeecdce"

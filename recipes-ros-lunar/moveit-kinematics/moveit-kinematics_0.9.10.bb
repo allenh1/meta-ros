@@ -4,11 +4,10 @@
 DESCRIPTION = "Package for all inverse kinematics solvers in MoveIt!"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=16;endline=16;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "actionlib catkin-native catkin eigen moveit-core moveit-ros-planning pluginlib"
+DEPENDS = "actionlib catkin-native eigen moveit-core moveit-ros-planning pluginlib"
 SRC_URI = "https://github.com/ros-gbp/moveit-release/archive/release/lunar/moveit_kinematics/0.9.10-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "275f7d6ed4e9b0e4fde8eb02e615b190"

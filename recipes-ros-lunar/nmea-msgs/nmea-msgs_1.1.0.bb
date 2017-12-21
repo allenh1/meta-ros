@@ -4,11 +4,10 @@
 DESCRIPTION = "The nmea_msgs package contains messages related to data in the NMEA format."
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin message-generation message-runtime std-msgs"
+DEPENDS = "catkin-native message-generation message-runtime std-msgs"
 SRC_URI = "https://github.com/ros-drivers-gbp/nmea_msgs-release/archive/release/lunar/nmea_msgs/1.1.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "8a44062da513bdb81ceec83bc8809753"

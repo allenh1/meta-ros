@@ -4,11 +4,10 @@
 DESCRIPTION = "map_server provides the  ROS , which offers map data as a ROS . It also provides"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=16;endline=16;md5=01c2bc31767ccb3a68e12f02612b2a97"
 
-DEPENDS = "bullet catkin-native catkin nav-msgs roscpp sdl sdl-image tf2 yaml-cpp"
+DEPENDS = "bullet catkin-native nav-msgs roscpp sdl sdl-image tf2 yaml-cpp"
 SRC_URI = "https://github.com/ros-gbp/navigation-release/archive/release/lunar/map_server/1.15.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "304bc232a3b01c71f499ecc63f7b3c06"

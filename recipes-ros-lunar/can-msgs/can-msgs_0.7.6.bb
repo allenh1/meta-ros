@@ -4,11 +4,10 @@
 DESCRIPTION = "CAN related message types."
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin message-generation message-runtime std-msgs"
+DEPENDS = "catkin-native message-generation message-runtime std-msgs"
 SRC_URI = "https://github.com/ros-industrial-release/ros_canopen-release/archive/release/lunar/can_msgs/0.7.6-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "61963ce3b29ff30aee2cd96db1160a82"

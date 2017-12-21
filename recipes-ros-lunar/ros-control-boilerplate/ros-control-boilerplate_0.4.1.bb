@@ -4,11 +4,10 @@
 DESCRIPTION = "Simple simulation interface and template for setting up a hardware interface for"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "actionlib catkin-native catkin cmake-modules control-msgs control-toolbox controller-manager hardware-interface joint-limits-interface libgflags-dev roscpp rosparam-shortcuts sensor-msgs std-msgs trajectory-msgs transmission-interface urdf"
+DEPENDS = "actionlib catkin-native cmake-modules control-msgs control-toolbox controller-manager hardware-interface joint-limits-interface libgflags-dev roscpp rosparam-shortcuts sensor-msgs std-msgs trajectory-msgs transmission-interface urdf"
 SRC_URI = "https://github.com/davetcoleman/ros_control_boilerplate-release/archive/release/lunar/ros_control_boilerplate/0.4.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "0035a67da3bb343b6e73855357d2449e"

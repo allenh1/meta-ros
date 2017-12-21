@@ -4,11 +4,10 @@
 DESCRIPTION = "System-wide logging mechanism for messages sent to the /rosout topic."
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin roscpp rosgraph-msgs"
+DEPENDS = "catkin-native roscpp rosgraph-msgs"
 SRC_URI = "https://github.com/ros-gbp/ros_comm-release/archive/release/lunar/${PN}/1.13.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "be391f3df61cc9c2ad16dfaa59cf36e5"

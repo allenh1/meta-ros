@@ -4,11 +4,10 @@
 DESCRIPTION = "The State Machine Compiler (SMC) from http://smc.sourceforge.net/     converts a"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
-LICENSE = "Mozilla-Public-License-Version-1.1"
+LICENSE = "MPL-1.1"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=15;endline=15;md5=e1b5a50d4dd59d8102e41a7a2254462d"
 
-DEPENDS = "catkin-native catkin"
+DEPENDS = "catkin-native"
 SRC_URI = "https://github.com/ros-gbp/bond_core-release/archive/release/lunar/${PN}/1.8.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "2f49821aa12861ebfe6c556a04557764"

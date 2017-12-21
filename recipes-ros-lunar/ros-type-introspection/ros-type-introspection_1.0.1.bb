@@ -4,11 +4,10 @@
 DESCRIPTION = "The ros_type_introspection package allows the user to parse and deserialize   RO"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "abseil-cpp catkin-native catkin geometry-msgs rosbag rosbag-storage roscpp roscpp-serialization rostime sensor-msgs topic-tools"
+DEPENDS = "abseil-cpp catkin-native geometry-msgs rosbag rosbag-storage roscpp roscpp-serialization rostime sensor-msgs topic-tools"
 SRC_URI = "https://github.com/facontidavide/ros_type_introspection-release/archive/release/lunar/ros_type_introspection/1.0.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "9f089f0a2aecf2bc1cc9304c0d225d36"

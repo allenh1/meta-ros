@@ -4,11 +4,10 @@
 DESCRIPTION = "The URDF file for a quadrotor to be used with the xpp packages and a      simple"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=18;endline=18;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin roscpp xpp-vis"
+DEPENDS = "catkin-native roscpp xpp-vis"
 SRC_URI = "https://github.com/leggedrobotics/xpp-release/archive/release/lunar/xpp_quadrotor/1.0.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "2227fde62d4859fff5c78b47e310db41"

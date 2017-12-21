@@ -4,11 +4,10 @@
 DESCRIPTION = "C++ ROS message and service generators."
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin genmsg"
+DEPENDS = "catkin-native genmsg"
 SRC_URI = "https://github.com/ros-gbp/${PN}-release/archive/release/lunar/${PN}/0.5.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "c2a1b03dc0fd212b5dc1b2312e2d5bf3"

@@ -4,11 +4,10 @@
 DESCRIPTION = "Filter which fuses angular velocities, accelerations, and (optionally) magnetic "
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin cmake-modules message-filters roscpp sensor-msgs std-msgs tf"
+DEPENDS = "catkin-native cmake-modules message-filters roscpp sensor-msgs std-msgs tf"
 SRC_URI = "https://github.com/uos-gbp/imu_tools-release/archive/release/lunar/imu_complementary_filter/1.1.5-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "e67127f017f8957d7aaf30056a303a75"

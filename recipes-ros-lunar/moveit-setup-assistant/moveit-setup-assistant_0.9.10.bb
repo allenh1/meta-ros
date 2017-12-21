@@ -4,11 +4,10 @@
 DESCRIPTION = "Generates a configuration package that makes it easy to use MoveIt!"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin moveit-core moveit-ros-planning moveit-ros-visualization srdfdom xacro yaml-cpp"
+DEPENDS = "catkin-native moveit-core moveit-ros-planning moveit-ros-visualization srdfdom xacro yaml-cpp"
 SRC_URI = "https://github.com/ros-gbp/moveit-release/archive/release/lunar/moveit_setup_assistant/0.9.10-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "801f28914ae9f3b0069ff1e895406e99"

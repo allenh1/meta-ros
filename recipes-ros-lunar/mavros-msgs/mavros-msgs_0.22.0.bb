@@ -5,7 +5,7 @@ DESCRIPTION = "mavros_msgs defines messages for ."
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "GPLv3"
+LICENSE = "GPL-3 & LGPL-3 & BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=1e7b3bcc2e271699c77c769685058cbe"
 
 DEPENDS = "catkin-native catkin geographic-msgs geometry-msgs message-generation message-runtime sensor-msgs std-msgs"

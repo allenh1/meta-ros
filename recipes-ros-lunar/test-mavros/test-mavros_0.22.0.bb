@@ -5,7 +5,7 @@ DESCRIPTION = "Tests for MAVROS package"
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "BSD"
+LICENSE = "BSD & GPL-3 & LGPL-3"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 DEPENDS = "angles catkin-native catkin cmake-modules control-toolbox eigen eigen-conversions geometry-msgs mavros mavros-extras roscpp std-msgs tf2-ros"

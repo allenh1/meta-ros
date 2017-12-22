@@ -5,7 +5,7 @@ DESCRIPTION = "This package provides ROS interfaces to the Neuronics Katana 450 
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "GPL"
+LICENSE = "GPL-1"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=162b49cfbae9eadf37c9b89b2d2ac6be"
 
 DEPENDS = "actionlib armadillo catkin-native catkin control-msgs geometry-msgs katana-msgs kni moveit-msgs roscpp roslib sensor-msgs std-srvs tf trajectory-msgs urdf"

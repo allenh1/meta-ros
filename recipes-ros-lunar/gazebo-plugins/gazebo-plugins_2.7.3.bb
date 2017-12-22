@@ -5,7 +5,7 @@ DESCRIPTION = "Robot-independent Gazebo plugins for sensors, motors and dynamic 
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "BSD"
+LICENSE = "BSD-2"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=f7d4e3a22e6490b133f4eb99348a8124"
 
 DEPENDS = "angles camera-info-manager catkin-native catkin cv-bridge diagnostic-updater dynamic-reconfigure gazebo-dev gazebo-msgs geometry-msgs image-transport message-generation message-runtime nav-msgs nodelet polled-camera rosconsole roscpp rosgraph-msgs rospy sensor-msgs std-msgs std-srvs tf tf2-ros trajectory-msgs urdf"

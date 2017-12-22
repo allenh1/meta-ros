@@ -5,7 +5,7 @@ DESCRIPTION = "This package provides the third-party KNI (Katana Native Interfac
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "GPL"
+LICENSE = "GPL-1"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=162b49cfbae9eadf37c9b89b2d2ac6be"
 
 DEPENDS = "boost catkin-native catkin"

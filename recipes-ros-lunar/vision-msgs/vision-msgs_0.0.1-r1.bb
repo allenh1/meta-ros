@@ -5,7 +5,7 @@ DESCRIPTION = "Messages for interfacing with various computer vision pipelines, 
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "Apache-License-2.0"
+LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=12c26a18c7f493fdc7e8a93b16b7c04f"
 
 DEPENDS = "catkin-native catkin geometry-msgs message-generation message-runtime sensor-msgs std-msgs"

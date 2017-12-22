@@ -5,7 +5,7 @@ DESCRIPTION = "This package contains a generic CAN interface description with he
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "LGPLv3"
+LICENSE = "LGPL-3"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=b691248d2f70cdaeeaf13696ada5d47c"
 
 DEPENDS = "boost catkin-native catkin class-loader linux-kernel-headers"

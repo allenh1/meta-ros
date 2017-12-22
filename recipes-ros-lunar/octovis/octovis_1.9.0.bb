@@ -5,7 +5,7 @@ DESCRIPTION = "octovis is visualization tool for the OctoMap library based on Qt
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "GPLv2"
+LICENSE = "GPL-2"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=fe8b75cf0aba647401e1038bcd69ee74"
 
 DEPENDS = "catkin-native catkin cmake libqglviewer-qt4 libqglviewer-qt4-dev libqt4-dev libqt4-opengl libqt4-opengl-dev libqtgui4 octomap"

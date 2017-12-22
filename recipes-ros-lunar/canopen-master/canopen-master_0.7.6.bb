@@ -5,7 +5,7 @@ DESCRIPTION = "CiA(r) CANopen 301 master implementation with support for interpr
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "LGPLv3"
+LICENSE = "LGPL-3"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=b691248d2f70cdaeeaf13696ada5d47c"
 
 DEPENDS = "boost catkin-native catkin class-loader socketcan-interface"

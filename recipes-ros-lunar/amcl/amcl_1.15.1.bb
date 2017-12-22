@@ -5,7 +5,7 @@ DESCRIPTION = "None"
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "LGPL"
+LICENSE = "LGPL-2"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=23;endline=23;md5=58d727014cda5ed405b7fb52666a1f97"
 
 DEPENDS = "catkin-native catkin dynamic-reconfigure message-filters nav-msgs rosbag roscpp std-srvs tf"

@@ -5,7 +5,7 @@ DESCRIPTION = "Bundle a virtualenv with a catkin package."
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "GPL"
+LICENSE = "GPL-1"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=21;endline=21;md5=d6fd5bd8a2ca0ce00c65331b4263470b"
 
 DEPENDS = "catkin-native catkin python-enum34 python-virtualenv python3-dev"

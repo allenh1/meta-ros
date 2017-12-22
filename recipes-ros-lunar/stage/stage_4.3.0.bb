@@ -5,7 +5,7 @@ DESCRIPTION = "Mobile robot simulator http://rtv.github.com/Stage"
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "GPL"
+LICENSE = "GPL-1"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=162b49cfbae9eadf37c9b89b2d2ac6be"
 
 DEPENDS = "catkin-native catkin cmake gtk2 libfltk-dev libjpeg libtool opengl pkgconfig"

@@ -5,7 +5,7 @@ DESCRIPTION = "visp_camera_calibration allows easy calibration of      cameras u
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "GPLv2"
+LICENSE = "GPL-2"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=fe8b75cf0aba647401e1038bcd69ee74"
 
 DEPENDS = "camera-calibration-parsers catkin-native catkin geometry-msgs message-generation message-runtime roscpp sensor-msgs std-msgs visp visp-bridge"

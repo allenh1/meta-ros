@@ -5,7 +5,7 @@ DESCRIPTION = "This package extends the canopen_chain_node with specialized hand
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "LGPLv3"
+LICENSE = "LGPL-3"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=b691248d2f70cdaeeaf13696ada5d47c"
 
 DEPENDS = "canopen-402 canopen-chain-node catkin-native catkin controller-manager controller-manager-msgs filters hardware-interface joint-limits-interface muparser urdf"

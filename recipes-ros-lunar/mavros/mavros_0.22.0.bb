@@ -5,7 +5,7 @@ DESCRIPTION = "MAVROS -- MAVLink extendable communication node for ROS     with 
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "GPLv3"
+LICENSE = "GPL-3 & LGPL-3 & BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=12;endline=12;md5=1e7b3bcc2e271699c77c769685058cbe"
 
 DEPENDS = "angles boost catkin-native catkin cmake-modules diagnostic-msgs diagnostic-updater eigen eigen-conversions geographic-msgs geographiclib geographiclib-tools geometry-msgs libmavconn mavlink mavros-msgs message-runtime nav-msgs pluginlib rosconsole-bridge roscpp rospy sensor-msgs std-msgs std-srvs tf2-eigen tf2-ros"

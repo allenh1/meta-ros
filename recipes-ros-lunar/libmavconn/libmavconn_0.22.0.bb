@@ -5,7 +5,7 @@ DESCRIPTION = "MAVLink communication library.     This library provide unified c
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "GPLv3"
+LICENSE = "GPL-3 & LGPL-3 & BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=15;endline=15;md5=1e7b3bcc2e271699c77c769685058cbe"
 
 DEPENDS = "boost catkin-native catkin console-bridge mavlink"

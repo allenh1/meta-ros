@@ -5,7 +5,7 @@ DESCRIPTION = "A collection of node(let)s that stream images from USB cameras (U
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "GPLv2"
+LICENSE = "GPL-2"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=21;endline=21;md5=2c00b8d2854109dbebef7818b4dae1e2"
 
 DEPENDS = "camera-info-manager catkin-native catkin image-transport libv4l-dev nodelet roscpp sensor-msgs"

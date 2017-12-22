@@ -5,7 +5,7 @@ DESCRIPTION = "This package wraps the libphidget21 to use it as a ROS dependency
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "LGPL"
+LICENSE = "LGPL-2"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=46ee8693f40a89a31023e97ae17ecf19"
 
 DEPENDS = "catkin-native catkin libusb-dev"

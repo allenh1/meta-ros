@@ -5,7 +5,7 @@ DESCRIPTION = "This package depends on a recent version of the Kinematics and Dy
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "LGPL"
+LICENSE = "LGPL-2"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=46ee8693f40a89a31023e97ae17ecf19"
 
 DEPENDS = "catkin-native catkin orocos-kdl python-orocos-kdl"

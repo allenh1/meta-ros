@@ -5,7 +5,7 @@ DESCRIPTION = "Interface for using ROS with the  simulator."
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "BSD"
+LICENSE = "BSD-2"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=8caad55b0e7a31e039fbcff07dba789e"
 
 DEPENDS = "catkin-native catkin gazebo-dev gazebo-msgs gazebo-plugins gazebo-ros"

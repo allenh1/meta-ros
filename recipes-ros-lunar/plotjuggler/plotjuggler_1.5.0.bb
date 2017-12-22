@@ -5,7 +5,7 @@ DESCRIPTION = "PlotJuggler: juggle with data"
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "LGPLv3"
+LICENSE = "LGPL-3"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=a9a72c186797ff98a79f90205c589abf"
 
 DEPENDS = "binutils catkin-native catkin libqt5-svg-dev qtbase5-dev ros-type-introspection rosbag rosbag-storage roscpp roscpp-serialization rostime topic-tools"

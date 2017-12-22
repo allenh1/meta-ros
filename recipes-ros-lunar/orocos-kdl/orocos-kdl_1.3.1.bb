@@ -5,7 +5,7 @@ DESCRIPTION = "This package contains a recent version of the Kinematics and Dyna
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "LGPL"
+LICENSE = "LGPL-2"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=46ee8693f40a89a31023e97ae17ecf19"
 
 DEPENDS = "catkin-native catkin cmake eigen pkgconfig"

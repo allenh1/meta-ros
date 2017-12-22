@@ -5,7 +5,7 @@ DESCRIPTION = "UMD camera metapackage"
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "GPLv2"
+LICENSE = "GPL-2"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=2c00b8d2854109dbebef7818b4dae1e2"
 
 DEPENDS = "catkin-native catkin jpeg-streamer uvc-camera"

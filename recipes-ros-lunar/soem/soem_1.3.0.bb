@@ -5,7 +5,7 @@ DESCRIPTION = "SOEM is an open source EtherCAT master library written in c. Its 
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "GPL+linking-exception"
+LICENSE = "GPL-1"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=d2094aa59491bce7d3aaf0a0450d7783"
 
 DEPENDS = "catkin-native catkin"

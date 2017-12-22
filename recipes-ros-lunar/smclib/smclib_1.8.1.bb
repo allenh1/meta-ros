@@ -5,7 +5,7 @@ DESCRIPTION = "The State Machine Compiler (SMC) from http://smc.sourceforge.net/
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "Mozilla-Public-License-Version-1.1"
+LICENSE = "MPL-1.1"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=15;endline=15;md5=e1b5a50d4dd59d8102e41a7a2254462d"
 
 DEPENDS = "catkin-native catkin"

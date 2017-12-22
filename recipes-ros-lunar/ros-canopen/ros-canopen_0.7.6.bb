@@ -5,7 +5,7 @@ DESCRIPTION = "A generic canopen implementation for ROS"
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "LGPL"
+LICENSE = "LGPL-2"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=46ee8693f40a89a31023e97ae17ecf19"
 
 DEPENDS = "can-msgs canopen-402 canopen-chain-node canopen-master canopen-motor-node catkin-native catkin socketcan-bridge socketcan-interface"

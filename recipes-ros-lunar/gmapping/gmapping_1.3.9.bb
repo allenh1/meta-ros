@@ -5,7 +5,7 @@ DESCRIPTION = "This package contains a ROS wrapper for OpenSlam's Gmapping.    T
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "CreativeCommons-by-nc-sa-2.0"
+LICENSE = "CC-BY-SA-3.0"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=11e24f757f025b2cbebd5b14b4a7ca19"
 
 DEPENDS = "catkin-native catkin nav-msgs nodelet openslam-gmapping roscpp rostest tf"

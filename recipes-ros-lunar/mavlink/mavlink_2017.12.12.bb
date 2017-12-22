@@ -5,7 +5,7 @@ DESCRIPTION = "MAVLink message marshaling library.   This package provides C-hea
 AUTHOR = "OSRF"
 SECTION = "devel"
 ROSDISTRO = "lunar"
-LICENSE = "LGPLv3"
+LICENSE = "LGPL-3"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=19;endline=19;md5=b691248d2f70cdaeeaf13696ada5d47c"
 
 DEPENDS = "catkin-native catkin cmake python python-future python-lxml python-setuptools"

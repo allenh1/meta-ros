@@ -4,11 +4,10 @@
 DESCRIPTION = "USB Video Class driver library"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin cmake libjpeg libusb-1.0-dev pkgconfig"
+DEPENDS = "catkin-native cmake libjpeg libusb-1.0-dev pkgconfig"
 SRC_URI = "https://github.com/ktossell/${PN}-release/archive/release/lunar/${PN}/0.0.6-2.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "268b2bfe77d96b57d1ff75c461c66ef8"

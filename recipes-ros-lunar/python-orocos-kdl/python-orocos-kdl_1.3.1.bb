@@ -4,11 +4,10 @@
 DESCRIPTION = "This package contains the python bindings PyKDL for the Kinematics and Dynamics "
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "LGPL-2"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=46ee8693f40a89a31023e97ae17ecf19"
 
-DEPENDS = "catkin-native catkin cmake orocos-kdl python-sip"
+DEPENDS = "catkin-native cmake orocos-kdl python-sip"
 SRC_URI = "https://github.com/smits/orocos-kdl-release/archive/release/lunar/python_orocos_kdl/1.3.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "ec4a4a40cf96ca83ae8534d99bdf14b1"

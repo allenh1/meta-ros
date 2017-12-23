@@ -4,11 +4,10 @@
 DESCRIPTION = "octovis is visualization tool for the OctoMap library based on Qt and libQGLView"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "GPL-2"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=fe8b75cf0aba647401e1038bcd69ee74"
 
-DEPENDS = "catkin-native catkin cmake libqglviewer-qt4 libqglviewer-qt4-dev libqt4-dev libqt4-opengl libqt4-opengl-dev libqtgui4 octomap"
+DEPENDS = "catkin-native cmake libqglviewer-qt4 libqglviewer-qt4-dev libqt4-dev libqt4-opengl libqt4-opengl-dev libqtgui4 octomap"
 SRC_URI = "https://github.com/ros-gbp/octomap-release/archive/release/lunar/${PN}/1.9.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "40e3c09f83a95fa2fcf67d48e60b3995"

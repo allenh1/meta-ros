@@ -4,11 +4,10 @@
 DESCRIPTION = "This package contains an URDF description of the Katana arm and all supporting m"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "GPL-1"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=162b49cfbae9eadf37c9b89b2d2ac6be"
 
-DEPENDS = "catkin-native catkin convex-decomposition ivcon transmission-interface urdf"
+DEPENDS = "catkin-native convex-decomposition ivcon transmission-interface urdf"
 SRC_URI = "https://github.com/uos-gbp/katana_driver-release/archive/release/lunar/katana_description/1.1.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "77f6b3f9fd6850dcf9d5555b2e520be0"

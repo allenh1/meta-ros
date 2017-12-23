@@ -4,11 +4,10 @@
 DESCRIPTION = "Generalized client side source for rosserial."
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin rosbash rospy rosserial-msgs std-msgs tf"
+DEPENDS = "catkin-native rosbash rospy rosserial-msgs std-msgs tf"
 SRC_URI = "https://github.com/ros-gbp/rosserial-release/archive/release/lunar/rosserial_client/0.7.7-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "5edf848f51240fd190344e7545f312f0"

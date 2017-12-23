@@ -4,11 +4,10 @@
 DESCRIPTION = "rqt_logger_level provides a GUI plugin for configuring the logger level of ROS n"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin python-rospkg python-qt-binding rosnode rospy rosservice rqt-gui rqt-gui-py"
+DEPENDS = "catkin-native python-rospkg python-qt-binding rosnode rospy rosservice rqt-gui rqt-gui-py"
 SRC_URI = "https://github.com/ros-gbp/rqt_logger_level-release/archive/release/lunar/rqt_logger_level/0.4.8-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "be1d381988b65bbd62cf96714d2522f0"

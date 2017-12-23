@@ -4,11 +4,10 @@
 DESCRIPTION = "The wts_driver package"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "GPL-3"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=1e7b3bcc2e271699c77c769685058cbe"
 
-DEPENDS = "catkin-native catkin message-generation message-runtime roscpp std-msgs"
+DEPENDS = "catkin-native message-generation message-runtime roscpp std-msgs"
 SRC_URI = "https://github.com/ksatyaki/wts_driver-release/archive/release/lunar/wts_driver/1.0.4-2.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "011e57e327c1f78e87c15fcddcdd8135"

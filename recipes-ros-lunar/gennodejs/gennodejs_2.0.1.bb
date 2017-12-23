@@ -4,11 +4,10 @@
 DESCRIPTION = "Javascript ROS message and service generators."
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=3dce4ba60d7e51ec64f3c3dc18672dd3"
 
-DEPENDS = "catkin-native catkin genmsg"
+DEPENDS = "catkin-native genmsg"
 SRC_URI = "https://github.com/RethinkRobotics-release/${PN}-release/archive/release/lunar/${PN}/2.0.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "84113f3bfdd22060393c455bc818df8f"

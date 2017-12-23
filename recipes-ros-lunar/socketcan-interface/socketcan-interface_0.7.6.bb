@@ -4,11 +4,10 @@
 DESCRIPTION = "This package contains a generic CAN interface description with helpers for filte"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "LGPL-3"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=b691248d2f70cdaeeaf13696ada5d47c"
 
-DEPENDS = "boost catkin-native catkin class-loader linux-kernel-headers"
+DEPENDS = "boost catkin-native class-loader linux-kernel-headers"
 SRC_URI = "https://github.com/ros-industrial-release/ros_canopen-release/archive/release/lunar/socketcan_interface/0.7.6-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "829be97625b89e75087f5c4f3b9e59c7"

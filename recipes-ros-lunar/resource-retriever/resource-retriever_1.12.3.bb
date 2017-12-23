@@ -4,11 +4,10 @@
 DESCRIPTION = "This package retrieves data from url-format files such as http://,    ftp://, pa"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=18;endline=18;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin curl python-rospkg rosconsole roslib"
+DEPENDS = "catkin-native curl python-rospkg rosconsole roslib"
 SRC_URI = "https://github.com/ros-gbp/resource_retriever-release/archive/release/lunar/resource_retriever/1.12.3-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "ca3b2aefb4904530c5f72115bb0032cd"

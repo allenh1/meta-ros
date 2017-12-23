@@ -4,11 +4,10 @@
 DESCRIPTION = "ROS packaging system"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=6;endline=6;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin mk rosbash rosboost-cfg rosbuild rosclean roscreate roslang roslib rosmake rosunit"
+DEPENDS = "catkin-native mk rosbash rosboost-cfg rosbuild rosclean roscreate roslang roslib rosmake rosunit"
 SRC_URI = "https://github.com/${PN}-gbp/${PN}-release/archive/release/lunar/${PN}/1.14.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "d17479e03c18f792f44d4a4f0bc5fe15"

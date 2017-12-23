@@ -4,11 +4,10 @@
 DESCRIPTION = "Route network graphing and path planning."
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin dynamic-reconfigure geodesy geographic-msgs geometry-msgs nav-msgs rospy rostest visualization-msgs"
+DEPENDS = "catkin-native dynamic-reconfigure geodesy geographic-msgs geometry-msgs nav-msgs rospy rostest visualization-msgs"
 SRC_URI = "https://github.com/ros-geographic-info/open_street_map-release/archive/release/lunar/route_network/0.2.4-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "eeea57fb5d8416820d232db4facad596"

@@ -4,11 +4,10 @@
 DESCRIPTION = "The tf2_py package"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=2c00b8d2854109dbebef7818b4dae1e2"
 
-DEPENDS = "catkin-native catkin rospy tf2"
+DEPENDS = "catkin-native rospy tf2"
 SRC_URI = "https://github.com/ros-gbp/geometry2-release/archive/release/lunar/tf2_py/0.5.16-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "4c097cc5c23adc3bdaa6a102d059c78c"

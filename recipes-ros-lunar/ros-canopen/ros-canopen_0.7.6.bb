@@ -4,11 +4,10 @@
 DESCRIPTION = "A generic canopen implementation for ROS"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "LGPL-2"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=46ee8693f40a89a31023e97ae17ecf19"
 
-DEPENDS = "can-msgs canopen-402 canopen-chain-node canopen-master canopen-motor-node catkin-native catkin socketcan-bridge socketcan-interface"
+DEPENDS = "can-msgs canopen-402 canopen-chain-node canopen-master canopen-motor-node catkin-native socketcan-bridge socketcan-interface"
 SRC_URI = "https://github.com/ros-industrial-release/ros_canopen-release/archive/release/lunar/ros_canopen/0.7.6-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "2499da5d28beb8209d7ddb2d50ec9747"

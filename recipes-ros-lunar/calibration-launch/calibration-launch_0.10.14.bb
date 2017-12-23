@@ -4,11 +4,10 @@
 DESCRIPTION = "This package contains a collection of launch files that can be helpful in config"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin interval-intersection joint-states-settler laser-cb-detector monocam-settler urdfdom-py"
+DEPENDS = "catkin-native interval-intersection joint-states-settler laser-cb-detector monocam-settler urdfdom-py"
 SRC_URI = "https://github.com/ros-gbp/calibration-release/archive/release/lunar/calibration_launch/0.10.14-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "889dca02320641ab138ab3ee451275d9"

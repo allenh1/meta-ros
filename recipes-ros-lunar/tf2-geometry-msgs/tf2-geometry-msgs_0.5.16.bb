@@ -4,11 +4,10 @@
 DESCRIPTION = "tf2_geometry_msgs"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin geometry-msgs orocos-kdl python-orocos-kdl tf2 tf2-ros"
+DEPENDS = "catkin-native geometry-msgs orocos-kdl python-orocos-kdl tf2 tf2-ros"
 SRC_URI = "https://github.com/ros-gbp/geometry2-release/archive/release/lunar/tf2_geometry_msgs/0.5.16-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "23341e9d78cdf6396d3e3413eaa3e5fc"

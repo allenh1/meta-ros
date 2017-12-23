@@ -4,11 +4,10 @@
 DESCRIPTION = "Catkinized gRPC Package"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "autoconf catkin-native catkin git libtool rsync zlib"
+DEPENDS = "autoconf catkin-native git libtool rsync zlib"
 SRC_URI = "https://github.com/CogRobRelease/catkin_${PN}-release/archive/release/lunar/${PN}/0.0.6-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "41f210ba383814d06ffa978b88bea5ec"

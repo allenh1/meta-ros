@@ -4,11 +4,10 @@
 DESCRIPTION = "rosmake is a ros dependency aware build tool which can be used to      build all"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin python-rospkg"
+DEPENDS = "catkin-native python-rospkg"
 SRC_URI = "https://github.com/ros-gbp/ros-release/archive/release/lunar/${PN}/1.14.2-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "6e31219009a3f440357c136f23977ddb"

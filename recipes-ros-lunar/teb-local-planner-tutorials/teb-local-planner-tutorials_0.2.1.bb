@@ -4,11 +4,10 @@
 DESCRIPTION = "The teb_local_planner_tutorials package"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "amcl catkin-native catkin map-server move-base stage-ros teb-local-planner"
+DEPENDS = "amcl catkin-native map-server move-base stage-ros teb-local-planner"
 SRC_URI = "https://github.com/rst-tu-dortmund/teb_local_planner_tutorials-release/archive/release/lunar/teb_local_planner_tutorials/0.2.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "d0565f17397942141e5abc7fb4aab478"

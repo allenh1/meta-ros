@@ -4,11 +4,10 @@
 DESCRIPTION = "Planning components of MoveIt that use ROS"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "actionlib angles catkin-native catkin dynamic-reconfigure eigen moveit-core moveit-ros-perception pluginlib"
+DEPENDS = "actionlib angles catkin-native dynamic-reconfigure eigen moveit-core moveit-ros-perception pluginlib"
 SRC_URI = "https://github.com/ros-gbp/moveit-release/archive/release/lunar/moveit_ros_planning/0.9.10-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "eedbf9452b187ce870b9150be5e5f735"

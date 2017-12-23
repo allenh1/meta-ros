@@ -4,11 +4,10 @@
 DESCRIPTION = "Extensions for slime to assist in working with ROS packages"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "public_domain"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=c60c465e235b13ecfc23607d3b1b9e2f"
 
-DEPENDS = "catkin-native catkin rosemacs roslisp sbcl slime-wrapper"
+DEPENDS = "catkin-native rosemacs roslisp sbcl slime-wrapper"
 SRC_URI = "https://github.com/code-iai-release/ros_emacs_utils-release/archive/release/lunar/slime_ros/0.4.11-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "d3405a6ae126e615cff864b22e26af17"

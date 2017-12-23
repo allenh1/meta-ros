@@ -4,11 +4,10 @@
 DESCRIPTION = "CiA(r) CANopen 301 master implementation with support for interprocess master sy"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "LGPL-3"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=b691248d2f70cdaeeaf13696ada5d47c"
 
-DEPENDS = "boost catkin-native catkin class-loader socketcan-interface"
+DEPENDS = "boost catkin-native class-loader socketcan-interface"
 SRC_URI = "https://github.com/ros-industrial-release/ros_canopen-release/archive/release/lunar/canopen_master/0.7.6-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "c597acc7b8b1989641e1c0e3f831235f"

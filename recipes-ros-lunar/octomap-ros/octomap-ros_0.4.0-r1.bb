@@ -4,11 +4,10 @@
 DESCRIPTION = "octomap_ros provides conversion functions between ROS and OctoMap's native types"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin octomap octomap-msgs sensor-msgs tf"
+DEPENDS = "catkin-native octomap octomap-msgs sensor-msgs tf"
 SRC_URI = "https://github.com/ros-gbp/octomap_ros-release/archive/release/lunar/octomap_ros/0.4.0-1.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "c962c5e06dcc507ebc81f94097bd8493"

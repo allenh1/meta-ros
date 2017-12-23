@@ -4,11 +4,10 @@
 DESCRIPTION = "A teleoperation node for the p2os_driver package."
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin-native catkin geometry-msgs message-runtime sensor-msgs std-msgs tf"
+DEPENDS = "catkin-native geometry-msgs message-runtime sensor-msgs std-msgs tf"
 SRC_URI = "https://github.com/allenh1/p2os-release/archive/release/lunar/p2os_teleop/2.1.0-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "dafd5e6cb72335dbbaeb997ed50474c1"

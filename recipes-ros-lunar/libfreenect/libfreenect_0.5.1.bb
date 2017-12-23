@@ -4,11 +4,10 @@
 DESCRIPTION = "Open source libraries that will enable the Kinect to be used with Windows, Linux"
 AUTHOR = "OSRF"
 SECTION = "devel"
-ROSDISTRO = "lunar"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=3dce4ba60d7e51ec64f3c3dc18672dd3"
 
-DEPENDS = "catkin-native catkin cmake glut libusb-1.0-dev libxi-dev libxmu-dev"
+DEPENDS = "catkin-native cmake glut libusb-1.0-dev libxi-dev libxmu-dev"
 SRC_URI = "https://github.com/ros-drivers-gbp/${PN}-ros-release/archive/release/lunar/${PN}/0.5.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
 SRC_URI[md5sum] = "998c1e252861d6efd594adb687dd7db9"

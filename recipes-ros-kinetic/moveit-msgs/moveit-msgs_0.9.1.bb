@@ -1,0 +1,17 @@
+# Copyright 2017 Open Source Robotics Foundation
+# Distributed under the terms of the BSD license
+
+DESCRIPTION = "Messages, services and actions used by MoveIt"
+AUTHOR = "OSRF"
+SECTION = "devel"
+LICENSE = "BSD"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=14;endline=14;md5=5ee5b8b046ae48ad94a2037ca953a67b"
+
+DEPENDS = "actionlib-msgs catkin-native geometry-msgs message-generation message-runtime object-recognition-msgs octomap-msgs sensor-msgs shape-msgs std-msgs trajectory-msgs"
+SRC_URI = "https://github.com/ros-gbp/moveit_msgs-release/archive/release/kinetic/moveit_msgs/0.9.1-0.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
+
+SRC_URI[md5sum] = "1d3dd83464e072b8cd5d046da1f059a0"
+SRC_URI[sha256sum] = "2e486cd37f7d9fa293971c2aeb8bad0ce8862d954c64a3b02a0cf5a119a960a1"
+S = "${WORKDIR}/moveit_msgs-release-release-kinetic-moveit_msgs-0.9.1-0"
+
+inherit catkin

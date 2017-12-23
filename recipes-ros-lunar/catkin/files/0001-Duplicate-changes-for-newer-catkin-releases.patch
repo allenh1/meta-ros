@@ -1,0 +1,65 @@
+From 46cc40dfa21ed4c6bf11fabe48e7c99ef19fe4a7 Mon Sep 17 00:00:00 2001
+From: "Hunter L. Allen" <hunter@openrobotics.org>
+Date: Fri, 1 Dec 2017 12:07:00 -0500
+Subject: [PATCH 1/2] Duplicate changes for newer catkin releases.
+
+---
+ cmake/catkin_package.cmake         |  5 ++++-
+ cmake/templates/pkgConfig.cmake.in | 10 +++++++---
+ 2 files changed, 11 insertions(+), 4 deletions(-)
+
+diff --git a/cmake/catkin_package.cmake b/cmake/catkin_package.cmake
+index c50ffd2..fa28bcd 100644
+--- a/cmake/catkin_package.cmake
++++ b/cmake/catkin_package.cmake
+@@ -150,7 +150,10 @@ function(_catkin_package)
+         message(FATAL_ERROR "catkin_package() DEPENDS on '${depend}' which must be find_package()-ed before")
+       endif()
+       message(WARNING "catkin_package() DEPENDS on '${depend}' which is deprecated. find_package() it before and only DEPENDS on '${depend_name}' instead")
+-      list(APPEND PROJECT_DEPENDENCIES_INCLUDE_DIRS ${${depend_name}_INCLUDE_DIRS})
++      foreach(incdir ${${depend_name}_INCLUDE_DIRS})
++        string(REPLACE ${ROOT_PATH} "" tweaked_idir ${incdir})
++        list_append_deduplicate(PROJECT_DEPENDENCIES_INCLUDE_DIRS ${tweaked_idir})
++      endforeach()
+       list(APPEND PROJECT_DEPENDENCIES_LIBRARIES ${${depend_name}_LIBRARIES})
+     else()
+       # split multiple names (without COMPONENTS) into separate dependencies
+diff --git a/cmake/templates/pkgConfig.cmake.in b/cmake/templates/pkgConfig.cmake.in
+index 4677100..453d9c7 100644
+--- a/cmake/templates/pkgConfig.cmake.in
++++ b/cmake/templates/pkgConfig.cmake.in
+@@ -94,6 +94,7 @@ set(@PROJECT_NAME@_FOUND_CATKIN_PROJECT TRUE)
+ if(NOT "@PROJECT_CMAKE_CONFIG_INCLUDE_DIRS@ " STREQUAL " ")
+   set(@PROJECT_NAME@_INCLUDE_DIRS "")
+   set(_include_dirs "@PROJECT_CMAKE_CONFIG_INCLUDE_DIRS@")
++  list(GET CMAKE_FIND_ROOT_PATH 0 root_path)
+   if(NOT "@PROJECT_URL_BUGTRACKER@ " STREQUAL " ")
+     set(_report "Check the issue tracker '@PROJECT_URL_BUGTRACKER@' and consider creating a ticket if the problem has not been reported yet.")
+   elseif(NOT "@PROJECT_URL_WEBSITE@ " STREQUAL " ")
+@@ -102,17 +103,20 @@ if(NOT "@PROJECT_CMAKE_CONFIG_INCLUDE_DIRS@ " STREQUAL " ")
+     set(_report "Report the problem to the maintainer '@PROJECT_MAINTAINER@' and request to fix the problem.")
+   endif()
+   foreach(idir ${_include_dirs})
++    if(IS_ABSOLUTE ${idir} AND NOT "${idir}" MATCHES "^{root_path}.*")
++      set(idir "${root_path}${idir}")
++    endif()
+     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
+-      set(include ${idir})
++      _list_append_unique(@PROJECT_NAME@_INCLUDE_DIRS ${idir})
+     elseif("${idir} " STREQUAL "@CATKIN_GLOBAL_INCLUDE_DESTINATION@ ")
+       get_filename_component(include "${@PROJECT_NAME@_DIR}/../../../@CATKIN_GLOBAL_INCLUDE_DESTINATION@" ABSOLUTE)
+       if(NOT IS_DIRECTORY ${include})
+         message(FATAL_ERROR "Project '@PROJECT_NAME@' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
+       endif()
++      _list_append_unique(@PROJECT_NAME@_INCLUDE_DIRS ${include})
+     else()
+-      message(FATAL_ERROR "Project '@PROJECT_NAME@' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '@PKG_INCLUDE_PREFIX@/${idir}'.  ${_report}")
++      message(WARNING "Project '@PROJECT_NAME@' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '@PKG_INCLUDE_PREFIX@/${idir}'.  ${_report}")
+     endif()
+-    _list_append_unique(@PROJECT_NAME@_INCLUDE_DIRS ${include})
+   endforeach()
+ endif()
+ 
+-- 
+2.15.1
+

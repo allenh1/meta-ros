@@ -1,0 +1,25 @@
+From 966ca85c74d4bc8c1acf64db0ac4a7a55d6aa449 Mon Sep 17 00:00:00 2001
+From: "Hunter L. Allen" <hunter@openrobotics.org>
+Date: Fri, 1 Dec 2017 12:26:55 -0500
+Subject: [PATCH 2/2] Add quotes to generated python call.
+
+---
+ python/catkin/environment_cache.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/python/catkin/environment_cache.py b/python/catkin/environment_cache.py
+index 3defa52..05f0838 100644
+--- a/python/catkin/environment_cache.py
++++ b/python/catkin/environment_cache.py
+@@ -57,7 +57,7 @@ def generate_environment_script(env_script):
+     env = os.environ
+ 
+     # fetch environment after calling setup
+-    python_code = 'import os; print(dict(os.environ))'
++    python_code = '"import os; print(dict(os.environ))"'
+     output = subprocess.check_output([env_script, sys.executable, '-c', python_code])
+     env_after = ast.literal_eval(output.decode('utf8'))
+ 
+-- 
+2.15.1
+

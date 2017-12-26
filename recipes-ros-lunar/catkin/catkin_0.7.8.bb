@@ -17,4 +17,18 @@ SRC_URI[md5sum] = "1fef00c3336dfa23e2ec6d5f54741d95"
 SRC_URI[sha256sum] = "2057edf73b042a304447c7433e97056f07a32e74a98a01b40ecd06064f1603b9"
 S = "${WORKDIR}/${PN}-release-release-lunar-${PN}-0.7.8-0"
 
+SRC_URI += "\
+    file://0001-Duplicate-changes-for-newer-catkin-releases.patch \
+    file://0001-avoid-using-host-s-paths-when-cross-compiling.patch \
+    file://0001-Force-python-2.patch"
+
 inherit catkin
+
+FILES_${PN} += "/opt/ros/lunar/.catkin\
+  /opt/ros/lunar/_setup_util.py\
+  /opt/ros/lunar/env.sh\
+  /opt/ros/lunar/setup.bash\
+  /opt/ros/lunar/setup.sh\
+  /opt/ros/lunar/setup.zsh\
+  /opt/ros/lunar/.rosinstall\
+"

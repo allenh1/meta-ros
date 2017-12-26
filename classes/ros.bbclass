@@ -23,15 +23,18 @@ PREPROCESS_RELOCATE_DIRS += " \
 
 PKG_CONFIG_PATH .= ":${PKG_CONFIG_DIR}:${STAGING_DIR_HOST}${ros_libdir}/pkgconfig:${STAGING_DATADIR}/pkgconfig"
 PYTHON_SITEPACKAGES_DIR = "${ros_libdir}/${PYTHON_DIR}/site-packages"
-export PYTHONPATH = "${STAGING_DIR_NATIVE}${PYTHON_SITEPACKAGES_DIR}"
+export PYTHONPATH = "${STAGING_DIR_NATIVE}${PYTHON_SITEPACKAGES_DIR}:${STAGING_DIR_NATIVE}/usr/lib/${PYTHON_DIR}/site-packages"
 PYTHONPATH_class-native = "${PYTHON_SITEPACKAGES_DIR}"
 
 FILES_${PN} += "\
     ${ros_bindir}/* ${ros_libexecdir}/* ${ros_libdir}/lib*.so \
+    ${ros_datadir}/${ROS_BPN}/cmake \
+    ${datadir}/${ROS_BPN}/cmake \
     ${PYTHON_SITEPACKAGES_DIR} \
     ${ros_datadir} \
     ${ros_sysconfdir} \
     ${ros_stacksdir} \
+    ${ros_libdir}/pkgconfig \
     "
 
 FILES_${PN}-dev += "\

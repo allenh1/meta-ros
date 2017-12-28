@@ -34,6 +34,8 @@ FILES_${PN} += "\
     ${ros_datadir} \
     ${ros_sysconfdir} \
     ${ros_includedir} \
+    /opt/ros/${ROSDISTRO}/include \
+    /opt/ros/${ROSDISTRO}/share \
     ${ros_stacksdir} \
     ${ros_libdir}/pkgconfig \
     "

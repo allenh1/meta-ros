@@ -1,0 +1,25 @@
+From 7a412043f04b71a2af5f10be2a922d62bd05f870 Mon Sep 17 00:00:00 2001
+From: "Hunter L. Allen" <hunter@openrobotics.org>
+Date: Sat, 30 Dec 2017 13:15:16 -0600
+Subject: [PATCH] don't add ld library path to the cache.
+
+---
+ python/catkin/environment_cache.py | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/python/catkin/environment_cache.py b/python/catkin/environment_cache.py
+index 3defa52..dba2c50 100644
+--- a/python/catkin/environment_cache.py
++++ b/python/catkin/environment_cache.py
+@@ -112,6 +112,7 @@ def _append_comment(code, value):
+ 
+ def _set_variable(code, key, value):
+     if _is_not_windows():
+-        code.append('export %s="%s"' % (key, value))
++        if key != "LD_LIBRARY_PATH":
++            code.append('export %s="%s"' % (key, value))
+     else:
+         code.append('set %s=%s' % (key, value))
+-- 
+2.7.4
+

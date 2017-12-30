@@ -15,4 +15,6 @@ SRC_URI[md5sum] = "08e2caa5861635abf7f37667d7f9828d"
 SRC_URI[sha256sum] = "57a93df7bd701d43661bef6febc3b8594ab499b3af0eb64d4266591804b21f07"
 S = "${WORKDIR}/ros_comm_msgs-release-release-lunar-std_srvs-1.11.2-0"
 
+CATKIN_NO_BIN = "True"
+
 inherit catkin

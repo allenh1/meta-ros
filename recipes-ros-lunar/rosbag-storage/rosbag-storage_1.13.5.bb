@@ -15,4 +15,8 @@ SRC_URI[md5sum] = "9b6e4195149063603cbe3eb39bb4c567"
 SRC_URI[sha256sum] = "04d63df37ff1622b8237bb7c0ad625061e4cbd5b96c731322abcdf6d4f847ae5"
 S = "${WORKDIR}/ros_comm-release-release-lunar-rosbag_storage-1.13.5-0"
 
+SRC_URI += "\
+    file://0001-Use-CONSOLE_BRIDGE-prefix-for-logError.patch \
+"
+
 inherit catkin

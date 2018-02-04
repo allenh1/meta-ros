@@ -1,4 +1,4 @@
-# Copyright 2017 Open Source Robotics Foundation
+# Copyright 2018 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
 DESCRIPTION = "Low-level build system macros and infrastructure for ROS."
@@ -18,17 +18,8 @@ SRC_URI[sha256sum] = "2057edf73b042a304447c7433e97056f07a32e74a98a01b40ecd06064f
 S = "${WORKDIR}/${PN}-release-release-lunar-${PN}-0.7.8-0"
 
 SRC_URI += "\
-    file://0001-Duplicate-changes-for-newer-catkin-releases.patch \
-    file://0001-avoid-using-host-s-paths-when-cross-compiling.patch \
-    file://0001-Force-python-2.patch"
-
+    0001-Force-python-2.patch \
+    0001-Duplicate-changes-for-newer-catkin-releases.patch \
+    0001-avoid-using-host-s-paths-when-cross-compiling.patch \
+    0001-don-t-add-ld-library-path-to-the-cache.patch"
 inherit catkin
-
-FILES_${PN} += "/opt/ros/lunar/.catkin\
-  /opt/ros/lunar/_setup_util.py\
-  /opt/ros/lunar/env.sh\
-  /opt/ros/lunar/setup.bash\
-  /opt/ros/lunar/setup.sh\
-  /opt/ros/lunar/setup.zsh\
-  /opt/ros/lunar/.rosinstall\
-"
